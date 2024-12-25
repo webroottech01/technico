@@ -1,0 +1,38 @@
+.About {
+  .about-welcome {
+    background-image: url(../../images/about-img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+    padding-bottom: 130px;
+  }
+  .globalpresence{
+    margin-bottom: 80px;
+    img{
+      margin-top: 50px;
+    }
+    
+  }
+  .presencecountry {
+    margin-top: 0;
+    margin-bottom: 50px;
+    h1.d-green { 
+      margin-bottom: 0; 
+  }
+}
+.ouroperations h6 {
+  font-size: 24px;
+}
+  .section3 {
+    padding-top: 200px;
+  }
+
+  .management{
+     .col-md-4{
+    padding: 0 45px;
+  }
+    img {
+    width: 100%;
+}
+  }
+}

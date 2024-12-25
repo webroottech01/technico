@@ -1,0 +1,9 @@
+.CommonBanner {
+    overflow: hidden;
+    .slick-slide img {
+        display: block;
+        width: 100%;
+        max-height: 750px; 
+        object-fit: cover;
+    }
+}

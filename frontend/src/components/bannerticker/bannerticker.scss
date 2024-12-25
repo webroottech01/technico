@@ -1,0 +1,31 @@
+.bannerticker {
+  background: #006a41;
+  max-height: 54px;
+  overflow: hidden;
+  margin-top: -10px;
+  position: relative;
+
+
+  p {
+    position: relative;
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px; 
+        height: 8px; 
+        background-color: #fff; 
+        border-radius: 50%; 
+      }
+  }
+}

@@ -1,0 +1,21 @@
+.key-features {
+    h2{
+        font-size: 1.5vw;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h3{
+        
+    font-size: 24px;
+
+    }
+   .cards:nth-child(2) {
+        border-left: 1px solid #efe9e9;
+        border-right: 1px solid #efe9e9;
+    }
+   .cards {
+    padding: 10px 30px;
+    justify-content: center;
+    margin: 15px 0 25px;
+    } 
+}

@@ -1,0 +1,58 @@
+header {
+  z-index: 9;
+    
+    nav{
+
+        padding: 0 !important;
+        // transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        background: #006a41;
+
+    }
+    #navbarNavDropdown {
+        position: relative;
+        max-width: 85%;
+        padding: 0;
+        ul{
+          width: 100%;
+          justify-content: space-between;
+          min-height: 68px;
+        }
+        
+    }
+    a.navbar-brand {
+        padding: 0;
+        border-radius: 0 0 8px 8px;
+        overflow: hidden;
+    }
+}
+header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    .navbar-brand img {
+        height: 112px;
+    }
+    
+    .navbar {
+        background: #006a41;
+        box-shadow: 0 2px 15px -7px rgb(0 0 0);
+        animation: slideDown 0.3s ease-out forwards;
+        transition: all 0.3s ease-in-out;
+    }
+  }
+  .non-sticky {
+    position: relative;
+    .navbar {
+    transform: translateY(0%); /* Header initially out of view */
+    transition: transform 0.3s ease-out; /* Smooth transition when scrolling */
+    }
+  }
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%); /* Start above the screen */
+    }
+    100% {
+      transform: translateY(0); /* End at the top */
+    }
+  }

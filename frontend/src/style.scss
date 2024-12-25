@@ -1,0 +1,446 @@
+@import '~bootstrap/scss/bootstrap';
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+body {
+    font-family: "Poppins", serif !important;
+        max-width: 2500px;
+        margin: 0 auto;
+    }
+
+section {
+    margin: 150px 0px;
+}
+.fullwidth {
+    max-width: 1500px;
+}
+.d-green {
+    color: #006a41;
+}
+.l-green {
+    color: #66c501 !important;
+}
+@media (max-width: 500px){
+    h1 {
+        font-size: 40px !important;
+    }
+    .edge-container {
+        padding: 10px !important;
+    }
+}
+.green-strip {
+    width: 80%;
+    height: 75px;
+    top: 47px;
+    right: 0;
+    z-index: 1;
+    opacity: 56%;
+    min-width: 1440px;
+}
+// header nav {
+//     position: absolute !important;
+//     top: 0;
+//     left: 0px;
+//     right: 0px;
+//     z-index: 999;
+// }
+.navbar-brand img {
+    background-color: #006a41;
+    padding: 15px 18px;
+    margin-bottom: -70px;
+    border-radius: 0 0 8px 8px;
+}
+.ham-tongle {
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #000000;
+    color: #ffffff !important;
+}
+header a.nav-link {
+    color: #f9f9f96e;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px !important;
+
+    &:hover{
+        color: #fff;
+    }
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000009e;
+    opacity: 1;
+}
+header a.nav-link.active {
+    color: #fff !important;
+}
+@media (max-width: 999px){
+    .page-info {
+    bottom: 0 !important;
+    left: 10px !important;
+    }
+    .aachar-container {
+        padding: 10px !important;
+    }
+
+}
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+p {
+    font-weight: 400;
+    font-size: 20px;
+}
+.page-info {
+    width: 240px;
+    background-color: #006a41;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 8px;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 275px;
+}
+.page-info img {
+    width: 100px;
+    margin: auto;
+}
+.page-info h2 {
+    font-size: 32px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main-corner {
+    position: fixed;
+    bottom: 25%;
+    right: 0;
+    z-index: 1;
+}
+.corner-container {
+    background-color: #006a41;
+    justify-content: left;
+    padding: 13px 8px;
+    border-radius: 8px 0 0 8px;
+    gap: 25px;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none
+}
+.corner-container h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.section1 li {
+    color: #367d16;
+    font-size: 24px;
+}
+.section1 {
+    margin: 150px 0px;
+}
+.section1 p {
+    color: #848484;
+    margin: 8px 30px 30px 0px;
+}
+.fries {
+    background-color: #66c501;
+    border-radius: 5px;
+}
+.fries img {
+    width: 110px;
+    height: 110px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.fries h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+.section2 {
+    background-color: #006a41;
+    max-width: 1920px !important;
+}
+.section2 .image1 {
+    width: 236px;
+    bottom: -8%;
+    right: 10%;
+}
+.section2 .image2 {
+    width: 290px;
+    bottom: 15%;
+    right: 0;
+}
+.edge-container {
+    background-color: #66c501;
+    width: 865px;
+    border-radius: 15px;
+    margin: auto 0px;
+    padding: 50px;
+}
+.section2 li {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.section2 p {
+    color: #ffffff;
+    margin: 0;
+}
+.section3 {
+    margin: 150px auto;
+}
+.section3 p {
+    color: #848484;
+    max-width: 560px;
+}
+.section-middle .up {
+    color: #367d16;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+ul.between,
+.section-middle p {
+    color: #848484;
+    max-width: 820px;
+    margin: 25px 0px;
+}
+.key-features {
+    margin: 120px 0px;
+}
+.key-features img {
+    width: 50px;
+}
+.key-features h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #367d16;
+}
+
+footer {
+    border-top: 1px solid #a9a9a926;
+    padding-top: 80px;
+}
+footer h2 {
+    color: #006141;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 35px 0px;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    text-decoration: none;
+}
+footer img {
+    width: 100%;
+}
+
+
+.address-type {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    margin: 10px 0px;
+}
+.address-type img {
+    width: 20px;
+}
+.address-type p {
+    margin: 0;
+}
+
+
+.aachar-container {
+    max-width: 865px;
+    width: 100%;
+    border-radius: 15px;
+    margin: auto 0px;
+    padding: 50px;
+}
+.india-container p {
+    font-size: 16px !important;
+}
+.number-container {
+    background-color: #66c501;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px 10px;
+}
+.number-container h2 {
+    font-family: "Bebas Neue", serif !important;
+    font-size: 84px;
+    margin: 0;
+}
+.number-container p {
+    font-size: 14px;
+    margin: 0;
+}
+.india {
+    border: 1px solid #a9a9a9;
+    border-radius: 15px;
+    margin-top: 325px;
+}
+img.world-img {
+    position: absolute;
+    max-width: 975px;
+    right: 0;
+    top: -50px;
+}
+.collection img {
+    border-radius: 20px;
+}
+.about-welcome {
+    height: 100%;
+    padding: 20px;
+}
+.about-welcome h1 {
+    font-size: 45px !important;
+}
+.about-welcome p,
+.about-welcome .list2 {
+    font-size: 20px !important;
+    max-width: 640px;
+    width: 100%;
+    list-style-type: none;
+}
+.about-green-box {
+    background-color: #006a41;
+    border-left: 5px solid #66c501;
+    color: #fff;
+    max-width: 575px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    position: absolute;
+    right: 28%;
+    bottom: 15px;
+    left: 42%;
+}
+.list2 li:before {
+    content: url(./images/g-tick.png); 
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: 1px;
+}
+.potato-farmer-container {
+    background-color: #006141;
+    width: 865px;
+    height: 888px;
+    border-radius: 15px;
+    margin: auto 0px;
+    padding: 50px;
+}
+.edge-box {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 25px;
+    justify-content: center;
+}
+.edge-box-container {
+    position: absolute;
+    bottom: 15%;
+    left: 0px;
+    right: 0px;
+}
+.country-container img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.country-container p {
+    color: #848484;
+    font-size: 18px !important ;
+}
+.management-details {
+    background-color: #fff;
+    width: 100%;
+    border-left: 5px solid #006a41;
+    border-bottom: 5px solid #006a41;
+    text-align: left;
+    padding: 10px 15px;
+}
+.management-details h4 {
+    font-size: 24px;
+    color: #006a41;
+    margin: 0;
+}
+.management-details p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+// .management img {
+//     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+//     filter: grayscale(100%);
+// }
+.varieties ul{
+    width: 200px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.dish h3 {
+    background-color: #006a41;
+    padding: 8px 13px;
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    left: 40px;
+    font-size: 40px;
+    color: #fff;
+}
+.dish p {
+    font-size: 14px;
+    color: #848484;
+}
+.dish h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #006a41;
+    text-transform: uppercase;
+}
+img.dish-strip {
+    width: 100%;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+}
