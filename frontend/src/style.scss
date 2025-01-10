@@ -17,7 +17,9 @@ body {
         max-width: 2500px;
         margin: 0 auto;
     }
-
+    .slick-prev:before, .slick-next:before {
+        color: #006a41;
+    }
 section {
     margin: 150px 0px;
 }
@@ -231,9 +233,7 @@ ul.between,
     max-width: 820px;
     margin: 25px 0px;
 }
-.key-features {
-    margin: 120px 0px;
-}
+
 .key-features img {
     width: 50px;
 }

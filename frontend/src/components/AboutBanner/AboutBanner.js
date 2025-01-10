@@ -23,7 +23,7 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
 
 
   <>
-    <section class="main container-fluid p-0 m-0 position-relative mx-auto AboutBanner" data-testid="CommonBanner">
+    <section className="main container-fluid p-0 m-0 position-relative mx-auto AboutBanner" data-testid="CommonBanner">
 
       <div className="slider-container">
         <Slider {...settings}>
@@ -61,8 +61,8 @@ To be a leading global Agri value chain player, delivering innovative solutions 
 
         </Slider>
       </div>
-      {/* <div class="overlay"></div> */}
-      <div class="page-info d-none d-sm-block">
+      {/* <div className="overlay"></div> */}
+      <div className="page-info d-none d-sm-block">
         <img src={process.env.PUBLIC_URL + titleImage} />
         <h2>{pageTitle}</h2>
       </div>

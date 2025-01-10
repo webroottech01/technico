@@ -8,8 +8,77 @@
         height: 13%;
     }
     .chipssec{
+        .dish{
+            cursor: pointer;
+        }
         img{
             width: 100%;
         }
+
     }
+}
+
+.allvarietiesmain{
+    .stripslider {
+        width: 15vw;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        background-color: #fff;
+        left: 15vw;
+        margin-top: 70px;
+        // transform: rotate(40deg);
+        // margin-left: 20%;
+        // margin-top: 20%;
+    img {
+        width: 150px;
+        margin: 0 auto;
+    }
+    .slick-slide {
+        >div{
+
+            position: relative;
+            padding: 30px 0;
+        h3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: 0;
+            width: max-content;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-shadow: 0px 0px #ffffff;
+            background: #006a41bf;
+            padding: 0 5px;
+            border-radius: 4px;
+            min-width: 55%;
+            text-align: center;
+        
+        }
+        img{
+            filter: brightness(65%);
+        }
+    }
+    }
+    .slick-slide.slick-active.slick-current {
+        filter: brightness(100%);
+        
+        h3{
+            opacity: 0;
+
+        }
+        img{
+            scale: 1.5;
+            filter: brightness(100%);
+            width: 160px;
+            height: 160px;
+            background: #006a410f;
+            border-radius: 100%;
+            padding: 5px;
+            object-fit: cover;
+        }
+    }
+
+}
+
 }

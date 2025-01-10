@@ -34,7 +34,7 @@ const Home = () => (
             
           </div>
         </div>
-        <div class="homeCenterMenu">
+        <div className="homeCenterMenu">
      <img src={process.env.PUBLIC_URL + '/images/menu-center.png'} alt="" />
     </div>
         <div className="homerightMenu" style={{ userSelect: 'none' }}>

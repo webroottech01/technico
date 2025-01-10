@@ -41,22 +41,22 @@ const Header = () => {
         >
           <ul className="navbar-nav text-capitalize align-items-center">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" end activeClassName="active">
+              <NavLink className="nav-link" to="/" end activeclassname="active">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about-us" activeClassName="active">
+              <NavLink className="nav-link" to="/about-us" activeclassname="active">
                 About Us
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/our-business" activeClassName="active">
+              <NavLink className="nav-link" to="/our-business" activeclassname="active">
               Our Business
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/facilities" activeClassName="active">
+              <NavLink className="nav-link" to="/facilities" activeclassname="active">
                 Facilities
               </NavLink>
             </li>
@@ -67,24 +67,24 @@ const Header = () => {
             </li>
             
             <li className="nav-item">
-              <NavLink className="nav-link" to="/technituber" activeClassName="active">
+              <NavLink className="nav-link" to="/technituber" activeclassname="active">
               Technituber®
               </NavLink>
             </li>
             
             <li className="nav-item">
-              <NavLink className="nav-link" to="/varieties" activeClassName="active">
+              <NavLink className="nav-link" to="/varieties" activeclassname="active">
                 Varieties
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/coming-soon" activeClassName="active">
+              <NavLink className="nav-link" to="/testimonials" activeclassname="active">
                 Testimonials
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/coming-soon" activeClassName="active">
+              <NavLink className="nav-link" to="/coming-soon" activeclassname="active">
                 Contact Us
               </NavLink>
             </li>

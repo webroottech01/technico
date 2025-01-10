@@ -21,7 +21,7 @@ const ComingSoon = () => (
 
 
   <>
-    <section class="main container-fluid p-0 m-0 position-relative mx-auto AboutBanner" data-testid="CommonBanner">
+    <section className="main container-fluid p-0 m-0 position-relative mx-auto AboutBanner" data-testid="CommonBanner">
 
       <div className="slider-container">
         <Slider {...settings}>
@@ -49,8 +49,8 @@ const ComingSoon = () => (
           
         </Slider>
       </div>
-      {/* <div class="overlay"></div> */}
-      <div class="page-info d-none d-sm-block">
+      {/* <div className="overlay"></div> */}
+      <div className="page-info d-none d-sm-block">
         <img src={process.env.PUBLIC_URL + 'images/varietieslogo.png'} />
         <h2>Coming Soon</h2>
       </div>

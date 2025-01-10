@@ -77,7 +77,7 @@ We provide complete supply chain solutions for production of high-quality early-
     </section>
 
     <section className="fullwidth mx-auto d-flex flex-column gap-5 presencecountry">
-    <h1 className="d-green" style={{ fontSize: '45px' }}><img src={process.env.PUBLIC_URL + '/images/pintechy.png'} /> Our Office's</h1>
+    <h1 className="d-green" style={{ fontSize: '45px' }}><img src={process.env.PUBLIC_URL + '/images/pintechy.png'} /> Our Offices</h1>
       {countryData.map((country, index) => (
         <div className="country-container d-flex flex-row gap-2" key={index}>
           <img 
@@ -98,63 +98,63 @@ We provide complete supply chain solutions for production of high-quality early-
       <h6>Russia, Republic of South Africa, Egypt, Saudi Arabia, Turkey, Senegal, Algeria, Pakistan etc.</h6>
     </div>
 
-    <section class="management container-xl mx-auto text-center" id="team">
-    <h1 class="d-green mb-4">meet our management team</h1>
-    <div class="row pt-5">
-        <div class="col-lg-12 text-center d-flex flex-column justify-content-center">
-            <h1 class="d-green mb-0">board of directors</h1>    
-            <div class="position-relative col-md-4 mt-5 mx-auto">
+    <section className="management container-xl mx-auto text-center" id="team">
+    <h1 className="d-green mb-4">meet our management team</h1>
+    <div className="row pt-5">
+        <div className="col-lg-12 text-center d-flex flex-column justify-content-center">
+            <h1 className="d-green mb-0">board of directors</h1>    
+            <div className="position-relative col-md-4 mt-5 mx-auto">
             <img src={process.env.PUBLIC_URL + '/images/sshivkumar.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>S. Sivakumar</h4>
                 <p>Chairman and Non-Executive Director</p>
             </div>
         </div>
         </div>
         
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ashok.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>Ashok Dharmarajan </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ganesh-kumar.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4> Ganesh K Sundararaman </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/kavita-chaturvedi.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>Kavita Chaturvedi </h4>
                 <p> Non-Executive Director</p>
             </div>
         </div>
     </div>
-    <div class="row pt-5 mt-5">
-        <div class="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
-            <h1 class="d-green mb-0">Executive <br />Management Committee</h1>
+    <div className="row pt-5 mt-5">
+        <div className="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
+            <h1 className="d-green mb-0">Executive <br />Management Committee</h1>
         </div>
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/NripendraJha.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>Nripendra Kumar Jha </h4>
                 <p>Chairman and Chief Executive Officer</p>
             </div>
         </div>
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/SurendraPalSingh.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>Surendra Pal Singh</h4>
                 <p>Member and Vice President Supply Chain</p>
             </div>
         </div>
-        <div class="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/sanjeevmadannv.png'} alt="Management Member" />
-            <div class="management-details">
+            <div className="management-details">
                 <h4>Sanjeev Madan </h4>
                 <p>Member and Chief Financial Officer</p>
             </div>

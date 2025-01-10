@@ -1,0 +1,107 @@
+.varietiesparts {
+  padding-top: 270px;
+  .partsnavsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .partsupperpart {
+      padding-left: 45%;
+      .hashtext {
+        font-size: 24px;
+        line-height: 1;
+        color: #000;
+      }
+      h2 {
+        font-size: 3.5vw;
+        font-weight: 300;
+
+        span {
+          font-size: 4.3vw;
+          font-weight: 900;
+          line-height: 1;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .slick-slide {
+      text-align: center;
+      padding: 16px;
+
+      &.slick-current {
+        border-radius: 20px;
+        background: #bdbdbd;
+      }
+      img {
+        width: 108px;
+        height: 108px;
+        margin: 10px auto 24px;
+      }
+      h3 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
+        line-height: 1;
+    }
+    }
+  }
+  .partscards {
+    .slick-track {
+      display: flex !important;
+    }
+
+    .slick-slide {
+      height: auto;
+    }
+    .slick-slide {
+      padding: 15px;
+
+      > div {
+        padding: 55px 60px;
+        box-shadow: 3px 4px 8.3px 0px rgba(0, 0, 0, 0.13);
+        border-radius: 20px;
+        border: 1px solid #f1f1f1;
+        height: 100%;
+
+        .partscardsname {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          margin-bottom: 50px;
+
+          h3 {
+            font-size: 36px;
+            margin-bottom: 0;
+          }
+
+          img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 100%;
+            border: 1px solid #eee;
+          }
+        }
+        p {
+          color: #848484;
+          margin-bottom: 10px;
+          font-size: 17px;
+        }
+        ul.list2 {
+          list-style: none;
+          margin: 15px 0;
+
+          li {
+            color: #848484;
+            margin-bottom: 10px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+  .slick-slider {
+    margin: 0 30px;
+  }
+}

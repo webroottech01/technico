@@ -13,6 +13,8 @@ import OurBusiness from './pages/OurBusiness/OurBusiness';
 import { useLocation } from 'react-router-dom';
 import ScrollToTop from "./scrolltop";
 import ComingSoon from './components/ComingSoon/ComingSoon'; 
+import VarietiesParts from './pages/Varieties/VarietiesParts';
+import Testimonials from './pages/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
         <Route path="varieties" element={<Varieties />} />
         <Route path="technituber" element={<Technituber />} />
         <Route path="our-business" element={<OurBusiness />} />
-        <Route path="coming-soon" element={<ComingSoon />} />
+        <Route path="coming-soon" element={<VarietiesParts />} />
+        <Route path="testimonials" element={<Testimonials />} />
+        {/* <Route path="coming-soon" element={<ComingSoon />} /> */}
 
       </Routes>
       <Footer />

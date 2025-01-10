@@ -1,21 +1,34 @@
 .key-features {
-    h2{
-        font-size: 1.5vw;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    h3{
-        
+    margin:0 0 70px;
+    position: relative;
+    padding-top: 130px;
+  &:before {
+    position: absolute;
+    content: "";
+    background: url(../../images/top-view-natural.png);
+    width: 100%;
+    height: 31%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+  h2 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h3 {
     font-size: 24px;
-
-    }
-   .cards:nth-child(2) {
-        border-left: 1px solid #efe9e9;
-        border-right: 1px solid #efe9e9;
-    }
-   .cards {
+  }
+  .cards:nth-child(2) {
+    border-left: 1px solid #efe9e9;
+    border-right: 1px solid #efe9e9;
+  }
+  .cards {
     padding: 10px 30px;
     justify-content: center;
-    margin: 15px 0 25px;
-    } 
+    margin: 0px 0 0px;
+  }
 }
