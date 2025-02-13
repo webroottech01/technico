@@ -4,4 +4,22 @@
         color: #66c501 !important;
         display: block;
     }
+    .slick-slide img {
+        width: 100%;
+    }
+    .section1{
+        video{
+        margin-bottom: 20px;;
+    }
+}
+    .section3{
+        .extrabgimage{
+            height: 25vh;
+        }
+        .fullwidth{
+        img{
+            width: 100%;
+        }
+    }
+    }
 }

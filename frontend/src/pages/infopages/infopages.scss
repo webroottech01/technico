@@ -1,0 +1,44 @@
+.infopages {
+  padding: 150px 0;
+  h1 {
+    font-family: Poppins;
+    font-size: 64px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    color: #006a41;
+  }
+  h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    a {
+      color: #006a41;
+      text-decoration: none;
+    }
+  }
+  h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  ul {
+    li {
+      font-size: 22px;
+      color: #848484;
+      a {
+        color: #006a41 ;
+        font-size: 20px;
+      }
+    }
+  }
+  p {
+    font-size: 22px;
+    color: #848484;
+    a{
+      color:#000;
+      text-decoration: none;
+    }
+  }
+}

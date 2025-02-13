@@ -96,4 +96,30 @@
         font-size: 17px;
         color: #6e6e6e;
     }
+    a.grad-btn {
+        border-radius: 54px;
+        background: linear-gradient(98deg, #66C501 -8.18%, #FCF0B5 90.84%);
+        padding: 10px 42px;
+        margin-top: 50px;
+        display: block;
+        width: fit-content;
+        color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 30px */
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        text-decoration: none;
+        position: relative;
+        z-index: 2;
+        transition:all 0.3s linear;
+        border: none;
+        &:hover {
+            background: linear-gradient(98deg, #FCF0B5 -8.18%, #66C501 90.8%);
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+        }
+    }
 }

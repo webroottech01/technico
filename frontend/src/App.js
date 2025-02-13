@@ -15,6 +15,12 @@ import ScrollToTop from "./scrolltop";
 import ComingSoon from './components/ComingSoon/ComingSoon'; 
 import VarietiesParts from './pages/Varieties/VarietiesParts';
 import Testimonials from './pages/Testimonials/Testimonials';
+import ContactUs from './pages/ContactUs/ContactUs';
+import Compilance from './pages/infopages/Compliance';
+import CSRpolicy from './pages/infopages/CSRpolicy';
+import Disclaimer from './pages/infopages/Disclaimer';
+import Termscondition from './pages/infopages/Termscondition';
+import PrivacyPolicy from './pages/infopages/PrivacyPolicy';
 
 function App() {
   return (
@@ -29,8 +35,14 @@ function App() {
         <Route path="varieties" element={<Varieties />} />
         <Route path="technituber" element={<Technituber />} />
         <Route path="our-business" element={<OurBusiness />} />
-        <Route path="coming-soon" element={<VarietiesParts />} />
+        <Route path="varieties-all" element={<VarietiesParts />} />
         <Route path="testimonials" element={<Testimonials />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="compilance" element={<Compilance />} />
+        <Route path="corporate-social-responsibility-policy" element={<CSRpolicy />} />
+        <Route path="disclaimer" element={<Disclaimer />} />
+        <Route path="terms&condition" element={<Termscondition />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
         {/* <Route path="coming-soon" element={<ComingSoon />} /> */}
 
       </Routes>

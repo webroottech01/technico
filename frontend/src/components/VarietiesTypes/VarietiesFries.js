@@ -16,7 +16,7 @@ const VarietiesFries = () => {
   const friesVarieties = [
     {
       name: "Santana",
-      image: "/images/potatos3.png",
+      image: "/varietiespics/Santana.jpg",
       description: "",
       features: [
         "High Yield",
@@ -28,7 +28,7 @@ const VarietiesFries = () => {
     },
     {
       name: "K. Frysona",
-      image: "/images/potatos3.png",
+      image: "/varietiespics/K-Frysona.jpg",
       description: "",
       features: [
         "High yield",
@@ -44,16 +44,17 @@ const VarietiesFries = () => {
   const sliderSettings = {
     asNavFor: nav1,
     ref: (slider) => (sliderRef2.current = slider),
-    slidesToShow: 4,
+    slidesToShow: 2,
     swipeToSlide: true,
     focusOnSelect: true,
-    infinite: false,
+    infinite:false
   };
 
   const cardSliderSettings = {
     asNavFor: nav2,
     ref: (slider) => (sliderRef1.current = slider),
     infinite: false,
+    centerPadding: "100px",
   };
 
   return (
@@ -64,9 +65,10 @@ const VarietiesFries = () => {
             <div className="partsupperpart">
               <p className="hashtext">#1 Most loved</p>
               <h2>
-                Table <span className="d-green">Varieties</span>
+                French Fries <span className="d-green">Varieties</span>
               </h2>
-              <button className="playvideobtn">Play Video</button>
+              {/* <button className="playvideobtn"><img src={process.env.PUBLIC_URL + 'images/playvideobtn.png'} alt="" /></button> */}
+              
             </div>
             <Slider {...sliderSettings}>
               {friesVarieties.map((variety, index) => (

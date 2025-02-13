@@ -8,8 +8,8 @@ const Varieties = () => {
     const navigate = useNavigate();
 
     const handleNavigation = (categoryIndex) => {
-      navigate('/coming-soon', { state: { categoryIndex } });
-    };
+      navigate('/varieties-all', { state: { categoryIndex } });
+    }; 
 
     return(
   <>
@@ -20,28 +20,28 @@ const Varieties = () => {
             <ul>
                 <li className="d-green">what we offer</li>
             </ul>
-            <h1 className="d-green mb-0">the things <span className="l-green"> we have</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam<br /> tristique, at pellentesque tortor fermentum. Integer convalli</p>
+            <h1 className="d-green mb-0">the things we have</h1>
+            <p>At Technico Agri Sciences Ltd., we offer a diverse range of high-quality potato varieties tailored for French fries, chips, and table use.</p>
 
             <div className="chipssec row fullwidth mx-auto pt-5 mt-5 position-relative">
                 <div className="position-relative col-lg-4 dish" onClick={() => handleNavigation(0)}>
                     <img src={process.env.PUBLIC_URL + 'images/frenchfries.png'} />
                     <h3>01</h3>
                     <h2>French fries</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p>
+                    <p> Our French fries varieties are specifically bred for exceptional crispiness, high dry matter content, and uniform size, ensuring minimal oil absorption and consistent production of golden, delicious fries. </p>
                 </div>
                 <div className="position-relative col-lg-4 dish"  onClick={() => handleNavigation(1)}>
                     <img src={process.env.PUBLIC_URL + 'images/chipsbowl.png'} />
                     <h3>02</h3>
                     <h2>chips</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p>
+                    <p>For the snack industry, our chip-grade potatoes deliver premium quality with low sugar content for uniform color, high solids for reduced oil usage, and defect-free consistency for the perfect crunch. </p>
                 </div>
                 <div className="position-relative col-lg-4 dish"  onClick={() => handleNavigation(2)}>
 
                     <img src={process.env.PUBLIC_URL + 'images/potato-red.png'} />
                     <h3>03</h3>
                     <h2>Tables</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p>
+                    <p>Our table varieties are versatile and rich in flavor, making them ideal for everyday cooking, whether boiling, baking, or frying. Adaptable to diverse micro-climates and resistant to diseases, our potatoes cater to the needs of farmers, processors, and consumers alike, ensuring superior quality across the board.</p>
                 </div>
             </div>
 

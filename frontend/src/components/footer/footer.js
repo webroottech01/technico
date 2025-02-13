@@ -29,11 +29,11 @@ const Footer = () => (
                     <h2>Learn More</h2>
                     <div className=" d-flex flex-row flex-wrap">
                         <ul className="p-0" >
-                            <li><Link to="/coming-soon">Compliance</Link></li>
-                            <li><Link to="/coming-soon">Corporate Social Responsibility Policy</Link></li>
-                            <li><Link to="/coming-soon">Disclaimer</Link></li>
-                            <li><Link to="/coming-soon">Terms & condition</Link></li>
-                            <li><Link to="/coming-soon">Privacy Policy</Link></li>
+                            <li><Link to="/compilance">Compliance</Link></li>
+                            <li><Link to="/corporate-social-responsibility-policy">Corporate Social Responsibility Policy</Link></li>
+                            <li><Link to="/disclaimer">Disclaimer</Link></li>
+                            <li><Link to="/terms&condition">Terms & condition</Link></li>
+                            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>

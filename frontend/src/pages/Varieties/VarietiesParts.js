@@ -25,12 +25,12 @@ const VarietiesParts = () => {
 
     const initialSlide = location.state?.categoryIndex || 0;
 
-
+    sliderRef1.current.slickGoTo(initialSlide);
+    sliderRef2.current.slickGoTo(initialSlide);
 
     // console.log(initialSlide)
     if (sliderRef1.current) {
-      sliderRef1.current.slickGoTo(initialSlide);
-      sliderRef2.current.slickGoTo(initialSlide);
+
     }
   }, [location]);
   const settings = {
@@ -47,7 +47,7 @@ const VarietiesParts = () => {
     centerMode:true,
     centerPadding:"0",
     arrows:false,
-
+    // fade:true
   };
 
   const slides = [

@@ -90,7 +90,7 @@ const Home = () => (
         <p>
         With this technology, we are able to deliver commercially affordable Early generation seed potatoes, 3-4 field generations (years) earlier than traditional Seed Potato production methods besides ensuring high-yield and purity. 
         </p>
-        <Link to="/about-us">Learn More</Link> 
+        <Link to="/facilities">Learn More</Link> 
       </div>
     </div>
   </div>

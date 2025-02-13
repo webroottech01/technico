@@ -16,8 +16,8 @@ const VarietiesChips = () => {
   const chipsVarieties = [
     {
     name: "TC-7",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/TC-7.jpg",
+    description: "",
     features: [
       "High yield",
       "Medium crop duration",
@@ -29,8 +29,8 @@ const VarietiesChips = () => {
   },
   {
     name: "TC-77",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/TC-77.jpg",
+    description: "",
     features: [
       "High yield",
       "Resistant to Late Blight",
@@ -42,8 +42,8 @@ const VarietiesChips = () => {
   },
   {
     name: "TC-3",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/TC-3.jpg",
+    description: "",
     features: [
       "High yield",
       "Uniform tuber size",
@@ -55,8 +55,8 @@ const VarietiesChips = () => {
   },
   {
     name: "TC-10",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/TC-10.jpg",
+    description: "",
     features: [
       "Short Duration",
       "White skin & white flesh",
@@ -69,8 +69,8 @@ const VarietiesChips = () => {
   },
   {
     name: "Lady Rosetta",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/Lady-Rosetta.jpg",
+    description: "",
     features: [
       "High Yield",
       "Medium crop duration",
@@ -82,8 +82,8 @@ const VarietiesChips = () => {
   },
   {
     name: "K. Chipsona-3",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/K.Chipsona-3.jpg",
+    description: "",
     features: [
       "High yield",
       "Medium crop duration",
@@ -96,8 +96,8 @@ const VarietiesChips = () => {
   },
   {
     name: "K. Chipsona-1",
-    image: "/images/potatos3.png",
-    description: "Implement affordable early field generation seed potato programs",
+    image: "/varietiespics/K.Chipsona-1.jpg",
+    description: "",
     features: [
       "High yield",
       "21% dry matter",
@@ -133,9 +133,9 @@ const VarietiesChips = () => {
             <div className="partsupperpart">
               <p className="hashtext">#1 Most loved</p>
               <h2>
-                Table <span className="d-green">Varieties</span>
+                Chips <span className="d-green">Varieties</span>
               </h2>
-              <button className="playvideobtn">Play Video</button>
+              {/* <button className="playvideobtn"><img src={process.env.PUBLIC_URL + 'varietiespics/playvideobtn.png'} alt="" /></button> */}
             </div>
             <Slider {...sliderSettings}>
               {chipsVarieties.map((variety, index) => (

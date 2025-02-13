@@ -16,8 +16,8 @@ const VarietiesTables = () => {
   const potatoVarieties = [
     {
       name: "Kufri Jyoti",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/KufriJyoti.jpg",
+      description: "",
       features: [
         "Medium yield",
         "Medium duration: 90 days",
@@ -27,8 +27,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Kufri Pukhraj",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/KufriPukhraj.jpg",
+      description: "",
       features: [
         "High Yield",
         "Early bulking; can be harvested after 70 days",
@@ -38,8 +38,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Kufri Bahar",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Kufri-Bahar.jpg",
+      description: "",
       features: [
         "High Yield",
         "Short duration",
@@ -48,8 +48,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Desiree",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Desiree.jpg",
+      description: "",
       features: [
         "Red skinned potato",
         "High yield",
@@ -59,8 +59,8 @@ const VarietiesTables = () => {
     },
     {
       name: "T116",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/T116.jpg",
+      description: "",
       features: [
         "Red skinned potato",
         "High yield",
@@ -71,8 +71,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Kufri Himalini",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Kufri-Himalini.jpg",
+      description: "",
       features: [
         "High yield",
         "Medium duration",
@@ -82,8 +82,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Everest",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Everest.jpg",
+      description: "",
       features: [
         "High yield",
         "Medium duration",
@@ -95,7 +95,7 @@ const VarietiesTables = () => {
     {
       name: "Cardinal",
       image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      description: "",
       features: [
         "Red skinned potato",
         "High Yield",
@@ -106,8 +106,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Kuroda",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Kuroda.jpg",
+      description: "",
       features: [
         "Red skinned potato",
         "High yield",
@@ -117,8 +117,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Amber Delight",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Amber-Delight.jpg",
+      description: "",
       features: [
         "High yield",
         "Early Bulking",
@@ -128,8 +128,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Diamant",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Diamant.jpg",
+      description: "",
       features: [
         "High Yield",
         "Medium duration",
@@ -139,8 +139,8 @@ const VarietiesTables = () => {
     },
     {
       name: "6034 (Crop- 55)",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/6034.jpg",
+      description: "",
       features: [
         "Red skinned potato",
         "High yield",
@@ -151,8 +151,8 @@ const VarietiesTables = () => {
     },
     {
       name: "Kufri Lauvkar",
-      image: "/images/potatos3.png",
-      description: "Implement affordable early field generation seed potato programs",
+      image: "/varietiespics/Kufri-Lauvkar.jpg",
+      description: "",
       features: [
         "High yield",
         "Short duration",
@@ -189,7 +189,8 @@ const VarietiesTables = () => {
               <h2>
                 Table <span className="d-green">Varieties</span>
               </h2>
-              <button className="playvideobtn">Play Video</button>
+              {/* <button className="playvideobtn"><img src={process.env.PUBLIC_URL + 'images/playvideobtn.png'} alt="" /></button> */}
+
             </div>
             <Slider {...sliderSettings}>
               {potatoVarieties.map((variety, index) => (
@@ -198,7 +199,7 @@ const VarietiesTables = () => {
                   <h3>{variety.name}</h3>
                 </div>
               ))}
-            </Slider>
+            </Slider> 
           </div>
           <div className="col-md-5">
             <div className="partscards">

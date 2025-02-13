@@ -4,6 +4,8 @@ import './Testimonials.scss';
 import KeyFeatures from "../../components/KeyFeatures/KeyFeatures";
 import CommonBanner from "../../components/CommonBanner/CommonBanner";
 import BannerTicker from "../../components/bannerticker/bannerticker";
+import Reusebanner from "../../components/ReuseBanner/Reusebanner";
+import { Link } from "react-router";
 
 const Testimonials = () => {
   const [show, setShow] = useState(false);
@@ -43,9 +45,15 @@ const Testimonials = () => {
     setSelectedCard(null);
     setShow(false);
   };
+  const sliderImages = [
+    { url: 'images/testsgrp.webp', alt: 'Technituber' },
+    { url: 'images/farmergroup.webp', alt: 'Technituber' },
+
+  ];
   return (
     <div className="Testimonials" data-testid="Testimonials">
-      <CommonBanner pageTitle="Testimonials" titleImage="images/testimoniallogo.png"/>
+      <Reusebanner pageTitle="Testimonials" titleImage="images/testimoniallogo.png"  sliderImages={sliderImages}/>
+
       {/* <BannerTicker /> */}
 
       <section class="testimonials position-relative">
@@ -53,58 +61,58 @@ const Testimonials = () => {
         <div class="fullwidth mx-auto">
           
           <h1 class="d-green mb-0">Testimonials</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p> */}
         </div>
       </section>
 
       <section class="our-partners fullwidth mx-auto">
-        <h1 class="d-green">our <span class="l-green">partners</span></h1>
+        <h1 class="d-green text-center">our partners</h1>
         <div class="mt-5 row">
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
               <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis magna ut lectus aliquet consequat. Nulla libero augue, ullamcorper et efficitur lacinia, eleifend eget.
+              As a chips manufacturer, sourcing quality raw materials is critical for us. Technico’s chip-grade potatoes consistently meet our high standards for dry matter content and storability, ensuring we deliver superior products to our customers.
               </p>
             </div>
             <div>
               <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
-              <h5 class="testimonial-name">MARGARITA JERDE</h5>
-              <p class="testimonial-role">Investor Paradigm Liaison</p>
+              {/* <h5 class="testimonial-name">Ankit Jain</h5> */}
+              {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
           </div>
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
               <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis magna ut lectus aliquet consequat. Nulla libero augue, ullamcorper et efficitur lacinia, eleifend eget.
+              Technico Agri Sciences has set a benchmark in the seed potato industry. Their innovative approach, collaborations with global breeders, and dedication to quality have strengthened India’s agricultural landscape and empowered farmers nationwide.
               </p>
             </div>
             <div>
               <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
-              <h5 class="testimonial-name">MARGARITA JERDE</h5>
-              <p class="testimonial-role">Investor Paradigm Liaison</p>
+              {/* <h5 class="testimonial-name">Dr. Meera Gupta</h5> */}
+              {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
           </div>
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
               <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis magna ut lectus aliquet consequat. Nulla libero augue, ullamcorper et efficitur lacinia, eleifend eget.
+              Technico’s seed potatoes have transformed my farming experience. The higher yields and virus-free quality seed have significantly increased my profits. Their support and commitment to delivering premium seeds make them a trusted partner for every season.
               </p>
             </div>
             <div>
               <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
-              <h5 class="testimonial-name">MARGARITA JERDE</h5>
-              <p class="testimonial-role">Investor Paradigm Liaison</p>
+              {/* <h5 class="testimonial-name">Rajesh Kumar</h5> */}
+              {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
           </div>
         </div>
       </section>
 
-      <section className="stakeholders fullwidth mx-auto">
+      <section className="stakeholders fullwidth mx-auto d-none">
         <h1 className="d-green text-center">
-          our <span className="l-green">Stake Holder</span>
+          our Stake Holder
         </h1>
         <div className="mt-5 row">
           {stakeholders.map((stakeholder, index) => (
@@ -152,12 +160,12 @@ const Testimonials = () => {
       </section>
 
       <section class="testimonial-best fullwidth position-relative mx-auto row justify-content-center justify-content-xxl-end">
-        <img class="col-lg-6" src={process.env.PUBLIC_URL + 'images/production.png'} />
+        <img class="col-lg-6" src={process.env.PUBLIC_URL + 'images/production.jpg'} />
         <div class="col-lg-6">
           <ul><li class="l-green">About Us</li></ul>
           <h1 class="d-green">We Always Make <br />The Best</h1>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-          <button class="btn grad-btn">Contact Us</button>
+          {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p> */}
+          <Link class="btn grad-btn" to="/contact-us">Contact Us</Link>
         </div>
       </section>
 

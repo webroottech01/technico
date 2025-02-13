@@ -134,15 +134,17 @@ We provide complete supply chain solutions for production of high-quality early-
             </div>
         </div>
     </div>
-    <div className="row pt-5 mt-5">
+    <div className="row pt-5 mt-5 justify-content-center">
         <div className="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
             <h1 className="d-green mb-0">Executive <br />Management Committee</h1>
         </div>
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-12 mt-5 justify-content-center row">
+        <div className="position-relative col-md-4">
             <img src={process.env.PUBLIC_URL + '/images/NripendraJha.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Nripendra Kumar Jha </h4>
                 <p>Chairman and Chief Executive Officer</p>
+            </div>
             </div>
         </div>
         <div className="position-relative col-md-4 mt-5">

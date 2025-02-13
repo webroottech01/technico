@@ -16,39 +16,36 @@ const settings = {
   pauseOnHover: true,
   speed: 5000,
   autoplaySpeed: 5000
-  };
+};
 
 
-const CommonBanner = ({ pageTitle , titleImage }) => (
-
-    
-    <>
-  <section className="main container-fluid p-0 m-0 position-relative mx-auto CommonBanner" data-testid="CommonBanner">
-            
-            <div className="slider-container">
-      <Slider {...settings}>
-
-        <div>
-        <img src={process.env.PUBLIC_URL + 'images/businessnew.webp'} />
-        <div className="overlay"></div>
-        </div>
-        <div>
-        <img src={process.env.PUBLIC_URL + 'images/businessmore.webp'} />
-        <div className="overlay"></div>
-        </div>
+const CommonBanner = ({ pageTitle, titleImage }) => (
 
 
-      </Slider>
-    </div>
-            
-            <div className="page-info d-none d-sm-block">
-                <img src={process.env.PUBLIC_URL + titleImage} />
-                <h2>{pageTitle}</h2>
-            </div>
-        </section>
-        <BannerTicker />
-        
-        </>
+  <>
+    <section className="main container-fluid p-0 m-0 position-relative mx-auto CommonBanner" data-testid="CommonBanner">
+
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div>
+            <img src={process.env.PUBLIC_URL + 'images/businessnew.webp'} />
+            <div className="overlay"></div>
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + 'images/businessmore.webp'} />
+            <div className="overlay"></div>
+          </div>
+        </Slider>
+      </div>
+
+      <div className="page-info d-none d-sm-block">
+        <img src={process.env.PUBLIC_URL + titleImage} />
+        <h2>{pageTitle}</h2>
+      </div>
+    </section>
+    <BannerTicker />
+
+  </>
 );
 
 CommonBanner.propTypes = {};

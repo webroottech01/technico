@@ -1,0 +1,264 @@
+.contactpage{
+.top-head h2,
+h3 {
+  font-family: Poppins;
+  font-size: 64px;
+  line-height: 60px;
+  letter-spacing: -2px;
+
+}
+
+.top-head h3 span
+{
+  color: #006A41;
+}
+
+.top-head {
+  margin-top: 230px;
+  margin-bottom: 150px;
+}
+
+.container-max {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.form-section {
+  max-width: 875px;
+}
+
+.text-section {
+  max-width: 504px;
+  padding: 0;
+}
+
+.form-section form div input {
+  font-weight: 400;
+
+  color: #8A8A8A;
+  line-height: 29px;
+}
+
+.form-control {
+  border-bottom-color: black !important;
+  border-radius: 0;
+  padding-left: 0%;
+  padding-bottom: 20px;
+}
+
+
+.right-head {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 43.3px;
+  color: #367D16;
+  letter-spacing: 2px;
+  margin-inline: 15px;
+}
+
+.light-paragraph {
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 29px;
+  color: #8A8A8A;
+}
+
+.content-box {
+  margin-top: 15px;
+}
+
+.brochure {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 2%;
+  color: #8A8A8A;
+
+}
+
+.form-container {
+
+  max-width: 1500px;
+}
+
+.brochure-img {
+  margin-right: 20px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 3px 0 0 #367D16;
+  /* Blue shadow only at the bottom */
+  border-color: transparent;
+}
+
+.Contact-us
+{
+  margin-bottom: 200px;
+}
+
+
+
+/*card*/
+.info-card {
+  width: 365px;
+  height: 365px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.info-card img {
+  padding-bottom: 33px;
+  padding-top: 75px;
+}
+
+.info-card h5 {
+  color: #006a41;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px
+}
+
+.info-card p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.email h5 {
+  margin-bottom: 40px;
+}
+
+.phone h5 {
+  margin-bottom: 40px;
+}
+
+.card-section {
+  margin-bottom: 140px;
+}
+
+/*social links*/
+.social-links {
+  padding-bottom: 60px;
+}
+
+.social-icon {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #00754a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icons-container {
+  gap: 25px;
+}
+button {
+  background: #006a41;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  font-size: 20px;
+  width: 150px;
+  text-transform: uppercase;
+  &:hover{
+    background: #2f7214;
+  }
+}
+
+/*media queries*/
+
+@media(max-width:1440px) and (min-width:1025px) {
+  .Contact-us {
+      padding-inline: 20px;
+  }
+}
+
+@media(max-width:1024px) and (min-width:769px) {
+  .form-section {
+      width: 545px;
+  }
+
+  .form-container {
+      padding-inline: 20px;
+  }
+
+  .help-text {
+      width: 40%;
+  }
+
+
+
+  .top-head {
+      padding-inline: 20px;
+  }
+
+}
+
+@media(max-width:768px) and (min-width:430px) {
+
+  .info-card {
+      width: 330px;
+      height: 360px;
+  }
+
+  .form-container {
+      flex-direction: column;
+  }
+
+  .text-section {
+      margin-top: 20px;
+      /* Adds some spacing between the form and the text section */
+  }
+
+  .user-form,
+  .help-text {
+      margin-inline: auto;
+  }
+
+  .help-text {
+      width: 100%;
+  }
+
+  .top-head {
+      text-align: center;
+  }
+
+
+}
+
+@media(max-width:426px) {
+  .user-form {
+      padding-inline: 20px !important;
+      padding-bottom: 50px;
+
+  }
+
+  .content-box,
+  .top-head {
+      padding-inline: 20px;
+  }
+
+
+  .top-head h2,
+  h3 {
+
+      font-size: 45px;
+      line-height: 40px;
+  }
+
+
+}
+}
