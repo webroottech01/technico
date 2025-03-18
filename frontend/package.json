@@ -1,6 +1,6 @@
 {
   "name": "technicogroup.com",
-  "homepage" : "https://technicogroup.com/",
+  "homepage" : "https://technicogroup.com/frontend/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
