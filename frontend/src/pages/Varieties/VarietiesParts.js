@@ -39,6 +39,8 @@ const VarietiesParts = () => {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: false,
+    swipe: false,
+    draggable: false,
     className:"stripslider center",
     asNavFor:nav1,
     ref:sliderRef2,
@@ -47,7 +49,17 @@ const VarietiesParts = () => {
     centerMode:true,
     centerPadding:"0",
     arrows:false,
-    // fade:true
+    responsive: [
+      {
+        breakpoint: 580,
+        settings: {
+          vertical: false,
+          swipe: false,
+          draggable: false,
+        }
+      }
+
+    ] 
   };
 
   const slides = [
@@ -78,7 +90,7 @@ const VarietiesParts = () => {
         </div>
       ))}
     </Slider>
-    <Slider asNavFor={nav2} ref={sliderRef1} arrows={false} fade={true}>
+    <Slider asNavFor={nav2} ref={sliderRef1} arrows={false} fade={true}     swipe={false} draggable={false}>
       {repeatedCompslides.map((SlideComponent, index) => (
         <div key={index}>
           {SlideComponent}

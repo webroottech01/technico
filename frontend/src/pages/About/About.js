@@ -43,7 +43,7 @@ const About = () => {
       <div className="fullwidth mx-auto row">
         <div className="col-lg-6 p-0 d-flex flex-column">
           
-          <h1 className="d-green">Who are We ?</h1>
+          <h2 className="d-green">Who are We ?</h2>
           <p>
             
 Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform agriculture through innovation and expertise. With its patented TECHNITUBER® Technology, Technico has redefined potato production by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
@@ -65,19 +65,19 @@ We provide complete supply chain solutions for production of high-quality early-
         </div>
       </div>
       <div className="about-green-box">
-        <h1 className="text-light m-0">Cultivating Potato Excellence Since 1999</h1>
+        <h2 className="text-light m-0">Cultivating Potato Excellence Since 1999</h2>
       </div>
     </section>
 
     
 
     <section className="fullwidth mx-auto globalpresence" id="presence">
-      <h1 className="d-green" style={{ fontSize: '45px' }}>Global Presence</h1>
+      <h2 className="d-green">Global Presence</h2>
       <img src={process.env.PUBLIC_URL + '/images/world-full.png'} style={{ width: '100%' }} alt="Global Presence" />
     </section>
 
     <section className="fullwidth mx-auto d-flex flex-column gap-5 presencecountry">
-    <h1 className="d-green" style={{ fontSize: '45px' }}><img src={process.env.PUBLIC_URL + '/images/pintechy.png'} /> Our Offices</h1>
+    <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/pintechy.png'} /> Our Offices</h2>
       {countryData.map((country, index) => (
         <div className="country-container d-flex flex-row gap-2" key={index}>
           <img 
@@ -92,18 +92,18 @@ We provide complete supply chain solutions for production of high-quality early-
       ))}
       
       
-    </section>
+    </section> 
     <div className='ouroperations fullwidth mx-auto' >
-    <h1 className="d-green" style={{ fontSize: '45px' }}><img src={process.env.PUBLIC_URL + '/images/flagtechy.png'} /> our operations</h1>
+    <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/flagtechy.png'} /> our operations</h2> 
       <h6>Russia, Republic of South Africa, Egypt, Saudi Arabia, Turkey, Senegal, Algeria, Pakistan etc.</h6>
     </div>
 
     <section className="management container-xl mx-auto text-center" id="team">
-    <h1 className="d-green mb-4">meet our management team</h1>
+    <h2 className="d-green mb-4">meet our management team</h2>
     <div className="row pt-5">
         <div className="col-lg-12 text-center d-flex flex-column justify-content-center">
-            <h1 className="d-green mb-0">board of directors</h1>    
-            <div className="position-relative col-md-4 mt-5 mx-auto">
+            <h2 className="d-green mb-0">board of directors</h2>    
+            <div className="position-relative col-md-4 col-sm-6 col-12 mt-5 mx-auto">
             <img src={process.env.PUBLIC_URL + '/images/sshivkumar.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>S. Sivakumar</h4>
@@ -112,21 +112,21 @@ We provide complete supply chain solutions for production of high-quality early-
         </div>
         </div>
         
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ashok.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Ashok Dharmarajan </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ganesh-kumar.png'} alt="Management Member" />
             <div className="management-details">
                 <h4> Ganesh K Sundararaman </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/kavita-chaturvedi.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Kavita Chaturvedi </h4>
@@ -136,10 +136,10 @@ We provide complete supply chain solutions for production of high-quality early-
     </div>
     <div className="row pt-5 mt-5 justify-content-center">
         <div className="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
-            <h1 className="d-green mb-0">Executive <br />Management Committee</h1>
+            <h2 className="d-green mb-0">Executive <br />Management Committee</h2>
         </div>
         <div className="position-relative col-md-12 mt-5 justify-content-center row">
-        <div className="position-relative col-md-4">
+        <div className="position-relative col-md-4 col-sm-6 col-12">
             <img src={process.env.PUBLIC_URL + '/images/NripendraJha.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Nripendra Kumar Jha </h4>
@@ -147,14 +147,14 @@ We provide complete supply chain solutions for production of high-quality early-
             </div>
             </div>
         </div>
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/SurendraPalSingh.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Surendra Pal Singh</h4>
                 <p>Member and Vice President Supply Chain</p>
             </div>
         </div>
-        <div className="position-relative col-md-4 mt-5">
+        <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/sanjeevmadannv.png'} alt="Management Member" />
             <div className="management-details">
                 <h4>Sanjeev Madan </h4>
