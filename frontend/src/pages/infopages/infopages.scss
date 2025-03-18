@@ -28,7 +28,7 @@
       font-size: 22px;
       color: #848484;
       a {
-        color: #006a41 ;
+        color: #006a41;
         font-size: 20px;
       }
     }
@@ -36,9 +36,78 @@
   p {
     font-size: 22px;
     color: #848484;
-    a{
-      color:#000;
+    a {
+      color: #000;
       text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 1540px) {
+  .infopages {
+    padding: 100px 0;
+    h1 {
+      font-size: 42px;
+      line-height: 50px;
+    }
+    h2 {
+      font-size: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-family: Poppins;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    h4,
+    .h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    ul li {
+      font-size: 16px;
+      a {
+        color: #006a41;
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 580px) {
+  .infopages {
+    padding: 100px 0;
+    h1 {
+      font-size: 42px;
+      line-height: 50px;
+    }
+    h2 {
+      font-size: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-family: Poppins;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    h4,
+    .h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    ul li {
+      font-size: 16px;
+      a {
+        color: #006a41;
+        font-size: 16px;
+      }
     }
   }
 }
