@@ -15,7 +15,7 @@ const Technituber = () => {
   return (
     <>
 
-      <Reusebanner pageTitle="TECHNITUBER® Seed" titleImage="images/TECHNITUBER.png" sliderImages={sliderImages} />
+      <Reusebanner pageTitle="TECHNITUBER® Seed" titleImage="/images/TECHNITUBER.png" sliderImages={sliderImages} />
       <div className="Technituber" data-testid="Technituber">
         <section className="section1 container-fluid mx-auto position-relative">
 

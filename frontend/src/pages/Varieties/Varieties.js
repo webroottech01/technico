@@ -13,7 +13,7 @@ const Varieties = () => {
 
     return(
   <>
-  <CommonBanner pageTitle="Varieties" titleImage="images/varietieslogo.png"/>
+  <CommonBanner pageTitle="Varieties" titleImage="/images/varietieslogo.png"/>
   <div className="Varieties" data-testid="Varieties">
   <section className="container-fluid text-center varieties position-relative">
             <div className="dish-strip d-none d-lg-block"></div>

@@ -34,7 +34,7 @@ const About = () => {
   
   <>
   <Sidesticks sections={sections} />
-  <AboutBanner pageTitle="About Us" titleImage="images/about-logo.png"/>
+  <AboutBanner pageTitle="About Us" titleImage="/images/about-logo.png"/>
   
   <div className="About" data-testid="About">
 

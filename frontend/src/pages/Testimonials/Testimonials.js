@@ -52,7 +52,7 @@ const Testimonials = () => {
   ];
   return (
     <div className="Testimonials" data-testid="Testimonials">
-      <Reusebanner pageTitle="Testimonials" titleImage="images/testimoniallogo.png"  sliderImages={sliderImages}/>
+      <Reusebanner pageTitle="Testimonials" titleImage="/images/testimoniallogo.png"  sliderImages={sliderImages}/>
 
       {/* <BannerTicker /> */}
 

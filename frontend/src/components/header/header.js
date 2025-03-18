@@ -27,7 +27,7 @@ const Header = () => {
         <div className="container-fluid justify-content-lg-center justify-content-between">
           {/* Mobile Logo */}
           <NavLink className="mobilelogo" to="/">
-            <img src={process.env.PUBLIC_URL + "images/LOGO.png"} alt="logo" />
+            <img src={process.env.PUBLIC_URL + "/images/LOGO.png"} alt="logo" />
           </NavLink>
 
           {/* Toggler Button */}
@@ -60,7 +60,7 @@ const Header = () => {
               {/* Centered Logo */}
               <li className="nav-item navlogo">
                 <NavLink className="navbar-brand m-0" to="/" onClick={(e) => e.preventDefault()}>
-                  <img src={process.env.PUBLIC_URL + "images/LOGO.png"} alt="logo" />
+                  <img src={process.env.PUBLIC_URL + "/images/LOGO.png"} alt="logo" />
                 </NavLink>
               </li>
 

@@ -14,7 +14,7 @@ const Facilities = () => {
 
     return(
     <> 
-  <Reusebanner pageTitle="Facilities" titleImage="images/facilitieslogo.png" sliderImages={sliderImages}/>
+  <Reusebanner pageTitle="Facilities" titleImage="/images/facilitieslogo.png" sliderImages={sliderImages}/>
   <div className="Facilities" data-testid="Facilities">
 
 <section className="section1 container-fluid mx-auto position-relative mb-0">
