@@ -8,8 +8,8 @@ const Technituber = () => {
 
 
   const sliderImages = [
-    { url: 'images/tecnigrp.webp', alt: 'Technituber' },
-    { url: 'images/handtuberbig.webp', alt: 'Technituber' },
+    { url: '/images/tecnigrp.webp', alt: 'Technituber' },
+    { url: '/images/handtuberbig.webp', alt: 'Technituber' },
 
   ];
   return (
@@ -37,7 +37,7 @@ const Technituber = () => {
               <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
                   <img
-                    src={process.env.PUBLIC_URL + 'images/tuberhand.webp'}
+                    src={process.env.PUBLIC_URL + '/images/tuberhand.webp'}
                     className="img-fluid mb-3"
                     alt="Image 10"
                   />
@@ -49,7 +49,7 @@ const Technituber = () => {
 
         <section className="aachar container-fluid position-relative justify-content-center">
           <img
-            src={process.env.PUBLIC_URL + 'images/TREE-BG.png'}
+            src={process.env.PUBLIC_URL + '/images/TREE-BG.png'}
             className="position-absolute"
             style={{ top: '0%' }}
             alt="Tree Background"
@@ -57,7 +57,7 @@ const Technituber = () => {
           <div className="fullwidth mx-auto row justify-content-center align-items-center">
             <div className="col-md-5 p-0">
               <img
-                src={process.env.PUBLIC_URL + 'images/aachar.png'}
+                src={process.env.PUBLIC_URL + '/images/aachar.png'}
                 alt="Aachar"
                 style={{ width: '100%' }}
               />
@@ -83,7 +83,7 @@ const Technituber = () => {
             </div>
             <div className="col-md-6">
               <img
-                src={process.env.PUBLIC_URL + 'images/graphtechnico.jpg'}
+                src={process.env.PUBLIC_URL + '/images/graphtechnico.jpg'}
                 style={{ width: '100%' }}
                 alt="Blank"
               />
@@ -93,7 +93,7 @@ const Technituber = () => {
 
         <section className="container-fluid position-relative section-middle">
           <img
-            src={process.env.PUBLIC_URL + 'images/tree-bg-2.png'}
+            src={process.env.PUBLIC_URL + '/images/tree-bg-2.png'}
             className="position-absolute"
             style={{ right: '0%' }}
             alt="Tree Background 2"
@@ -101,7 +101,7 @@ const Technituber = () => {
           <div className="fullwidth mx-auto row align-items-center">
             <div className="col-md-6">
               <img
-                src={process.env.PUBLIC_URL + 'images/globecounty.png'}
+                src={process.env.PUBLIC_URL + '/images/globecounty.png'}
                 style={{ width: '100%' }}
                 alt="Blank"
               />

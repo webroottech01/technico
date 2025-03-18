@@ -46,8 +46,8 @@ const Testimonials = () => {
     setShow(false);
   };
   const sliderImages = [
-    { url: 'images/testsgrp.webp', alt: 'Technituber' },
-    { url: 'images/farmergroup.webp', alt: 'Technituber' },
+    { url: '/images/testsgrp.webp', alt: 'Technituber' },
+    { url: '/images/farmergroup.webp', alt: 'Technituber' },
 
   ];
   return (
@@ -57,7 +57,7 @@ const Testimonials = () => {
       {/* <BannerTicker /> */}
 
       <section class="testimonials position-relative">
-        <img src={process.env.PUBLIC_URL + 'images/tree-bg-2.png'} />
+        <img src={process.env.PUBLIC_URL + '/images/tree-bg-2.png'} />
         <div class="fullwidth mx-auto">
           
           <h2 class="d-green mb-0">Testimonials</h2>
@@ -70,39 +70,39 @@ const Testimonials = () => {
         <div class="mt-5 row">
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
-              <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
+              <img src={process.env.PUBLIC_URL + '/images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
               As a chips manufacturer, sourcing quality raw materials is critical for us. Technico’s chip-grade potatoes consistently meet our high standards for dry matter content and storability, ensuring we deliver superior products to our customers.
               </p>
             </div>
             <div>
-              <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
+              <img src={process.env.PUBLIC_URL + '/images/image-icon.png'} class="profile-placeholder" />
               {/* <h5 class="testimonial-name">Ankit Jain</h5> */}
               {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
           </div>
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
-              <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
+              <img src={process.env.PUBLIC_URL + '/images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
               Technico Agri Sciences has set a benchmark in the seed potato industry. Their innovative approach, collaborations with global breeders, and dedication to quality have strengthened India’s agricultural landscape and empowered farmers nationwide.
               </p>
             </div>
             <div>
-              <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
+              <img src={process.env.PUBLIC_URL + '/images/image-icon.png'} class="profile-placeholder" />
               {/* <h5 class="testimonial-name">Dr. Meera Gupta</h5> */}
               {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
           </div>
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
-              <img src={process.env.PUBLIC_URL + 'images/quoteVector.png'} class="quoteicon" />
+              <img src={process.env.PUBLIC_URL + '/images/quoteVector.png'} class="quoteicon" />
               <p class="testimonial-text">
               Technico’s seed potatoes have transformed my farming experience. The higher yields and virus-free quality seed have significantly increased my profits. Their support and commitment to delivering premium seeds make them a trusted partner for every season.
               </p>
             </div>
             <div>
-              <img src={process.env.PUBLIC_URL + 'images/image-icon.png'} class="profile-placeholder" />
+              <img src={process.env.PUBLIC_URL + '/images/image-icon.png'} class="profile-placeholder" />
               {/* <h5 class="testimonial-name">Rajesh Kumar</h5> */}
               {/* <p class="testimonial-role">Investor Paradigm Liaison</p> */}
             </div>
@@ -160,7 +160,7 @@ const Testimonials = () => {
       </section>
 
       <section class="testimonial-best fullwidth position-relative mx-auto row justify-content-end">
-        <img class="col-md-6" src={process.env.PUBLIC_URL + 'images/production.jpg'} />
+        <img class="col-md-6" src={process.env.PUBLIC_URL + '/images/production.jpg'} />
         <div class="col-md-6">
           <ul><li class="l-green">About Us</li></ul>
           <h2 class="d-green">We Always Make <br />The Best</h2>

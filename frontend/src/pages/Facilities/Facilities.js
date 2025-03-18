@@ -6,9 +6,9 @@ import Reusebanner from '../../components/ReuseBanner/Reusebanner';
 const Facilities = () => {
 
       const sliderImages = [
-        { url: 'images/facility.webp', alt: 'Business New' },
-        { url: 'images/facilit1.webp', alt: 'Business More' },
-        { url: 'images/facility2.webp', alt: 'Extra Image' },
+        { url: '/images/facility.webp', alt: 'Business New' },
+        { url: '/images/facilit1.webp', alt: 'Business More' },
+        { url: '/images/facility2.webp', alt: 'Extra Image' },
       ];
 
 
@@ -40,14 +40,14 @@ const Facilities = () => {
 
 <section className="section3 container-fluid position-relative mx-auto px-0 mt-0">
     
-    <img src={process.env.PUBLIC_URL + 'images/TREE-BG.png'} className='extrabgimage'/>
+    <img src={process.env.PUBLIC_URL + '/images/TREE-BG.png'} className='extrabgimage'/>
     <div className="fullwidth mx-auto row align-items-center">
         <div className="col-lg-6">
             <h2 className="d-green">Manpura Facility</h2>
             
         </div>
         <div className="col-md-6">
-        <img src={process.env.PUBLIC_URL + 'images/aboucompany.webp'} />
+        <img src={process.env.PUBLIC_URL + '/images/aboucompany.webp'} />
        
         </div>
     </div>
@@ -57,7 +57,7 @@ const Facilities = () => {
             
         </div>
         <div className="col-md-6">
-        <img src={process.env.PUBLIC_URL + 'images/raipurrani.webp'} />
+        <img src={process.env.PUBLIC_URL + '/images/raipurrani.webp'} />
 
         </div>
     </div>

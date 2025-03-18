@@ -26,7 +26,7 @@ const ComingSoon = () => (
       <div className="slider-container">
         <Slider {...settings}>
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/aboutmainnew.jpg'} />
+            <img src={process.env.PUBLIC_URL + '/images/aboutmainnew.jpg'} />
             <div className='visionandfuture container-xs'>
               <h2>
                 Coming Soon...
@@ -38,7 +38,7 @@ const ComingSoon = () => (
 
 
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/banner12.png'} />
+            <img src={process.env.PUBLIC_URL + '/images/banner12.png'} />
             <div className='visionandfuture container-xs'>
             <h2>
                 Coming Soon...
@@ -51,7 +51,7 @@ const ComingSoon = () => (
       </div>
       {/* <div className="overlay"></div> */}
       <div className="page-info d-none d-sm-block">
-        <img src={process.env.PUBLIC_URL + 'images/varietieslogo.png'} />
+        <img src={process.env.PUBLIC_URL + '/images/varietieslogo.png'} />
         <h2>Coming Soon</h2>
       </div>
     </section>

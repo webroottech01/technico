@@ -80,7 +80,7 @@ const VarietiesFries = () => {
               <h2>
                 French Fries <span className="d-green">Varieties</span>
               </h2>
-              {/* <button className="playvideobtn"><img src={process.env.PUBLIC_URL + 'images/playvideobtn.png'} alt="" /></button> */}
+              {/* <button className="playvideobtn"><img src={process.env.PUBLIC_URL + '/images/playvideobtn.png'} alt="" /></button> */}
               
             </div>
             <Slider {...sliderSettings}>

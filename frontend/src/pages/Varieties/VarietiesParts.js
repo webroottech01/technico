@@ -63,9 +63,9 @@ const VarietiesParts = () => {
   };
 
   const slides = [
-    { src: 'images/friessbowl.webp', alt: 'French Fries', label: 'French Fries' },
-    { src: 'images/chipsbowl.webp', alt: 'Chips', label: 'Chips' },
-    { src: 'images/tablesbowl.webp', alt: 'Tables', label: 'Tables' },
+    { src: '/images/friessbowl.webp', alt: 'French Fries', label: 'French Fries' },
+    { src: '/images/chipsbowl.webp', alt: 'Chips', label: 'Chips' },
+    { src: '/images/tablesbowl.webp', alt: 'Tables', label: 'Tables' },
   ];
 
   const CompSlides = [

@@ -31,7 +31,7 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
 
 
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/banner12.png'} />
+            <img src={process.env.PUBLIC_URL + '/images/banner12.png'} />
             <div className='visionandfuture container-xs'>
               <h2>
                 Our Core Values
@@ -43,7 +43,7 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
             </div>
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/aboucompany.webp'} />
+            <img src={process.env.PUBLIC_URL + '/images/aboucompany.webp'} />
             <div className='visionandfuture container-xs'>
               <h2>
                 Vision

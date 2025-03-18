@@ -25,20 +25,20 @@ const Varieties = () => {
 
             <div className="chipssec row fullwidth mx-auto pt-5 mt-5 position-relative">
                 <div className="position-relative col-lg-4 dish" onClick={() => handleNavigation(0)}>
-                    <img src={process.env.PUBLIC_URL + 'images/frenchfries.png'} />
+                    <img src={process.env.PUBLIC_URL + '/images/frenchfries.png'} />
                     <h3>01</h3>
                     <h2>French fries</h2>
                     <p> Our French fries varieties are specifically bred for exceptional crispiness, high dry matter content, and uniform size, ensuring minimal oil absorption and consistent production of golden, delicious fries. </p>
                 </div>
                 <div className="position-relative col-lg-4 dish"  onClick={() => handleNavigation(1)}>
-                    <img src={process.env.PUBLIC_URL + 'images/chipsbowl.png'} />
+                    <img src={process.env.PUBLIC_URL + '/images/chipsbowl.png'} />
                     <h3>02</h3>
                     <h2>chips</h2>
                     <p>For the snack industry, our chip-grade potatoes deliver premium quality with low sugar content for uniform color, high solids for reduced oil usage, and defect-free consistency for the perfect crunch. </p>
                 </div>
                 <div className="position-relative col-lg-4 dish"  onClick={() => handleNavigation(2)}>
 
-                    <img src={process.env.PUBLIC_URL + 'images/potato-red.png'} />
+                    <img src={process.env.PUBLIC_URL + '/images/potato-red.png'} />
                     <h3>03</h3>
                     <h2>Tables</h2>
                     <p>Our table varieties are versatile and rich in flavor, making them ideal for everyday cooking, whether boiling, baking, or frying. Adaptable to diverse micro-climates and resistant to diseases, our potatoes cater to the needs of farmers, processors, and consumers alike, ensuring superior quality across the board.</p>

@@ -6,7 +6,7 @@ const Footer = () => (
         <footer className="mt-5 site-footer " >
             <div className="fullwidth row mx-auto mb-5 justify-content-between">
                 <div className="logo col-md-2">
-                    <img src={process.env.PUBLIC_URL + 'images/footerlogo.png'} />
+                    <img src={process.env.PUBLIC_URL + '/images/footerlogo.png'} />
                     <p className="mt-4 mb-0 text-center">Corporate Identity Number:</p>
                     <p className="text-center">U01111DL1999PLC098646</p>
                 </div>
@@ -40,28 +40,28 @@ const Footer = () => (
                 <div className="address col-md-5">
                     <h2>For any queries or grievances contact: </h2>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/email.png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/email.png'} />
                         <p>hr.tasl@technico.org.in</p>
                     </div>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/home (1).png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/home (1).png'} />
                         <p>Registered Office : 25, Community Centre,Basant Lok,
                             Vasant Vihar, New Delhi 110057, India.</p>
                     </div>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/phone.png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/phone.png'} />
                         <p>+91-11 46015209</p>
                     </div>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/home (1).png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/home (1).png'} />
                         <p>Head Office : SCO 835, Sector-13, N.A.C Manimajra, Chandigarh-160101</p>
                     </div>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/phone.png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/phone.png'} />
                         <p>+91-172-6619800</p>
                     </div>
                     <div className="address-type">
-                        <img src={process.env.PUBLIC_URL + 'images/email.png'} />
+                        <img src={process.env.PUBLIC_URL + '/images/email.png'} />
                         <p>technico@technico.org.in</p>
                     </div>
 

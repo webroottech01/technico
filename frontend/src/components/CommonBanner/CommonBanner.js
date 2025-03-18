@@ -28,11 +28,11 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
       <div className="slider-container">
         <Slider {...settings}>
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/businessnew.webp'} />
+            <img src={process.env.PUBLIC_URL + '/images/businessnew.webp'} />
             <div className="overlay"></div>
           </div>
           <div>
-            <img src={process.env.PUBLIC_URL + 'images/businessmore.webp'} />
+            <img src={process.env.PUBLIC_URL + '/images/businessmore.webp'} />
             <div className="overlay"></div>
           </div>
         </Slider>
