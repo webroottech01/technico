@@ -27,7 +27,7 @@ const VarietiesTables = () => {
     },
     {
       name: "Kufri Pukhraj",
-      image: "/varietiespics/KufriPukhraj.jpg",
+      image: "/varietiespics/kufripukh.jpg",
       description: "",
       features: [
         "High Yield",
