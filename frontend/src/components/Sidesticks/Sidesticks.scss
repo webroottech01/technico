@@ -1,1 +1,53 @@
-.Sidesticks {}
+.main-corner {
+  position: fixed;
+  bottom: 25%;
+  right: 0;
+  z-index: 1;
+
+  .corner-container {
+    background-color: #006a41;
+    justify-content: left;
+    padding: 13px 8px;
+    border-radius: 8px 0 0 8px;
+    gap: 25px;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+  }
+  .corner-container h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+  }
+  .section1 li {
+    color: #367d16;
+    font-size: 24px;
+  }
+  .section1 {
+    margin: 150px 0px;
+  }
+  .section1 p {
+    color: #000;
+    margin: 8px 30px 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 1540px) {
+  .main-corner {
+    .corner-container {
+        padding: 10px 8px;
+      h4 {
+        font-size: 12px;
+      }
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-corner {
+    display:none !important; 
+  }
+}

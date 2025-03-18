@@ -5,35 +5,220 @@
     background-position: right;
     background-size: 50% 100%;
     padding-bottom: 130px;
+    height: 100%;
+    padding: 20px;
   }
-  .globalpresence{
+  .about-welcome h2 {
+    font-size: 45px;
+  }
+  .about-welcome p,
+  .about-welcome .list2 {
+    font-size: 20px;
+    max-width: 640px;
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 140px;
+  }
+  .about-green-box {
+    background-color: #006a41;
+    border-left: 5px solid #66c501;
+    color: #fff;
+    max-width: 575px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    position: absolute;
+    right: 28%;
+    bottom: 15px;
+    left: 42%;
+  }
+  .globalpresence {
     margin-bottom: 80px;
-    img{
+    h2 {
+      font-size: 45px;
+    }
+    img {
       margin-top: 50px;
     }
-    
   }
   .presencecountry {
     margin-top: 0;
     margin-bottom: 50px;
-    h1.d-green { 
-      margin-bottom: 0; 
+    .country-container h2 {
+      margin-bottom: 0;
+      font-size: 32px;
+    }
   }
-}
-.ouroperations h6 {
-  font-size: 24px;
-}
+  .ouroperations {
+    h2 {
+      font-size: 45px;
+    }
+    h6 {
+      font-size: 24px;
+    }
+  }
   .section3 {
     padding-top: 200px;
   }
 
-  .management{
-     .col-md-4{
-    padding: 0 45px;
-  }
+  .management {
+    .col-md-4 {
+      padding: 0 45px;
+    }
     img {
-    width: 100%;
-    border-radius: 100%;
-}
+      width: 100%;
+      border-radius: 100%;
+    }
   }
+}
+
+@media (max-width: 1540px) {
+  .About {
+    .about-welcome {
+      h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 16px;
+        padding-right: 20px;
+        margin-bottom: 90px;
+      }
+      .list2 {
+        font-size: 16px;
+      }
+    }
+    .globalpresence {
+      h2 {
+        font-size: 35px;
+      }
+      img {
+        margin-top: 0;
+      }
+    }
+    .presencecountry {
+      gap: 25px !important;
+      .country-container h2 {
+        margin-bottom: 0;
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 35px;
+        img {
+          width: 45px;
+        }
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .ouroperations {
+      h2 {
+        font-size: 32px;
+        img {
+          width: 40px;
+        }
+      }
+      h6 {
+        font-size: 20px;
+      }
+    }
+    .management {
+      .pt-5 {
+        padding-top: 20px !important;
+      }
+      img {
+        width: 85%;
+      }
+      .management-details {
+        border: 3px solid #006a41;
+        padding: 7px 5px;
+        margin: 10px auto 0;
+        width: 90%;
+        h4 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .AboutBanner .slick-slide img {
+    height: 35vh;
+  }
+  .About {
+    .about-welcome {
+      margin-top: 25px;
+      background-position: 20px 0px;
+      background-size: 320px;
+      padding-top: 225px;
+      margin-bottom: 0;
+      .fullwidth {
+        padding: 0;
+      }
+      h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        padding-right: 0;
+        margin-bottom: 0px;
+      }
+      .about-green-box {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        margin-top: 15px;
+        max-width: 100%;
+        h2 {
+          font-size: 22px;
+        }
+      }
+    }
+    .globalpresence {
+      margin-bottom: 50px;
+      margin-top: 30px;
+    }
+
+    .presencecountry {
+      gap: 20px !important;
+      .country-container {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+        h2 {
+          margin-bottom: 0;
+          font-size: 24px;
+        }
+      }
+    }
+    .ouroperations {
+      h2 {
+        font-size: 30px;
+      }
+      h6 {
+        font-size: 16px;
+      }
+    }
+    .management {
+      .col-md-4 {
+        padding: 0px 0px;
+      }
+    }
+  }
+}
+@media (max-width:500px){
+  .About {
+    .management {
+      .col-md-4 {
+        padding: 0px 25px;
+      }
+    }
+  } 
 }

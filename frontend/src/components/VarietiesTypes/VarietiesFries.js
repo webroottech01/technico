@@ -45,15 +45,28 @@ const VarietiesFries = () => {
     asNavFor: nav1,
     ref: (slider) => (sliderRef2.current = slider),
     slidesToShow: 2,
-    swipeToSlide: true,
+    swipeToSlide: false,
+    swipe: false,
+    draggable: false,
     focusOnSelect: true,
-    infinite:false
+    infinite:false,
+    responsive: [
+      {
+        breakpoint: 580,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+
+    ]
   };
 
   const cardSliderSettings = {
     asNavFor: nav2,
     ref: (slider) => (sliderRef1.current = slider),
     infinite: false,
+    swipe: false,
+    draggable: false,
     centerPadding: "100px",
   };
 

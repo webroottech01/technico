@@ -20,7 +20,7 @@ const Varieties = () => {
             <ul>
                 <li className="d-green">what we offer</li>
             </ul>
-            <h1 className="d-green mb-0">the things we have</h1>
+            <h2 className="d-green mb-0">the things we have</h2> 
             <p>At Technico Agri Sciences Ltd., we offer a diverse range of high-quality potato varieties tailored for French fries, chips, and table use.</p>
 
             <div className="chipssec row fullwidth mx-auto pt-5 mt-5 position-relative">

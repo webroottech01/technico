@@ -25,7 +25,7 @@
       }
       button.playvideobtn {
         // border-color: #006a41;
-    }
+      }
     }
 
     .slick-slide {
@@ -42,14 +42,14 @@
         margin: 10px auto 24px;
         object-fit: cover;
         border: 1px solid #eee;
-        border-radius: 100%
+        border-radius: 100%;
       }
       h3 {
         font-size: 20px;
         font-weight: 400;
         color: #000;
         line-height: 1;
-    }
+      }
     }
   }
   .partscards {
@@ -112,5 +112,88 @@
   }
   .slick-slider {
     margin: 0 30px;
+  }
+}
+
+@media (max-width: 1540px) {
+  .varietiesparts {
+    padding-top: 200px;
+    .partsnavsec {
+      gap: 200px;
+      .slick-slide {
+        padding: 10px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+        h3 {
+          font-size: 16px;
+        }
+      }
+      .partsupperpart {
+        padding-left: 55%;
+        .hashtext {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .partscards {
+      .slick-slide > div {
+        padding: 30px 45px;
+        .partscardsname {
+          margin-bottom: 15px;
+          gap: 15px;
+          img {
+            width: 150px;
+            height: 150px;
+          }
+          h3 {
+            font-size: 26px;
+          }
+        }
+        ul.list2 li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .varietiesparts {
+    padding-top: 0px;
+    .slick-slider {
+      margin: 0;
+    }
+    .partscards .slick-slide {
+      padding: 0px;
+      margin-top: 25px;
+      > div {
+        padding: 15px 20px;
+        box-shadow: 2px 4px 2.3px 0px rgba(0, 0, 0, 0.13);
+      }
+    }
+    .partsupperpart {
+      padding-left: 0;
+      text-align: center;
+    }
+    .partsnavsec {
+      .slick-slide {
+        h3 {
+          font-size: 14px;
+        }
+      }
+      gap: 20px;
+      .partsupperpart {
+        padding-left: 0;
+      }
+      .partsupperpart h2 {
+        font-size: 23px;
+        span{
+          font-size: 23px;
+        }
+      }
+    }
   }
 }

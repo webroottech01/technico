@@ -10,7 +10,16 @@ const settings = {
   autoplay: true,
   speed: 3000,
   autoplaySpeed: 0,
-  cssEase: "linear" 
+  cssEase: "linear",
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+      }
+    },
+  ] 
 };
 
 const BannerTicker = () => (

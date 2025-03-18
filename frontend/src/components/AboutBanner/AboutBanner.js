@@ -27,17 +27,17 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
 
       <div className="slider-container">
         <Slider {...settings}>
-          
+
 
 
           <div>
             <img src={process.env.PUBLIC_URL + 'images/banner12.png'} />
             <div className='visionandfuture container-xs'>
               <h2>
-              Our Core Values
+                Our Core Values
               </h2>
               <p>
-              Technico’s core values are aimed at developing a customer centric, innovative, values ethics & integrity, trustworthy organisation with the guiding principle ‘Farmer first & people first’.
+                Technico’s core values are aimed at developing a customer centric, innovative, values ethics & integrity, trustworthy organisation with the guiding principle ‘Farmer first & people first’.
               </p>
 
             </div>
@@ -52,8 +52,8 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
                 Our dream of the future
               </h3>
               <p>
-              
-To be a leading global Agri value chain player, delivering innovative solutions for climate smart agriculture for farming community, contributing to global food & nutrition security and  enhancing value for all stakeholders.
+
+                To be a leading global Agri value chain player, delivering innovative solutions for climate smart agriculture for farming community, contributing to global food & nutrition security and  enhancing value for all stakeholders.
               </p>
 
             </div>

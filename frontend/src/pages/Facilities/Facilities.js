@@ -19,8 +19,8 @@ const Facilities = () => {
 
 <section className="section1 container-fluid mx-auto position-relative mb-0">
     <div className="fullwidth mx-auto row align-items-center">
-      <h1 className="d-green col-12 ">TECHNITUBER® Technology</h1>
-        <div className="col-lg-6 p-0 d-flex flex-column ">
+      <h2 className="d-green col-12 ">TECHNITUBER® Technology</h2>
+        <div className="col-lg-6 d-flex flex-column ">
             
             
             
@@ -43,7 +43,7 @@ const Facilities = () => {
     <img src={process.env.PUBLIC_URL + 'images/TREE-BG.png'} className='extrabgimage'/>
     <div className="fullwidth mx-auto row align-items-center">
         <div className="col-lg-6">
-            <h1 className="d-green">Manpura Facility</h1>
+            <h2 className="d-green">Manpura Facility</h2>
             
         </div>
         <div className="col-md-6">
@@ -53,7 +53,7 @@ const Facilities = () => {
     </div>
     <div className="fullwidth mx-auto row align-items-center mt-5">
         <div className="col-lg-6">
-            <h1 className="d-green">RaipurRani Facility</h1>
+            <h2 className="d-green">RaipurRani Facility</h2>
             
         </div>
         <div className="col-md-6">

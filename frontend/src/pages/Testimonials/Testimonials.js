@@ -60,13 +60,13 @@ const Testimonials = () => {
         <img src={process.env.PUBLIC_URL + 'images/tree-bg-2.png'} />
         <div class="fullwidth mx-auto">
           
-          <h1 class="d-green mb-0">Testimonials</h1>
+          <h2 class="d-green mb-0">Testimonials</h2>
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra risus vitae quam tristique, at pellentesque tortor fermentum. Integer convalli</p> */}
         </div>
       </section>
 
       <section class="our-partners fullwidth mx-auto">
-        <h1 class="d-green text-center">our partners</h1>
+        <h2 class="d-green text-center">our partners</h2>
         <div class="mt-5 row">
           <div class="card testimonial-card p-4 text-center col-lg-4">
             <div class="card-body">
@@ -111,9 +111,9 @@ const Testimonials = () => {
       </section>
 
       <section className="stakeholders fullwidth mx-auto d-none">
-        <h1 className="d-green text-center">
+        <h2 className="d-green text-center">
           our Stake Holder
-        </h1>
+        </h2>
         <div className="mt-5 row">
           {stakeholders.map((stakeholder, index) => (
             <div
@@ -159,11 +159,11 @@ const Testimonials = () => {
         )}
       </section>
 
-      <section class="testimonial-best fullwidth position-relative mx-auto row justify-content-center justify-content-xxl-end">
-        <img class="col-lg-6" src={process.env.PUBLIC_URL + 'images/production.jpg'} />
-        <div class="col-lg-6">
+      <section class="testimonial-best fullwidth position-relative mx-auto row justify-content-end">
+        <img class="col-md-6" src={process.env.PUBLIC_URL + 'images/production.jpg'} />
+        <div class="col-md-6">
           <ul><li class="l-green">About Us</li></ul>
-          <h1 class="d-green">We Always Make <br />The Best</h1>
+          <h2 class="d-green">We Always Make <br />The Best</h2>
           {/* <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p> */}
           <Link class="btn grad-btn" to="/contact-us">Contact Us</Link>
         </div>

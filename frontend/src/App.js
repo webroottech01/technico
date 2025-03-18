@@ -21,6 +21,7 @@ import CSRpolicy from './pages/infopages/CSRpolicy';
 import Disclaimer from './pages/infopages/Disclaimer';
 import Termscondition from './pages/infopages/Termscondition';
 import PrivacyPolicy from './pages/infopages/PrivacyPolicy';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (

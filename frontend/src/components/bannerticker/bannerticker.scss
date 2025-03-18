@@ -29,3 +29,31 @@
       }
   }
 }
+
+/* Responsive **/
+
+@media only screen and (max-width:1540px){
+  .bannerticker {
+    margin-top: 0px;
+    p {
+      font-size: 14px;
+      line-height: 30px;
+  
+    }
+  }
+}
+
+@media only screen and (max-width:768px){
+  .bannerticker {
+
+    margin-top: 0px;
+    .slick-slide{
+      min-width: 70px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 30px;
+  
+    }
+  }
+}

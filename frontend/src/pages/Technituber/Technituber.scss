@@ -1,1 +1,62 @@
-.Technituber {}
+.Technituber {
+  .aachar {
+    .position-absolute {
+      max-height: 30vh;
+    }
+    p {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 1540px) {
+  .Technituber {
+    .aachar {
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .Technituber {
+    .section1 {
+      padding: 0;
+      .fullwidth {
+        flex-direction: column-reverse;
+      }
+      .flex-column {
+        padding: 0;
+        h2.d-green {
+          padding: 0;
+        }
+      }
+    }
+    .section3 {
+      .fullwidth {
+        padding: 0;
+      }
+    }
+    .aachar{
+        .aachar-container{
+            padding: 0px !important;
+        }
+        .position-absolute {
+            max-height: 15vh;
+            top: -30px !important;
+        }
+    }
+    .section-middle{
+        padding: 0;
+        .position-absolute{
+            display: none;
+        }
+        .col-md-6,
+        .col-lg-6{
+            padding: 0 !important;
+            margin-top: 20px;
+        }
+    }
+  }
+}

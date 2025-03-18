@@ -1,58 +1,151 @@
 header {
   z-index: 9;
-    
-    nav{
+  .navbar-brand img {
+    background-color: #006a41;
+    padding: 15px 18px;
+    margin-bottom: -70px;
+    border-radius: 0 0 8px 8px;
+  }
+  .ham-tongle {
+    font-size: 22px;
+    background-color: #ffedce;
+    padding: 5px 7px;
+  }
+  a.nav-link {
+    color: #f9f9f96e;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px !important;
 
-        padding: 0 !important;
-        // transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-        background: #006a41;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000009e;
+    opacity: 1;
+  }
+  .mobilelogo {
+    display: none;
+  }
+  a.nav-link.active {
+    color: #fff !important;
+  }
 
+  nav {
+    padding: 0 !important;
+    // transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background: #006a41;
+  }
+  #navbarNavDropdown {
+    position: relative;
+    max-width: 85%;
+    padding: 0;
+    ul {
+      width: 100%;
+      justify-content: space-between;
+      min-height: 68px;
+    }
+  }
+  a.navbar-brand {
+    padding: 0;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+  }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's on top of other elements */
+  .navbar-brand img {
+    height: 112px;
+  }
+
+  .navbar {
+    background: #006a41;
+    box-shadow: 0 2px 15px -7px rgb(0 0 0);
+    animation: slideDown 0.3s ease-out forwards;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.non-sticky {
+  position: relative;
+  .navbar {
+    transform: translateY(0%); /* header initially out of view */
+    transition: transform 0.3s ease-out; /* Smooth transition when scrolling */
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%); /* Start above the screen */
+  }
+  100% {
+    transform: translateY(0); /* End at the top */
+  }
+}
+
+/** Responsive **/
+@media only screen and (max-width: 1540px) {
+  header {
+    li.nav-item {
+      width: 11%;
+      text-align: center;
+    }
+    a.nav-link {
+      color: rgba(249, 249, 249, 0.431372549);
+      font-size: 14px;
+    }
+    .navbar-brand img {
+      max-width: 120px;
+      margin-bottom: -35px;
+    }
+    &.sticky .navbar-brand img {
+      height: auto;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    li.nav-item.navlogo {
+      display: none;
+    }
+    li.nav-item {
+      width: 100%;
+      text-align: center;
+    }
+    .mobilelogo {
+      display: block;
+      img {
+        height: 100px;
+        display: block;
+        padding: 10px;
+      }
     }
     #navbarNavDropdown {
-        position: relative;
-        max-width: 85%;
-        padding: 0;
-        ul{
-          width: 100%;
-          justify-content: space-between;
-          min-height: 68px;
-        }
-        
+      max-width: 100%;
+      padding: 15px 0 20px;
+      border-top: 1px solid #ffedce;
+      a.nav-link {
+        color: rgba(249, 249, 249, 0.431372549);
+        font-size: 16px;
+      }
     }
-    a.navbar-brand {
-        padding: 0;
-        border-radius: 0 0 8px 8px;
-        overflow: hidden;
+  }
+  .sticky .navbar {
+    box-shadow: 0 2px 15px 3px rgb(0 0 0 / 15%);
+    .mobilelogo {
+      img {
+        height: 90px;
+        padding: 7px;
+      }
     }
+  }
 }
-header.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure it's on top of other elements */
-    .navbar-brand img {
-        height: 112px;
-    }
-    
-    .navbar {
-        background: #006a41;
-        box-shadow: 0 2px 15px -7px rgb(0 0 0);
-        animation: slideDown 0.3s ease-out forwards;
-        transition: all 0.3s ease-in-out;
-    }
-  }
-  .non-sticky {
-    position: relative;
-    .navbar {
-    transform: translateY(0%); /* Header initially out of view */
-    transition: transform 0.3s ease-out; /* Smooth transition when scrolling */
-    }
-  }
-  @keyframes slideDown {
-    0% {
-      transform: translateY(-100%); /* Start above the screen */
-    }
-    100% {
-      transform: translateY(0); /* End at the top */
-    }
-  }

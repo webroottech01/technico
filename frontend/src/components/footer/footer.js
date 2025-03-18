@@ -10,7 +10,7 @@ const Footer = () => (
                     <p className="mt-4 mb-0 text-center">Corporate Identity Number:</p>
                     <p className="text-center">U01111DL1999PLC098646</p>
                 </div>
-                <div className="links col-md-2">
+                <div className="links col-md-2 col-6">
                     <h2>Quick links</h2>
                     <div className=" d-flex flex-row flex-wrap">
                         <ul className="p-0" >
@@ -25,7 +25,7 @@ const Footer = () => (
                         </ul>
                     </div>
                 </div>
-                <div className="links secondlink col-md-2">
+                <div className="links secondlink col-md-2 col-6">
                     <h2>Learn More</h2>
                     <div className=" d-flex flex-row flex-wrap">
                         <ul className="p-0" >
