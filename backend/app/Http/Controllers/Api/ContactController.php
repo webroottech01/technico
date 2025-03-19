@@ -16,6 +16,8 @@ class ContactController extends Controller
     public function index()
     {
         //
+        $contacts = Contact::latest()->paginate(10); // Fetch latest contacts with pagination
+        return view('contacts.index', compact('contacts'));
     }
 
     /**
@@ -29,6 +31,7 @@ class ContactController extends Controller
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email',
+            'company_name' => 'required|string|max:255',
             'message' => 'required',
         ]);
 
