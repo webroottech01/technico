@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\ContactController;
-
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Response;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,14 +16,13 @@ use App\Http\Controllers\Api\ContactController;
 */
 
 
+
 Route::get('/contacts', [ContactController::class, 'index'])->name('contacts.index');
 
-Route::get('/{any}', function () {
-    $path = public_path('../frontend/build/index.html');
-
-    if (File::exists($path)) {
-        return Response::file($path);
+Route::get('/frontend/build/{path}', function ($path) {
+    $file = public_path("frontend/build/{$path}");
+    if (File::exists($file)) {
+        return Response::file($file);
     }
-
     abort(404);
-})->where('any', '.*');
+})->where('path', '.*');

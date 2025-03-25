@@ -25,7 +25,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <LocationUpdater />
       <ScrollToTop />
       <Header />
