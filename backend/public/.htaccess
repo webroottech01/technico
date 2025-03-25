@@ -5,17 +5,17 @@
 
     RewriteEngine On
 
-    # Handle Authorization Header
-    RewriteCond %{HTTP:Authorization} .
-    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-
-    # Redirect Trailing Slashes If Not A Folder...
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_URI} (.+)/$
-    RewriteRule ^ %1 [L,R=301]
-
-    # Send Requests To Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !-d
+    # Allow Laravel API requests
+    RewriteCond %{REQUEST_URI} ^/api/ [NC]
+    RewriteRule .* - [L]
+    
+    # Serve React static files
+    RewriteCond %{REQUEST_URI} ^/(static|assets|favicon|manifest) [NC]
+    RewriteRule ^ frontend/build%{REQUEST_URI} [L]
+    
+    # Redirect all other routes to React
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ /index.html [QSA,L]
+    
 </IfModule>

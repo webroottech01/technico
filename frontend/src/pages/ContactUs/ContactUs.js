@@ -2,57 +2,58 @@ import React, { useState } from "react";
 import "./ContactUs.scss";
 
 const ContactUs = () => {
+  console.log("API URL:", process.env.REACT_APP_API_URL);
+
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    first_name: "",
+    last_name: "",
+    company_name: "",
     email: "",
     message: "",
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false); // New state for loader
 
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Start loader
 
-    fetch("http://localhost:8000/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.text();
-      })
-      .then((data) => {
-        try {
-          const jsonData = JSON.parse(data);
-          console.log(jsonData);
-
-          setFormData({
-            firstName: "",
-            lastName: "",
-            email: "",
-            message: "",
-          });
-
-          setIsSubmitted(true);
-        } catch (e) {
-          console.error("Error parsing JSON:", e);
-          console.error("Response data:", data);
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
+    try {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/contact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit the form");
+      }
+
+      const data = await response.json();
+      console.log("Success:", data);
+
+      setFormData({
+        first_name: "",
+        last_name: "",
+        company_name: "",
+        email: "",
+        message: "",
+      });
+
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error("Error:", error);
+    } finally {
+      setLoading(false); // Stop loader
+    }
   };
 
   return (
@@ -81,24 +82,38 @@ const ContactUs = () => {
                         <input
                           type="text"
                           className="form-control border-0 border-bottom"
-                          id="firstName"
+                          id="first_name"
                           placeholder="First Name"
-                          value={formData.firstName}
+                          value={formData.first_name}
                           onChange={handleChange}
                           required
+                          disabled={loading} // Disable input when loading
                         />
                       </div>
                       <div className="col-md-5 mt-0">
                         <input
                           type="text"
                           className="form-control border-0 border-bottom"
-                          id="lastName"
+                          id="last_name"
                           placeholder="Last Name"
-                          value={formData.lastName}
+                          value={formData.last_name}
                           onChange={handleChange}
                           required
+                          disabled={loading}
                         />
                       </div>
+                    </div>
+                    <div className="mt-0">
+                      <input
+                        type="text"
+                        className="form-control border-0 border-bottom"
+                        id="company_name"
+                        placeholder="Company"
+                        value={formData.company_name}
+                        onChange={handleChange}
+                        required
+                        disabled={loading}
+                      />
                     </div>
                     <div className="mt-0">
                       <input
@@ -109,6 +124,7 @@ const ContactUs = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
+                        disabled={loading}
                       />
                     </div>
                     <div className="mt-0">
@@ -120,10 +136,15 @@ const ContactUs = () => {
                         onChange={handleChange}
                         rows="4"
                         required
+                        disabled={loading}
                       ></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary">
-                      Submit
+                    
+                    {/* Loader */}
+                    {loading && <div className="loader">Sending...</div>}
+
+                    <button type="submit" className="btn btn-primary" disabled={loading}>
+                      {loading ? "Submitting..." : "Submit"}
                     </button>
                   </form>
                 )}

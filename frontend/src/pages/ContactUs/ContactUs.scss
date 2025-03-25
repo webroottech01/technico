@@ -32,8 +32,11 @@
   .form-section form div input {
     font-weight: 400;
 
-    color: #8a8a8a;
+    color: #000;
     line-height: 29px;
+    &::placeholder{
+      color: #8a8a8a;
+    }
   }
 
   .form-control {
@@ -42,6 +45,10 @@
     padding-left: 0%;
     padding-bottom: 20px;
     margin-bottom: 100px;
+    color:#000;
+    &::placeholder{
+      color: #8a8a8a;
+    }
   }
 
   .right-head {
