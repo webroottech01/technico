@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import './infopages.scss';
+import { Helmet } from "react-helmet-async";
 
 const Compilance = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Technico Compliance Policy - Ethical & Legal Commitment </title>
+      <meta name="description" content=" Discover Technico Group's commitment to ethical practices & compliance. Learn how we ensure transparency, accountability, and adherence to legal standards." />
+    </Helmet>
       <div className='infopages compilance'>
         <div className="container">
 

@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import './infopages.scss';
+import { Helmet } from "react-helmet-async";
 
 const PrivacyPolicy = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Privacy Policy - Technico Agri Sciences Limited Group.</title>
+      <meta name="description" content="Our Privacy Policy page is dedicated to the safeguard of our website visitors, product buyers or partners. We exercise legally fair privacy policy abide by laws" />
+    </Helmet>
       <div className='infopages PrivacyPolicy'>
         <div className="container">
 

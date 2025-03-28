@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 import './infopages.scss';
+import { Helmet } from "react-helmet-async";
 
 const Disclaimer = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Technico Group Website Disclaimer - Legal Information</title>
+      <meta name="description" content="Read the Technico Agri Sciences Ltd. Group disclaimer for information on website content, limitations of liability, and the responsible use of our resources.
+" />
+    </Helmet>
       <div className='infopages Disclaimer'>
       <div class="container">
 					

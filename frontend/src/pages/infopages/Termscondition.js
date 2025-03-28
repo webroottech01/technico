@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import './infopages.scss';
+import { Helmet } from "react-helmet-async";
 
 const Termscondition = () => {
 
   return (
     <>
+        <Helmet>
+      <title>Technico Group Terms & Conditions - User Agreements</title>
+      <meta name="description" content="Review Technico Agri Sciences Ltd. website terms and conditions outlining user responsibilities, access guidelines, and legal agreements for using our services." />
+    </Helmet>
       <div className='infopages Termscondition'>
       <div class="container">
 					

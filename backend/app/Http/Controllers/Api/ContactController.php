@@ -38,7 +38,7 @@ class ContactController extends Controller
         $contact = Contact::create($request->all());
 
         // Mail Send
-        Mail::to('alok.webroottech@gmail.com')->send(new ContactMail($contact));
+        Mail::to('contactus.tasl@technico.org.in')->send(new ContactMail($contact));
 
         return response()->json([
             'message' => 'Data inserted successfully and email sent!',

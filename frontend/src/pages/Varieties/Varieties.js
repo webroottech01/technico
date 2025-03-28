@@ -4,6 +4,9 @@ import CommonBanner from '../../components/CommonBanner/CommonBanner';
 import './Varieties.scss';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
+
 const Varieties = () => {
     const navigate = useNavigate();
 
@@ -13,6 +16,10 @@ const Varieties = () => {
 
     return(
   <>
+  <Helmet>
+      <title>Explore Diverse range of high-quality potatoes at Technico </title>
+      <meta name="description" content="We have various variants of potatoes that range from French fries variety, chips variety to table potatoes variety. Every variety has different characteristics." /> 
+    </Helmet>
   <CommonBanner pageTitle="Varieties" titleImage="/images/varietieslogo.png"/>
   <div className="Varieties" data-testid="Varieties">
   <section className="container-fluid text-center varieties position-relative">

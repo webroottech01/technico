@@ -4,6 +4,7 @@ import './OurBusiness.scss';
 import CommonBanner from '../../components/CommonBanner/CommonBanner';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import Sidesticks from '../../components/Sidesticks/Sidesticks';
+import { Helmet } from "react-helmet-async";
 
 const OurBusiness = () => {
     const sections = [
@@ -15,6 +16,10 @@ const OurBusiness = () => {
     return(
     
     <>
+    <Helmet>
+      <title>Our Business – Technico's Agricultural Innovations</title>
+      <meta name="description" content="Explore Technico's diverse business ventures, including advanced seed technology, crop management solutions, and partnerships that drive agricultural innovation." />
+    </Helmet>
     <Sidesticks sections={sections} />
   
     <CommonBanner pageTitle="Our Business" titleImage="/images/ourbusinesslogo.png"/>

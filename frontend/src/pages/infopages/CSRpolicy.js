@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import './infopages.scss';
+import { Helmet } from "react-helmet-async";
 
 const CSRpolicy = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Technico Group CSR Policy - Our Committed to Social Impact</title>
+      <meta name="description" content="Explore Technico Group's Corporate Social Responsibility initiatives focused on sustainability, community development, and creating a positive social impact." />
+    </Helmet>
       <div className='infopages CSRpolicy'>
         <div className="container">
 

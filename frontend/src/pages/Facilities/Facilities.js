@@ -2,7 +2,7 @@ import React from 'react';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import './Facilities.scss';
 import Reusebanner from '../../components/ReuseBanner/Reusebanner';
-
+import { Helmet } from 'react-helmet-async';
 const Facilities = () => {
 
       const sliderImages = [
@@ -14,6 +14,10 @@ const Facilities = () => {
 
     return(
     <> 
+    <Helmet>
+      <title>TECHNITUBER® | Technology | Manpura | Raipur Rani Facility</title>
+      <meta name="description" content="Discover our cutting-edge research and development facilities, equipped with modern technology to support our agricultural biotechnology initiatives." />
+    </Helmet>
   <Reusebanner pageTitle="Facilities" titleImage="/images/facilitieslogo.png" sliderImages={sliderImages}/>
   <div className="Facilities" data-testid="Facilities">
 

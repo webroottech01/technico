@@ -4,7 +4,7 @@ import AboutBanner from '../../components/AboutBanner/AboutBanner';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import './About.scss';
 import Sidesticks from '../../components/Sidesticks/Sidesticks';
-
+import { Helmet } from "react-helmet-async";
 
 const countryData = [
   
@@ -33,6 +33,10 @@ const About = () => {
   return(
   
   <>
+      <Helmet>
+      <title>About Technico Agri Sciences Limited - Our Mission & Vision</title>
+      <meta name="description" content="Learn about Technico's mission to revolutionize agriculture through cutting-edge biotechnology, our vision for the future, and our commitment to sustainability." />
+    </Helmet>
   <Sidesticks sections={sections} />
   <AboutBanner pageTitle="About Us" titleImage="/images/about-logo.png"/>
   

@@ -6,6 +6,8 @@ import CommonBanner from "../../components/CommonBanner/CommonBanner";
 import BannerTicker from "../../components/bannerticker/bannerticker";
 import Reusebanner from "../../components/ReuseBanner/Reusebanner";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet-async";
+
 
 const Testimonials = () => {
   const [show, setShow] = useState(false);
@@ -51,6 +53,11 @@ const Testimonials = () => {
 
   ];
   return (
+    <>
+    <Helmet>
+      <title>See What Our Partners has to Say - Our Testimonials.</title>
+      <meta name="description" content="Explore the working experience of our reputed partners with us. We are highly obliged to work with them. Looking forward to seeing you added to our family." /> 
+    </Helmet>
     <div className="Testimonials" data-testid="Testimonials">
       <Reusebanner pageTitle="Testimonials" titleImage="/images/testimoniallogo.png"  sliderImages={sliderImages}/>
 
@@ -175,6 +182,7 @@ const Testimonials = () => {
 
 
     </div>
+    </>
   )
 };
 

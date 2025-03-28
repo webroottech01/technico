@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './Technituber.scss';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import Reusebanner from '../../components/ReuseBanner/Reusebanner';
+import { Helmet } from "react-helmet-async";
 
 const Technituber = () => {
 
@@ -14,6 +15,10 @@ const Technituber = () => {
   ];
   return (
     <>
+    <Helmet>
+      <title>Revolutionise your current seed production with Technituber</title>
+      <meta name="description" content="Our Technituber is invented to revolutionise your seed production and procurement systems, registered with the Department of Biotechnology, Govt. of India." />
+    </Helmet>
 
       <Reusebanner pageTitle="TECHNITUBER® Seed" titleImage="/images/TECHNITUBER.png" sliderImages={sliderImages} />
       <div className="Technituber" data-testid="Technituber">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ContactUs.scss";
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
   console.log("API URL:", process.env.REACT_APP_API_URL);
@@ -57,6 +58,12 @@ const ContactUs = () => {
   };
 
   return (
+    
+    <>
+    <Helmet>
+      <title>Contact Us for Partnering or Queries - Technico Group</title>
+      <meta name="description" content="This page is our contact us page. You can reach out to us through our form or contact details for information about how to partner with us or related queries." /> 
+    </Helmet>
     <div className="contactpage">
       <section className="Contact-us container-max">
         <div className="contact-us-container">
@@ -163,6 +170,7 @@ const ContactUs = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
