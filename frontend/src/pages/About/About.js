@@ -10,11 +10,11 @@ const countryData = [
   
   { 
     name: "India", 
-    description: "Technico Pty Ltd. has a fellow subsidiary, Technico Agri Sciences Limited located in India. It’s TECHNITUBER® seed production facility located in Manpura, Himachal Pradesh.Business Development, Marketing, Sales and Administration office located in Chandigarh City, Union Territory.Products:- Tissue Culture, TECHNITUBER® seed potatoes, Field Generation One -> Field Generation seed potatoes." 
+    description: "Technico Agri Sciences Limited is located in India. The company operates TECHNITUBER® seed production facilities in Manpura, Himachal Pradesh and Raipur Rani, Haryana. Additionally, its Business Development, Marketing, Sales, and Administration office is situated in Chandigarh City, Union Territory. Technico offers a range of products, including Tissue Culture, TECHNITUBER® seed potatoes and Field Generation seed potatoes, ensuring the supply of high-quality, disease-free seed potatoes for farmers." 
   },
   { 
     name: "China", 
-    description: "TECHNITUBER® seed production facility located in Yanglin, Yunnan Province. Technico Business Development, Marketing, Sales and Administration office located in Kunming City, Yunnan Province.Products:- Tissue Culture, TECHNITUBER® seed potatoes.y" 
+    description: "TECHNITUBER® seed production facility located in Yanglin, Yunnan Province. Technico Business Development, Marketing, Sales and Administration office located in Kunming City, Yunnan Province.Products:- Tissue Culture, TECHNITUBER® seed potatoes." 
   },
   { 
     name: "Australia", 
@@ -50,7 +50,7 @@ const About = () => {
           <h2 className="d-green">Who are We ?</h2>
           <p>
             
-Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform agriculture through innovation and expertise. With its patented TECHNITUBER® Technology, Technico has redefined potato production by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
+Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform Potato through innovation and expertise. With its proprietory TECHNITUBER® Technology, Technico has redefined Potato Value Chain by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
 <br /> 
 <br />
 Rooted in trust and driven by a commitment to deliver superior quality seed potatoes, Technico continues to lead the way in providing sustainable farming solutions, fostering growth and innovation across farming community in India and beyond.
@@ -62,14 +62,18 @@ With a steadfast commitment to innovation and sustainability, Technico continues
 Through its advanced TECHNITUBER® Technology, the Company accelerates seed multiplication, cutting the process by 3-4 years in comparison with traditional methods. This technology ensures superior seed quality, reduces pathogen exposure, and facilitates rapid introduction of new varieties. 
 <br />
 <br />
-We provide complete supply chain solutions for production of high-quality early-generation seed potatoes by fostering sustainable economic development in the global potato value chain utilising TECHNITUBER® Technology and advancing climate-smart agricultural practices 
+We deliver end-to-end supply chain solutions for the production of high-quality early-
+generation seed potatoes, supporting sustainable economic growth within the global potato
+value chain. By utilizing TECHNITUBER® Technology and advancing climate-smart
+agricultural practices, we ensure the production of premium seed potatoes in an
+environmentally responsible manner.
 
           </p>
 
         </div>
       </div>
       <div className="about-green-box">
-        <h2 className="text-light m-0">Cultivating Potato Excellence Since 1999</h2>
+        <h2 className="text-light m-0">Cultivating Seed Potatoes Excellence Since 1999</h2>
       </div>
     </section>
 
@@ -99,7 +103,7 @@ We provide complete supply chain solutions for production of high-quality early-
     </section> 
     <div className='ouroperations fullwidth mx-auto' >
     <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/flagtechy.png'} /> our operations</h2> 
-      <h6>Russia, Republic of South Africa, Egypt, Saudi Arabia, Turkey, Senegal, Algeria, Pakistan etc.</h6>
+      <h6>Egypt, Saudi Arabia, Russia, Turkey, Senegal, Nepal, Pakistan etc.</h6>
     </div>
 
     <section className="management container-xl mx-auto text-center" id="team">

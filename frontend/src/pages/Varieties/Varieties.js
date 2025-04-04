@@ -24,18 +24,18 @@ const Varieties = () => {
   <div className="Varieties" data-testid="Varieties">
   <section className="container-fluid text-center varieties position-relative">
             <div className="dish-strip d-none d-lg-block"></div>
-            <ul>
-                <li className="d-green">what we offer</li>
-            </ul>
+           
+                <p className="d-green mb-0">We Offer Varietal Solutions</p>
+   
             <h2 className="d-green mb-0">the things we have</h2> 
-            <p>At Technico Agri Sciences Ltd., we offer a diverse range of high-quality potato varieties tailored for French fries, chips, and table use.</p>
+            <p>We offer a diverse range of high-quality potato varieties tailored for French fries, chips, and table use purpose.</p>
 
             <div className="chipssec row fullwidth mx-auto pt-5 mt-5 position-relative">
                 <div className="position-relative col-lg-4 dish" onClick={() => handleNavigation(0)}>
                     <img src={process.env.PUBLIC_URL + '/images/frenchfries.png'} />
                     <h3>01</h3>
                     <h2>French fries</h2>
-                    <p> Our French fries varieties are specifically bred for exceptional crispiness, high dry matter content, and uniform size, ensuring minimal oil absorption and consistent production of golden, delicious fries. </p>
+                    <p> Our French fries varieties are specifically bred for exceptional crispiness, high dry matter content, and uniform size, ensuring minimal oil absorption and consistent production of fries. </p>
                 </div>
                 <div className="position-relative col-lg-4 dish"  onClick={() => handleNavigation(1)}>
                     <img src={process.env.PUBLIC_URL + '/images/chipsbowl.png'} />
@@ -47,7 +47,7 @@ const Varieties = () => {
 
                     <img src={process.env.PUBLIC_URL + '/images/potato-red.png'} />
                     <h3>03</h3>
-                    <h2>Tables</h2>
+                    <h2>Table</h2>
                     <p>Our table varieties are versatile and rich in flavor, making them ideal for everyday cooking, whether boiling, baking, or frying. Adaptable to diverse micro-climates and resistant to diseases, our potatoes cater to the needs of farmers, processors, and consumers alike, ensuring superior quality across the board.</p>
                 </div>
             </div>

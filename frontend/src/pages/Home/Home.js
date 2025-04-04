@@ -67,12 +67,15 @@ const Home = () => (
       <BannerTicker />
       {/* FIRST SECTION */}
       <div className="homeAbout" style={{ userSelect: 'none' }}>
+      <h2 className='homeabouttitle'>We Support the World to produce Responsible Food</h2>
         <div className="row">
+        
           <div className="col-md-7 homeStory" style={{ userSelect: 'none' }}>
+          {/* <h2>We Support the World to produce Responsible Food</h2> */}
             <h2>Our Story</h2>
             <h3>With you Since 1999</h3>
             <p className="bigText">
-              Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform agriculture through innovation and expertise. With its patented TECHNITUBER® Technology, Technico has redefined potato value chain by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
+              Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform agriculture through innovation and expertise. With its proprietory TECHNITUBER® Technology, Technico has redefined potato value chain by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
 
 
             </p>
@@ -81,7 +84,7 @@ const Home = () => (
 
             </div>
             <p className="bigText">
-              Rooted in trust and driven by a commitment to deliver superior quality seed potatoes, Technico continues to lead the way in providing sustainable farming solutions, fostering growth and innovation across farming community in India and beyond.
+              Rooted in trust and driven by a commitment to deliver superior quality seed potatoes, Technico continues to lead the way in providing sustainable farming solutions, fostering growth and innovation across Potato farming community in India and beyond.
             </p>
 
             <Link to="/about-us">Learn More</Link>
@@ -91,7 +94,7 @@ const Home = () => (
             <h2>Leading Edge Technology</h2>
 
             <p>
-              Technico has revolutionized seed potato production with its proprietary scientifically advanced TECHNITUBER® Technology that produces high-quality, virus-free miniature seed potatoes in protected environment without genetic modification.
+              Technico has revolutionized seed potato production with its proprietary TECHNITUBER® Technology that produces high-quality, virus-free miniature seed potatoes in protected environment without genetic modification.
 
 
             </p>
@@ -110,9 +113,9 @@ const Home = () => (
             <span className="whiteColor">Our Business</span>
           </h2>
           <p>
-            Technico is present across potato value chain i.e., growing TECHNITUBER® Seed (Pre-Basic seed), Early generation seed potatoes for all three segments - Table, French Fries and Crisps, Chipgrade potatoes for its parent company’s brand BINGO! & Other Chips manufacturer and Table potatoes for its parent company’s brand ‘FARMLAND’. Our product has been widely accepted by the farmers and processors across India as well as beyond. <br />
+            Technico is present across potato value chain i.e., growing TECHNITUBER® Seed Pre-Basic seed (G0), Early generation seed potatoes (G3) for all three segments - Table, French Fries and Crisps, Chipgrade potatoes for its parent company’s brand BINGO! & Other Chips manufacturer and Table potatoes for its parent company’s brand ‘FARMLAND’. Our product has been widely accepted by the farmers and processors across India as well as beyond. <br />
 
-            Technico has 350+ seed potato varieties in its pool and we keep on updating our pool of varieties in collaboration with Central Potato Research Institute (CPRI), International Potato Center (CIP) and global breeders by running R&D Programme through our ‘Centre of Excellence’, keeping into consideration volatile climatic conditions.
+            Technico has 350+ seed potato varieties in its pool and we keep on updating our pool of varieties in collaboration with Central Potato Research Institute (CPRI), International Potato Center (CIP) and 15+ global breeders across various continents by running R&D Programme through our ‘Centre of Excellence’.
             <br />
             We focus on sustainable farming practices, providing our clients with reliable, cost-effective solutions that meet the growing demands of the food industry worldwide.
             <br />
@@ -151,7 +154,7 @@ const Home = () => (
             />
             <h3>Innovative Technology</h3>
             <p>
-              We leverage award winning/ scientifically advanced TECHNITUBER® Technology for accelerating production of our new varieties making them available to the market in a less time frame at cost-competitive price.
+              We leverage award winning TECHNITUBER® Technology for accelerating production of new varieties making them available to the market in a less time frame at cost-competitive price.
             </p>
           </div>
 
@@ -168,7 +171,7 @@ const Home = () => (
             />
             <h3>State of the Art Facilities</h3>
             <p>
-              Our state of the art facilities enable efficient, year-round production while maintaining the purity and productivity of our TECHNITUBER® seed, setting us apart in the industry.
+              Our state of the art facilities enable efficient, year-round production while maintaining the purity and productivity of our TECHNITUBER® seed (pre basic seed), setting us apart in the industry.
             </p>
           </div>
           <div className="serviceBox" style={{ userSelect: 'none' }}>

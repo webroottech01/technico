@@ -6,6 +6,20 @@
   .homeAbout {
     overflow: hidden;
     position: relative;
+
+    h2.homeabouttitle {
+      position: absolute;
+      top: 300px;
+      z-index: 9999;
+      color: #fcf0b5;
+      width: 100%;
+      text-align: center;
+      text-underline-offset: 8px;
+      text-transform: uppercase;
+      padding: 15px 10px 10px;
+      font-size: 3vw;
+
+    }
   }
 
   .homeAbout:after {
@@ -37,7 +51,7 @@
   }
 
   .homeStory {
-    padding-top: 336px;
+        padding-top: 23%;
     padding-left: 334px;
     padding-bottom: 300px;
     padding-right: 67px;
@@ -48,7 +62,7 @@
 
   .homeLeading {
     padding-right: 230px;
-    padding-top: 336px;
+        padding-top: 23%;
     padding-left: 88px;
 
     background: url(../../images/homeLeading.jpg);
@@ -699,6 +713,11 @@
         width: 25%;
         height: 21%;
       }
+      h2.homeabouttitle {
+        top: 17%;
+        font-size: 34px;
+        line-height: 40px;
+      }
       a {
         padding: 7px 30px;
         margin-top: 30px;
@@ -846,24 +865,24 @@
         padding-bottom: 100px;
       }
       .homeleftMenu {
-        .text-center{
+        .text-center {
           width: 130px;
           height: 110px;
           img {
             width: 25px;
             height: 25px;
           }
-        } 
+        }
       }
       .homerightMenu {
-        .text-center{
+        .text-center {
           width: 130px;
           height: 110px;
           img {
             width: 25px;
             height: 25px;
           }
-        } 
+        }
       }
       .aboutMenu::before {
         width: 300px;
@@ -915,8 +934,13 @@
       }
     }
     .homeAbout {
+      h2.homeabouttitle {
+        top: 70px;
+        font-size: 32px;
+        line-height: 32px;
+      }
       .homeStory {
-        padding: 90px 20px 50px;
+        padding: 200px 20px 50px;
 
         &::before {
           bottom: 40px;

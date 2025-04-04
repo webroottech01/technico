@@ -10,7 +10,7 @@ const KeyFeatures = () => (
             
             <div className="cards col-lg-4 col-md-6 col-12 d-flex flex-column gap-2">
                 <img src={process.env.PUBLIC_URL + '/images/potatos3.png'} alt="Feature 2" />
-                <h3>1,50,000 MT +<br /></h3>
+                <h3>2,00,000 MT +<br /></h3>
             </div>
             <div className="cards col-lg-4 col-md-6 col-12 d-flex flex-column gap-2">
                 <img src={process.env.PUBLIC_URL + '/images/fsrmer.png'} alt="Feature 3" />

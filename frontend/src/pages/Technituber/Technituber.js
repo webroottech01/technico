@@ -31,7 +31,7 @@ const Technituber = () => {
               <p>
                 Produced in our state-of-the-art TECHNITUBER® facilities, this product can revolutionise your current seed production and procurement systems.
                 <br /><br />
-                An approximate size of 13mm and weighing approximately 1.5 grams this product is planted at approximately 100 kg per hectare versus traditional seed weighing up to 4,000 kg per hectare.<br /><br />
+                An approximate size of 13 mm and weighing approximately 1.5 grams this product is planted at approximately 100 kg per hectare versus traditional seed weighing up to 4,000 kg per hectare.<br /><br />
 
                 TECHNITUBER® seed offers the perfect opportunity to develop a reduced field generation seed scheme to improve the quality and yield of your final seed product.
                 <br /><br />
@@ -72,9 +72,9 @@ const Technituber = () => {
               <p>-	The TECHNITUBER® seed produces tubers of different sizes ranging from 12-15, 15-18 and 18-20 mm and weighing approximately 1.2-2.0 grams, good enough to plant @ approximately 90-100 kg per Hectare. </p>
               <p>-	The TECHNITUBER® seeds are delivered pre-sprouted in ‘field ready’ conditions and are easily transported. </p>
               <p>-	The high health status of the TECHNITUBER® seed allows for disease quarantine regulations of different countries to be easily met and the compact size avoids the wasted costs incurred in storage and transport of much larger seed pieces.</p>
-              <p>-	Technico has also forged strong relationship with Speciality growers, Breeder and Variety owners across the Globe to produce proprietary varieties with large germplasm bank ({'>'} 250 varieties).</p>
+              <p>-	Technico has also forged strong relationship with Speciality growers, Breeder and Variety owners across the Globe to produce proprietary varieties with large germplasm bank ({'>'} 350 varieties).</p>
               <h2> Certification</h2>
-              <p>-	Technico Seed is Certified by the CPRI, India; National Seed Certification Agency in respective countries and the quality of seed is also tested at Agdia Inc. testing lab USA. </p>
+              <p>-	Technico Seed is Certified by the Central Potato Research Institute (CPRI), India; National Seed Certification Agency in respective countries and the quality of seed is also tested at Agdia Inc. testing lab USA. </p>
             </div>
           </div>
         </section>
@@ -83,7 +83,7 @@ const Technituber = () => {
           <div className="fullwidth mx-auto row align-items-center justify-content-center">
             <div className="col-md-6">
 
-              <h2 className="d-green">Grow Your Own Seed Cost</h2>
+              <h2 className="d-green">Grow Your Own Seed @Affordable Cost</h2>
 
             </div>
             <div className="col-md-6">
@@ -114,7 +114,7 @@ const Technituber = () => {
             <div className="col-md-6 ps-4">
 
               <h2 className="d-green">Catering to Global Markets</h2>
-              <p>Over the years, Technico has been supplying TECHNITUBER® Seeds across the Globe to Processing Industry Players viz., Russia, Republic of South Africa, Egypt, Saudi Arabia, Turkey, Senegal, Algeria, Pakistan etc.,</p>
+              <p>Over the years, Technico has been supplying TECHNITUBER® Seeds across the Globe to Processing Industry Players, seed growers viz., Russia, Egypt, Saudi Arabia, Turkey, Senegal, Nepal, Pakistan etc.,</p>
             </div>
 
           </div>

@@ -30,11 +30,11 @@ const OurBusiness = () => {
 <section className="diginto businessMain container-fluid text-center">
 
     <h2 className="d-green">OUR BUSINESS</h2>
-    <p>Technico is present in entire potato value chain i.e. growing TECHNITUBER® Seed (Breeder seed), Early generation seed potatoes for all three segments - Table, French Fries and Crisps, Chipgrade potatoes for its parent company’s BINGO! brand & processing industry and Table potatoes for its parent company’s brand ‘FARMLAND’. Our product has been widely accepted by the farmers and processors across India as well as beyond.  <br/><br/>
+    <p>Technico is present in entire potato value chain i.e. growing TECHNITUBER® Seed (Pre basic seed), Early generation seed potatoes (G1, G2, G3) for all three segments - Table, French Fries and Crisps, Chipgrade potatoes for its parent company’s BINGO! brand & processing industry and Table potatoes for its parent company’s brand ‘FARMLAND’. Our product has been widely accepted by the farmers and processors across India as well as beyond.  <br/><br/>
 
-Technico has 300+ seed potato varieties in its pool and we keep on updating our pool of varieties in collaboration with Central Potato Research Institute (CPRI) and global breeders by running R&D Programme through our ‘Centre of Excellence’, keeping into consideration volatile climatic conditions.  
+Technico has 350+ seed potato varieties in its pool and we keep on updating our pool of varieties in collaboration with Central Potato Research Institute (CPRI) and global breeders by running R&D Programme through our ‘Centre of Excellence’, keeping into consideration volatile climatic conditions.  
 <br/><br/>
-We focus on sustainable farming practices, providing our clients with reliable, cost-effective solutions that meet the growing demands of the food industry worldwide.
+We focus on sustainable farming practices, providing our clients with reliable, cost-effective solutions that meet the growing demands of the Potato food industry worldwide.
 </p>
 </section>
 
@@ -45,7 +45,7 @@ We focus on sustainable farming practices, providing our clients with reliable, 
             </div>
             <div className="col-md-6 d-flex flex-column gap-4 " >
                 <h2 className="d-green">Early Generation Seed Potatoes</h2>
-                <p>Technico Agri Sciences Ltd. is a market leader in producing Early Generation, Disease & Pathogen-Free Seed Potatoes, holding a 31% share in the premium seed market and distributing 125,000 MT annually across India. With over 300 varieties for Table, Chips, and French Fries segments, the company collaborates with global breeders and research institutes like CPRI and CIP to deliver high-quality seeds tailored to diverse micro-climates. Its robust phygital distribution network, including ITC MAARS, and partnerships with FPOs, cold storage owners, and agri-startups ensure cost-effective delivery to farmers. Known for its trusted "TECHNICO Seed Potatoes" brand since 2003, the company consistently delivers higher yields and superior quality, empowering farmers while maintaining its competitive edge.</p>
+                <p>Technico Agri Sciences Ltd. is a market leader in producing Early Generation, Disease & Pathogen-Free Seed Potatoes, holding a 34% share in the premium seed market and distributing 125,000 MT annually across India. With over 350+ varieties for Table, Chips, and French Fries segments, the company collaborates with global breeders and research institutes like Central Potato Research Institute (CPRI) and CIP to deliver high-quality seeds tailored to diverse micro-climates. Its robust phygital distribution network, including ITC MAARS, and partnerships with Farmer Producing Organisation (FPOs), cold storage owners, and agri-startups ensure cost-effective delivery to farmers. Known for its trusted "TECHNICO Seed Potatoes" brand since 2003, the company consistently delivers higher yields and superior quality, empowering farmers while maintaining its competitive edge.</p>
                 <div className="d-flex flex-row  gap-5 seed-container justify-content-between d-none">
 							<img src={process.env.PUBLIC_URL + "/images/seed1.png"} alt="" />
                             <img src={process.env.PUBLIC_URL + "/images/seed2.png"} alt="" />
@@ -65,7 +65,16 @@ We focus on sustainable farming practices, providing our clients with reliable, 
 </div>
             <div className="col-md-6 d-flex flex-column gap-4 ">
                 <h2 className="d-green">Commercial Potatoes</h2>
-                <p>Technico is also a prominent player in the commercial potato segment, specializing in chip-grade and fry-stock potatoes across major processing regions in India. The Company engages in contract farming, procurement, and storage, supplying high-quality raw materials to ITC’s Bingo brand and other chip manufacturers. With proprietary varieties featuring high dry matter content, low defects, and long storability, Technico ensures premium-grade process potatoes. It collaborates closely with farmers to produce disease-free, high-quality potatoes, managing cold stores near fields to minimize post-harvest losses. Through advance contracts with chips industry players, Technico guarantees consistent supply of process potatoes at pre-agreed prices, delivering superior quality to meet the demands of Indian and neighbouring markets.</p>
+                <p>Technico is a key player in the commercial potato sector, specializing in chip-grade and fry-
+stock potatoes across major processing regions in India. The company is involved in
+contract farming, procurement, and storage, supplying high-quality raw materials to the chips
+and French fry (FF) industries. With proprietary potato varieties known for high dry matter
+content, low defects, and excellent storability, Technico ensures the production of premium-
+grade process potatoes. The company collaborates closely with farmers to cultivate disease-
+free, high-quality potatoes and manages cold storage facilities near farms to reduce post-
+harvest losses. Through strategic contracts with chips and FF industry partners, Technico
+ensures a consistent supply of process potatoes at pre-agreed prices, delivering superior
+quality to meet the needs of both the Indian market and neighbouring regions.</p>
                 <div className="d-flex flex-row  gap-5 seed-container justify-content-between d-none">
 							<img src={process.env.PUBLIC_URL + "/images/bingo1.png"} alt="" />
                             <img src={process.env.PUBLIC_URL + "/images/bingo2.png"} alt="" />
