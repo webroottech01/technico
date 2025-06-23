@@ -4,7 +4,7 @@ import './homebanner.scss';
 import { Link } from 'react-router';
 
 const HomeBanner = () => (
-  <div className="homebanner"> 
+  <div className="homebanner">  
   
     <div className="homeMainBanner" style={{ userSelect: 'none' }}>
         <div className="homeLogo text-center" style={{ userSelect: 'none' }}>
