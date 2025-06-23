@@ -76,7 +76,132 @@ environmentally responsible manner.
         <h2 className="text-light m-0">Cultivating Seed Potatoes Excellence Since 1999</h2>
       </div>
     </section>
+{/* makes Different */}
+<div className="makeDifferentMain" style={{ userSelect: 'none' }}>
+        <div className="makesDifferentSection" style={{ userSelect: 'none' }}>
+          <div className="makesDifferentInner" style={{ userSelect: 'none' }}>
 
+            <h2>
+              What makes us <br />
+              <span>Different?</span>
+            </h2>
+
+          </div>
+        </div>
+
+        <div className="d-flex serviceBoxMain">
+          <div className="serviceBox" style={{ userSelect: 'none' }}>
+            <img
+              className="img-hover"
+              src={process.env.PUBLIC_URL + '/images/innovative.png'}
+              alt=""
+            />
+            <img
+              className="img-normal"
+              src={process.env.PUBLIC_URL + '/images/innovative-black.png'}
+              alt=""
+            />
+            <h3>Innovative Technology</h3>
+            <p>
+              We leverage award winning TECHNITUBER® Technology for accelerating production of new varieties making them available to the market in a less time frame at cost-competitive price.
+            </p>
+          </div>
+
+          <div className="serviceBox" style={{ userSelect: 'none' }}>
+            <img
+              className="img-hover"
+              src={process.env.PUBLIC_URL + '/images/Plug.png'}
+              alt=""
+            />
+            <img
+              className="img-normal"
+              src={process.env.PUBLIC_URL + '/images/Plug-black.png'}
+              alt=""
+            />
+            <h3>State of the Art Facilities</h3>
+            <p>
+              Our state of the art facilities enable efficient, year-round production while maintaining the purity and productivity of our TECHNITUBER® seed (pre basic seed), setting us apart in the industry.
+            </p>
+          </div>
+          <div className="serviceBox" style={{ userSelect: 'none' }}>
+            <img
+              className="img-hover"
+              src={process.env.PUBLIC_URL + '/images/r&d.png'}
+              alt=""
+            />
+            <img
+              className="img-normal"
+              src={process.env.PUBLIC_URL + '/images/r&d-black.png'}
+              alt=""
+            />
+            <h3>R&D</h3>
+            <p>
+              Through our continuous R&D programme, the Company keeps on developing new high yielding, disease resistant and climate resilient varieties in all potato segments. This enables Technico to stay at the forefront to meet the evolving needs of farmers and Potato industry globally.
+            </p>
+          </div>
+
+
+          <div className="serviceBox" style={{ userSelect: 'none' }}>
+            <img
+              className="img-hover"
+              src={process.env.PUBLIC_URL + '/images/sustainfarm.png'}
+              alt=""
+            />
+            <img
+              className="img-normal"
+              src={process.env.PUBLIC_URL + '/images/sustainfarm-black.png'}
+              alt=""
+            />
+            <h3>Sustainable Farming</h3>
+            <p>
+              The company ensures efficient use of resources, reduces the environmental footprint in seed potato production, and promoting long-term sustainability through soil health conservation, minimizing pesticide use, and optimizing water usage, thereby, supporting resilient and eco-friendly Agri practices for future generations.
+            </p>
+          </div>
+
+          <div className="serviceBox" style={{ userSelect: 'none' }}>
+            <img
+              className="img-hover"
+              src={process.env.PUBLIC_URL + '/images/high-quality.png'}
+              alt=""
+            />
+            <img
+              className="img-normal"
+              src={process.env.PUBLIC_URL + '/images/high-quality-black.png'}
+              alt=""
+            />
+            <h3>High Quality Low Cost Seed</h3>
+            <p>
+              We ensure production of superior quality, virus-free, high-yielding, early-generation seed potatoes at affordable cost making it available even to the smallest farmers.
+            </p>
+          </div>
+
+
+
+
+
+          {/* <div className="serviceBox" style={{ userSelect: 'none' }}>
+        <img
+          className="img-hover"
+          src={process.env.PUBLIC_URL + '/images/precision.png'}
+          alt=""
+        />
+        <img 
+          className="img-normal"
+          src={process.env.PUBLIC_URL + '/images/precision-black.png'}
+          alt=""
+        />
+        <h3>Precision Farming </h3>
+        <p>
+          Through continuous R&amp;D, the company aims at developing new, more
+          efficient ways to multiply seed potatoes with high yielding disease
+          resistant and robust varieties in different segments. This commitment
+          to innovation enables Technico to stay at the forefront of the Potato
+          industry and meet the evolving needs of farmers and food producers
+          globally.
+        </p>
+      </div> */}
+        </div>
+      </div>
     
 
     <section className="fullwidth mx-auto globalpresence" id="presence">

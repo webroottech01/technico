@@ -5,6 +5,8 @@ import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import BannerTicker from '../../components/bannerticker/bannerticker';
 import { Link } from 'react-router';
 import { Helmet } from "react-helmet-async";
+import VideoPlayer from '../../components/videoplayer/videoplayer';
+// import HomeBanner from '../../components/homebanner/homebanner';
 
 const Home = () => (
   <>
@@ -14,7 +16,7 @@ const Home = () => (
     </Helmet>
 
     <div className="Home" data-testid="Home">
-
+      {/* <HomeBanner /> */}
       {/* HOME HEADER */}
       <div className="homeMainBanner" style={{ userSelect: 'none' }}>
         <div className="homeLogo text-center" style={{ userSelect: 'none' }}>
@@ -26,17 +28,17 @@ const Home = () => (
         <div className="homeNavMain d-flex justify-content-between align-items-center" style={{ userSelect: 'none' }}>
           <div className="homeleftMenu" style={{ userSelect: 'none' }}>
             <div className="text-center lefttext aboutMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/aboutLogo.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/aboutbannernew.png'} alt="" />
               <Link to="/about-us">About Us</Link>
             </div>
             <div className="text-center facilitiesMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/facilityImage.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/facilitiesnewbanner.png'} alt="" />
               <Link to="/facilities">Facilities</Link>
 
 
             </div>
             <div className="text-center lefttext testimonialsMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/varitiesImage.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/varietiesnewbanner.png'} alt="" />
               <Link to="/varieties">Varieties</Link>
 
 
@@ -47,16 +49,16 @@ const Home = () => (
           </div>
           <div className="homerightMenu" style={{ userSelect: 'none' }}>
             <div className="text-center righttext varietiesMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/businessImage.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/ourbusinessnewbanner.png'} alt="" />
               <Link to="/our-business">Our Business</Link>
 
             </div>
             <div className="text-center technituberMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/techImage.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/technitubernewbanner.png'} alt="" />
               <Link to="/technituber"> Technituber®</Link>
             </div>
             <div className="text-center righttext businessMenu" style={{ userSelect: 'none' }}>
-              <img src={process.env.PUBLIC_URL + '/images/testimonialImage.png'} alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/testimonialsnewbanner.png'} alt="" />
               <Link to="/testimonials">Testimonials</Link>
             </div>
           </div>
@@ -67,11 +69,13 @@ const Home = () => (
       <BannerTicker />
       {/* FIRST SECTION */}
       <div className="homeAbout" style={{ userSelect: 'none' }}>
-      <h2 className='homeabouttitle'>We Support the World to produce Responsible Food</h2>
+        <img src={process.env.PUBLIC_URL + '/images/testimonialsnewbanner.png'} />
+      <VideoPlayer />
+      {/* <h2 className='homeabouttitle'>We Support the World to produce Responsible Food</h2>
         <div className="row">
         
           <div className="col-md-7 homeStory" style={{ userSelect: 'none' }}>
-          {/* <h2>We Support the World to produce Responsible Food</h2> */}
+          
             <h2>Our Story</h2>
             <h3>With you Since 1999</h3>
             <p className="bigText">
@@ -103,11 +107,12 @@ const Home = () => (
             </p>
             <Link to="/facilities">Learn More</Link>
           </div>
-        </div>
+        </div> */}
+
       </div>
 
       {/* Our Business */}
-      <div className="businessSection" style={{ userSelect: 'none' }}>
+      {/* <div className="businessSection" style={{ userSelect: 'none' }}>
         <div className="businessInner" style={{ userSelect: 'none' }}>
           <h2>
             <span className="whiteColor">Our Business</span>
@@ -125,10 +130,10 @@ const Home = () => (
           </p>
           <Link to="/our-business">Learn More</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* makes Different */}
-      <div className="makeDifferentMain" style={{ userSelect: 'none' }}>
+      {/* <div className="makeDifferentMain" style={{ userSelect: 'none' }}>
         <div className="makesDifferentSection" style={{ userSelect: 'none' }}>
           <div className="makesDifferentInner" style={{ userSelect: 'none' }}>
 
@@ -250,9 +255,9 @@ const Home = () => (
           industry and meet the evolving needs of farmers and food producers
           globally.
         </p>
-      </div> */}
+      </div> 
         </div>
-      </div>
+      </div> */}
 
       <KeyFeatures />
 

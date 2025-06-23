@@ -24,6 +24,7 @@ const Header = () => {
   return (
     <header className={isSticky ? "sticky" : "non-sticky"} data-testid="header">
       <nav className="navbar navbar-expand-lg">
+        
         <div className="container-fluid justify-content-lg-center justify-content-between">
           {/* Mobile Logo */}
           <NavLink className="mobilelogo" to="/">
@@ -43,7 +44,17 @@ const Header = () => {
 
           {/* Navbar Items */}
           <div className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} id="navbarNavDropdown">
+          <div className="nav-item navlogo">
+          <NavLink className="navbar-brand m-0" to="/" onClick={(e) => e.preventDefault()}>
+                  <img src={process.env.PUBLIC_URL + "/images/LOGOdark.png"} alt="logo" />
+                </NavLink>
+                </div>
             <ul className="navbar-nav text-capitalize align-items-center">
+            <li className="nav-item navlogo">
+                {/* <NavLink className="navbar-brand m-0" to="/" onClick={(e) => e.preventDefault()}>
+                  <img src={process.env.PUBLIC_URL + "/images/LOGOdark.png"} alt="logo" />
+                </NavLink>  */}
+              </li>
               {[
                 { path: "/", label: "Home" },
                 { path: "/about-us", label: "About Us" },
@@ -58,11 +69,7 @@ const Header = () => {
               ))}
 
               {/* Centered Logo */}
-              <li className="nav-item navlogo">
-                <NavLink className="navbar-brand m-0" to="/" onClick={(e) => e.preventDefault()}>
-                  <img src={process.env.PUBLIC_URL + "/images/LOGO.png"} alt="logo" />
-                </NavLink>
-              </li>
+              
 
               {[
                 { path: "/technituber", label: "Technituber®" },
@@ -77,6 +84,17 @@ const Header = () => {
                 </li>
               ))}
             </ul>
+            <div className="sociallinks">
+                <a href="tel:1726619800">
+                <img src={process.env.PUBLIC_URL + "/images/20.Telephone.png"} alt="logo" />
+                </a>
+                <a href="#">
+                <img src={process.env.PUBLIC_URL + "/images/linkedin.png"} alt="logo" />
+                </a>
+                <a href="#">
+                <img src={process.env.PUBLIC_URL + "/images/instagramlogo.png"} alt="logo" />
+                </a>
+            </div>
           </div>
         </div>
       </nav>
