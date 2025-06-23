@@ -516,13 +516,14 @@
     height: 169px;
     // background: url(../../images/menuBG.png);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 0;
     flex-direction: row-reverse;
     gap: 6px;
     background-size: cover;
     background-repeat: no-repeat;
+    gap:10px;
     transition: all 0.5s linear;
     &:hover {
       // background: url(../../images/bggreentonew.png);
@@ -555,7 +556,7 @@
     height: 169px;
     // background: url(../../images/menuBG.png);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 0;
     flex-direction: row;
@@ -563,6 +564,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s linear;
+    gap:10px;
     &:hover {
       // background: url(../../images/bggreentonew.png);
       background-size: cover;
@@ -693,6 +695,8 @@
       background-position: center;
       .homeNavMain {
         max-width: 1280px;
+        padding-top: 140px;
+    padding-bottom: 90px;
       }
 
       .logoImage {
@@ -703,8 +707,8 @@
         width: 150px;
         height: 130px;
         img {
-          width: 35px;
-          height: 35px;
+          width: 70px;
+          height: 70px;
           object-fit: contain;
         }
       }
@@ -715,8 +719,8 @@
         width: 150px;
         height: 130px;
         img {
-          width: 35px;
-          height: 35px;
+          width: 70px;
+          height: 70px;
           object-fit: contain;
         }
       }
@@ -887,16 +891,16 @@
       background-position: center;
       .homeNavMain {
         max-width: 1070px;
-        padding-top: 60px;
-        padding-bottom: 100px;
+        padding-top: 110px;
+        padding-bottom: 60px;
       }
       .homeleftMenu {
         .text-center {
           width: 130px;
           height: 110px;
           img {
-            width: 25px;
-            height: 25px;
+            width: 60px;
+            height: 60px;
           }
         }
       }
@@ -905,8 +909,8 @@
           width: 130px;
           height: 110px;
           img {
-            width: 25px;
-            height: 25px;
+            width: 60px;
+            height: 60px;
           }
         }
       }

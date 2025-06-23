@@ -1,12 +1,14 @@
 .About {
   .about-welcome {
-    background-image: url(../../images/about-img.jpg);
+    background-image: url(../../images/about-img.webp);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 50% 100%;
+    background-size: 45% auto;
     padding-bottom: 130px;
     height: 100%;
-    padding: 20px;
+    padding: 70px 20px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
   .about-welcome h2 {
     font-size: 45px;
@@ -17,7 +19,7 @@
     max-width: 640px;
     width: 100%;
     list-style-type: none;
-    margin-bottom: 140px;
+    margin-bottom: 20px;
   }
   .about-green-box {
     background-color: #006a41;
@@ -33,6 +35,7 @@
   }
   .globalpresence {
     margin-bottom: 80px;
+    margin-top:40px;
     h2 {
       font-size: 45px;
     }
@@ -43,14 +46,24 @@
   .presencecountry {
     margin-top: 0;
     margin-bottom: 50px;
+    >h2{
+      font-size: 24px;
+    }
     .country-container h2 {
       margin-bottom: 0;
-      font-size: 32px;
+      font-size: 24px;
+    }
+    .country-container{
+      gap:30px;
+      p{
+        color:#656565;
+      }
     }
   }
   .ouroperations {
+    margin-bottom: 60px;
     h2 {
-      font-size: 45px;
+      font-size: 24px;
     }
     h6 {
       font-size: 24px;
@@ -80,7 +93,7 @@
     
   .makesDifferentSection {
     max-width: 730px;
-    padding-top: 313px;
+    padding-top: 250px;
     padding-left: 150px;
     margin: 0 auto;
   }
@@ -146,7 +159,7 @@
   .d-flex.serviceBoxMain {
     z-index: 99;
     position: relative;
-    padding: 65px 37px 20px 116px;
+    padding: 65px 37px 100px 116px;
     gap: 9.55px;
   }
 
@@ -230,7 +243,7 @@
       p {
         font-size: 16px;
         padding-right: 20px;
-        margin-bottom: 90px;
+        margin-bottom: 20px;
       }
       .list2 {
         font-size: 16px;
@@ -248,10 +261,10 @@
       gap: 25px !important;
       .country-container h2 {
         margin-bottom: 0;
-        font-size: 28px;
+        font-size: 20px;
       }
       h2 {
-        font-size: 35px;
+        font-size: 20px;
         img {
           width: 45px;
         }
@@ -337,6 +350,7 @@
     .presencecountry {
       gap: 20px !important;
       .country-container {
+        
         img {
           width: 30px;
           height: 30px;
@@ -345,6 +359,7 @@
           margin-bottom: 0;
           font-size: 24px;
         }
+
       }
     }
     .ouroperations {

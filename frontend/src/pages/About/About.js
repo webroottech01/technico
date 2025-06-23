@@ -1,10 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import AboutBanner from '../../components/AboutBanner/AboutBanner';
-import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
+// import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import './About.scss';
 import Sidesticks from '../../components/Sidesticks/Sidesticks';
 import { Helmet } from "react-helmet-async";
+import BannerTicker from '../../components/bannerticker/bannerticker';
 
 const countryData = [
   
@@ -20,6 +21,7 @@ const countryData = [
     name: "Australia", 
     description: "The corporate office is responsible for the Group's Strategic Business Development Initiatives, Financial Management and overall Global Operations Monitoring." 
   },
+  
 ];
 
 const About = () => {
@@ -49,32 +51,17 @@ const About = () => {
           
           <h2 className="d-green">Who are We ?</h2>
           <p>
-            
-Technico Agri Sciences Limited (Technico), a wholly owned subsidiary of ITC Limited (ITC), began its journey in 1999 with a vision to transform Potato through innovation and expertise. With its proprietory TECHNITUBER® Technology, Technico has redefined Potato Value Chain by delivering high yielding superior quality seed potatoes to the farmers thereby enhancing their income.
-<br /> 
-<br />
-Rooted in trust and driven by a commitment to deliver superior quality seed potatoes, Technico continues to lead the way in providing sustainable farming solutions, fostering growth and innovation across farming community in India and beyond.
-<br />
-<br />
-With a steadfast commitment to innovation and sustainability, Technico continues to support its parent company - ITC’s vision of strengthening farm-to-fork value chains and advancing the future of agriculture.
-<br />
-<br />
-Through its advanced TECHNITUBER® Technology, the Company accelerates seed multiplication, cutting the process by 3-4 years in comparison with traditional methods. This technology ensures superior seed quality, reduces pathogen exposure, and facilitates rapid introduction of new varieties. 
-<br />
-<br />
-We deliver end-to-end supply chain solutions for the production of high-quality early-
-generation seed potatoes, supporting sustainable economic growth within the global potato
-value chain. By utilizing TECHNITUBER® Technology and advancing climate-smart
-agricultural practices, we ensure the production of premium seed potatoes in an
-environmentally responsible manner.
+          <b>Technico Agri Sciences Limited</b>, a subsidiary of <b>ITC Limited</b>, is a pioneer in advanced seed potato production. Using our proprietary <b>TECHNITUBER® Technology</b>, we deliver virus-free, high-yielding, disease free seed potatoes that boost farmer income and productivity.
+          <br /><br />
+We offer end-to-end solutions in the seed potato value chain - driving sustainability, rapid multiplication and climate smart farming innovation, helping grow responsible food.
 
           </p>
 
         </div>
       </div>
-      <div className="about-green-box">
+      {/* <div className="about-green-box">
         <h2 className="text-light m-0">Cultivating Seed Potatoes Excellence Since 1999</h2>
-      </div>
+      </div> */}
     </section>
 {/* makes Different */}
 <div className="makeDifferentMain" style={{ userSelect: 'none' }}>
@@ -202,17 +189,17 @@ environmentally responsible manner.
       </div> */}
         </div>
       </div>
-    
+    <BannerTicker />
 
     <section className="fullwidth mx-auto globalpresence" id="presence">
       <h2 className="d-green">Global Presence</h2>
-      <img src={process.env.PUBLIC_URL + '/images/world-full.png'} style={{ width: '100%' }} alt="Global Presence" />
+      <img src={process.env.PUBLIC_URL + '/images/Isolation_Mode.webp'} style={{ width: '100%' }} alt="Global Presence" />
     </section>
 
     <section className="fullwidth mx-auto d-flex flex-column gap-5 presencecountry">
-    <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/pintechy.png'} /> Our Offices</h2>
+    <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/pintechynew.png'} /> Our Offices</h2>
       {countryData.map((country, index) => (
-        <div className="country-container d-flex flex-row gap-2" key={index}>
+        <div className="country-container d-flex flex-row" key={index}>
           <img 
             src={`${process.env.PUBLIC_URL}/images/${country.name}.png`} 
             alt={country.name} 
@@ -226,10 +213,12 @@ environmentally responsible manner.
       
       
     </section> 
+
     <div className='ouroperations fullwidth mx-auto' >
     <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/flagtechy.png'} /> our operations</h2> 
       <h6>Egypt, Saudi Arabia, Russia, Turkey, Senegal, Nepal, Pakistan etc.</h6>
     </div>
+    <BannerTicker />
 
     <section className="management container-xl mx-auto text-center" id="team">
     <h2 className="d-green mb-4">meet our management team</h2>
@@ -304,7 +293,5 @@ environmentally responsible manner.
   </>
 )};
 
-About.propTypes = {};
-About.defaultProps = {};
 
 export default About;

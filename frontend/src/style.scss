@@ -85,7 +85,7 @@ p {
   position: absolute;
   bottom: 0;
   text-align: center;
-  left: 275px;
+  right: 275px;
 }
 .page-info img {
   width: 100px;
@@ -399,7 +399,7 @@ img.dish-strip {
     }
   }
   .page-info {
-    left: 10px !important;
+    right: 10px !important;
     width: fit-content;
     padding: 15px 30px;
     img {

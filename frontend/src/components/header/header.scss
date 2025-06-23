@@ -119,7 +119,13 @@ header {
     &.sticky .navbar-brand img {
       height: auto;
     }
+    .sociallinks{
+      img{
+        width: 20px;
+      }
+    }
   }
+
 }
 @media only screen and (max-width: 768px) {
   header {
