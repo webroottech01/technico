@@ -60,7 +60,7 @@ const VideoPlayer = () => {
       style={{ width: "100%", maxWidth: "100%", cursor: "pointer" }}
     >
       <source
-        src={process.env.PUBLIC_URL + 'videos/Technico_Corporate_Video.mp4'}
+        src={process.env.PUBLIC_URL + '/videos/Technico_Corporate_Video.mp4'}
         type="video/mp4"
       />
       Your browser does not support the video tag.

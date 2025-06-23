@@ -33,7 +33,7 @@ const Facilities = () => {
         <p>By achieving up to 15 times the productivity of conventional minituber production methods, TECHNITUBER® technology enables the company to deliver competitively priced seeds 3-4 generations earlier, thus providing a substantial economic advantage. This process helps farmers and commercial partners achieve higher efficiency, faster turnaround, and improved crop yields, driving innovation in the seed potato industry.</p></div>
         <div className="col-lg-6 p-0">
         <video width="100%" controls autoPlay>
-                <source src={process.env.PUBLIC_URL + 'videos/facilityvideo.mp4'} type="video/webm" />
+                <source src={process.env.PUBLIC_URL + '/videos/facilityvideo.mp4'} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
         </div>
