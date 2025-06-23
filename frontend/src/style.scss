@@ -10,6 +10,18 @@ body {
   max-width: 2500px;
   margin: 0 auto;
 }
+.homepage header nav {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+} 
+.homepage header #navbarNavDropdown ul {
+  opacity: 0;
+}
+.homepage .sticky .navbar{
+  background: transparent;
+  box-shadow: none;
+}
 .slick-prev:before,
 .slick-next:before {
   color: #006a41;

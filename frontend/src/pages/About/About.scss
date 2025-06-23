@@ -69,6 +69,155 @@
       border-radius: 100%;
     }
   }
+  .makeDifferentMain {
+    background: url(../../images/doctor.jpg);
+    width: 100%;
+    max-width: 1920px;
+    margin: 50px auto 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    
+  .makesDifferentSection {
+    max-width: 730px;
+    padding-top: 313px;
+    padding-left: 150px;
+    margin: 0 auto;
+  }
+
+  .makesDifferentSection:before {
+    position: absolute;
+    content: "What makes us different";
+    color: #2f7214;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    transform: rotate(90deg);
+    right: 63px;
+    text-underline-offset: 10px;
+    text-decoration: 4px underline;
+  }
+
+  // .makesDifferentSection:after {
+  //     position: absolute;
+  //     content: '';
+
+  // }
+
+  .makesDifferentSection ul li {
+    color: #367d16;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+  }
+
+  .makesDifferentSection h2 {
+    color: #006a41;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    /* 70.4px */
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+  }
+
+  .makesDifferentSection p {
+    color: #848484;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.4px;
+    margin-top: 11px !important;
+  }
+  
+  .d-flex.serviceBoxMain {
+    z-index: 99;
+    position: relative;
+    padding: 65px 37px 20px 116px;
+    gap: 9.55px;
+  }
+
+  .serviceBox {
+    border-top: 8.6px solid #fcf0b5;
+    border-radius: 9.552px;
+    background: #006a41;
+    box-shadow: 3.821px 3.821px 3.821px 0px rgba(0, 0, 0, 0.12);
+    padding: 31.52px 21.97px 40px;
+    transition: 0.8s ease all;
+    width: 19%;
+  }
+
+  .serviceBox:hover {
+    border-top: 8.6px solid #fcf0b5;
+    background: #fff;
+  }
+
+  .serviceBox h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.458px;
+    text-transform: uppercase;
+    transition: 0.8s ease all;
+    margin-bottom: 6.69px !important;
+  }
+
+  .serviceBox:hover h3 {
+    color: #000;
+  }
+
+  .serviceBox p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.248px;
+    transition: 0.8s ease all;
+    margin: 15px 0px 25px;
+  }
+
+  .serviceBox:hover p {
+    color: #000;
+  }
+
+  .serviceBox img.img-normal {
+    display: none;
+    margin-bottom: 28.66px;
+    transition: 0.8s ease all;
+  }
+
+  .serviceBox:hover img.img-normal {
+    display: block;
+    margin-bottom: 28.66px;
+  }
+
+  .serviceBox img.img-hover {
+    margin-bottom: 28.66px;
+    transition: 0.8s ease all;
+  }
+
+  .serviceBox:hover img.img-hover {
+    display: none;
+  }
+  }
 }
 
 @media (max-width: 1540px) {

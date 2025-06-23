@@ -101,9 +101,9 @@ environmentally responsible manner.
               src={process.env.PUBLIC_URL + '/images/innovative-black.png'}
               alt=""
             />
-            <h3>Innovative Technology</h3>
+            <h3>Sustainable Farming</h3>
             <p>
-              We leverage award winning TECHNITUBER® Technology for accelerating production of new varieties making them available to the market in a less time frame at cost-competitive price.
+            Practices reduce pesticide use, save water, and preserve soil health.
             </p>
           </div>
 
@@ -118,9 +118,9 @@ environmentally responsible manner.
               src={process.env.PUBLIC_URL + '/images/Plug-black.png'}
               alt=""
             />
-            <h3>State of the Art Facilities</h3>
+            <h3>Focused R&D</h3>
             <p>
-              Our state of the art facilities enable efficient, year-round production while maintaining the purity and productivity of our TECHNITUBER® seed (pre basic seed), setting us apart in the industry.
+            Develops high-yielding, climate-resilient, and disease-tolerant varieties.
             </p>
           </div>
           <div className="serviceBox" style={{ userSelect: 'none' }}>
@@ -134,9 +134,9 @@ environmentally responsible manner.
               src={process.env.PUBLIC_URL + '/images/r&d-black.png'}
               alt=""
             />
-            <h3>R&D</h3>
+            <h3>Cost-Effective Quality</h3>
             <p>
-              Through our continuous R&D programme, the Company keeps on developing new high yielding, disease resistant and climate resilient varieties in all potato segments. This enables Technico to stay at the forefront to meet the evolving needs of farmers and Potato industry globally.
+            Seeds that are virus-free, high performing, and affordable for all farmers.
             </p>
           </div>
 
@@ -152,9 +152,9 @@ environmentally responsible manner.
               src={process.env.PUBLIC_URL + '/images/sustainfarm-black.png'}
               alt=""
             />
-            <h3>Sustainable Farming</h3>
+            <h3>Advanced Production Facilities</h3>
             <p>
-              The company ensures efficient use of resources, reduces the environmental footprint in seed potato production, and promoting long-term sustainability through soil health conservation, minimizing pesticide use, and optimizing water usage, thereby, supporting resilient and eco-friendly Agri practices for future generations.
+            Ensure consistent, year-round supply of disease-free, pure seed potatoes.
             </p>
           </div>
 
@@ -169,9 +169,9 @@ environmentally responsible manner.
               src={process.env.PUBLIC_URL + '/images/high-quality-black.png'}
               alt=""
             />
-            <h3>High Quality Low Cost Seed</h3>
+            <h3>TECHNITUBER® Technology</h3>
             <p>
-              We ensure production of superior quality, virus-free, high-yielding, early-generation seed potatoes at affordable cost making it available even to the smallest farmers.
+            Enables rapid multiplication and faster delivery of new potato varieties.
             </p>
           </div>
 
