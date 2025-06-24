@@ -194,7 +194,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
     <section className="fullwidth mx-auto globalpresence" id="presence">
       <h2 className="d-green">Global Presence</h2>
-      <img src={process.env.PUBLIC_URL + '/images/Isolation_Mode.webp'} style={{ width: '100%' }} alt="Global Presence" />
+      <img src={process.env.PUBLIC_URL + '/images/Isolation_Mode.webp'} alt="Global Presence" className='mx-auto d-block'/>
     </section>
 
     <section className="fullwidth mx-auto d-flex flex-column gap-5 presencecountry">

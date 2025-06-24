@@ -42,6 +42,7 @@
     }
     img {
       margin-top: 50px;
+      width: 80%;
     }
   }
   .presencecountry {
@@ -348,6 +349,10 @@
         }
       }
     }
+    .country-container p {
+      color: #000;
+      font-size: 16px;
+  }
   }
   
 }
