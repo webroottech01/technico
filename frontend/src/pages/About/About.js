@@ -11,15 +11,15 @@ const countryData = [
   
   { 
     name: "India", 
-    description: "Technico Agri Sciences Limited is located in India. The company operates TECHNITUBER® seed production facilities in Manpura, Himachal Pradesh and Raipur Rani, Haryana. Additionally, its Business Development, Marketing, Sales, and Administration office is situated in Chandigarh City, Union Territory. Technico offers a range of products, including Tissue Culture, TECHNITUBER® seed potatoes and Field Generation seed potatoes, ensuring the supply of high-quality, disease-free seed potatoes for farmers." 
+    description: "Technico operates two TECHNITUBER® seed production facilities in India: Manpura (Himachal Pradesh) and Raipur Rani (Haryana). The Corporate Office for Business Development, Marketing, Sales, and Administration is based in Chandigarh (Union Territory)." 
   },
   { 
     name: "China", 
-    description: "TECHNITUBER® seed production facility located in Yanglin, Yunnan Province. Technico Business Development, Marketing, Sales and Administration office located in Kunming City, Yunnan Province.Products:- Tissue Culture, TECHNITUBER® seed potatoes." 
+    description: "Technico's third TECHNITUBER® production facility is located in Yanglin, Yunnan Province, with the Business Development and Sales Office in Kunming City, Yunnan." 
   },
   { 
     name: "Australia", 
-    description: "The corporate office is responsible for the Group's Strategic Business Development Initiatives, Financial Management and overall Global Operations Monitoring." 
+    description: "The Corporate Headquarters oversees Strategic Business Development, Financial Management, and Global Operations for the Technico Group." 
   },
   
 ];
@@ -40,7 +40,7 @@ const About = () => {
       <meta name="description" content="Learn about Technico's mission to revolutionize agriculture through cutting-edge biotechnology, our vision for the future, and our commitment to sustainability." />
     </Helmet>
   <Sidesticks sections={sections} />
-  <AboutBanner pageTitle="About Us" titleImage="/images/about-logo.png"/>
+  <AboutBanner pageTitle="About Us" titleImage="/images/aboutbannernew.png"/>
   
   <div className="About" data-testid="About">
 
@@ -74,17 +74,18 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
             </h2>
 
           </div>
+          <p>We combine cutting-edge agri-technology with a deep-rooted commitment to quality, sustainability, and innovation—empowering farmers with reliable, high-performance seed solutions.</p>
         </div>
 
         <div className="d-flex serviceBoxMain">
           <div className="serviceBox" style={{ userSelect: 'none' }}>
             <img
-              className="img-hover"
+              className="img-normal"
               src={process.env.PUBLIC_URL + '/images/innovative.png'}
               alt=""
             />
             <img
-              className="img-normal"
+              className="img-hover"
               src={process.env.PUBLIC_URL + '/images/innovative-black.png'}
               alt=""
             />
@@ -96,12 +97,12 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
           <div className="serviceBox" style={{ userSelect: 'none' }}>
             <img
-              className="img-hover"
+              className="img-normal"
               src={process.env.PUBLIC_URL + '/images/Plug.png'}
               alt=""
             />
             <img
-              className="img-normal"
+              className="img-hover"
               src={process.env.PUBLIC_URL + '/images/Plug-black.png'}
               alt=""
             />
@@ -112,12 +113,12 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
           </div>
           <div className="serviceBox" style={{ userSelect: 'none' }}>
             <img
-              className="img-hover"
+              className="img-normal"
               src={process.env.PUBLIC_URL + '/images/r&d.png'}
               alt=""
             />
             <img
-              className="img-normal"
+              className="img-hover"
               src={process.env.PUBLIC_URL + '/images/r&d-black.png'}
               alt=""
             />
@@ -130,12 +131,12 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
           <div className="serviceBox" style={{ userSelect: 'none' }}>
             <img
-              className="img-hover"
+              className="img-normal"
               src={process.env.PUBLIC_URL + '/images/sustainfarm.png'}
               alt=""
             />
             <img
-              className="img-normal"
+              className="img-hover"
               src={process.env.PUBLIC_URL + '/images/sustainfarm-black.png'}
               alt=""
             />
@@ -147,12 +148,12 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
           <div className="serviceBox" style={{ userSelect: 'none' }}>
             <img
-              className="img-hover"
+              className="img-normal"
               src={process.env.PUBLIC_URL + '/images/high-quality.png'}
               alt=""
             />
             <img
-              className="img-normal"
+              className="img-hover"
               src={process.env.PUBLIC_URL + '/images/high-quality-black.png'}
               alt=""
             />
@@ -168,7 +169,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
           {/* <div className="serviceBox" style={{ userSelect: 'none' }}>
         <img
-          className="img-hover"
+          className="img-normal"
           src={process.env.PUBLIC_URL + '/images/precision.png'}
           alt=""
         />
@@ -210,19 +211,28 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
           </div>
         </div>
       ))}
-      
+      <div className="country-container d-flex flex-row ouroperationslast">
+          <img 
+            src={process.env.PUBLIC_URL + '/images/flagtechy.png'}
+            alt="our operations"
+          />
+          <div className="d-flex flex-column gap-2">
+            <h2 className="d-green m-0 fw-semibold">our operations</h2>
+            <p className="m-0">Technico has established a strong international footprint, operating in key agricultural markets across Egypt, Saudi Arabia, Russia, Turkey, Senegal, Nepal, Pakistan, and more.</p>
+          </div>
+        </div>
       
     </section> 
 
-    <div className='ouroperations fullwidth mx-auto' >
+    {/* <div className='ouroperations fullwidth mx-auto' >
     <h2 className="d-green"><img src={process.env.PUBLIC_URL + '/images/flagtechy.png'} /> our operations</h2> 
-      <h6>Egypt, Saudi Arabia, Russia, Turkey, Senegal, Nepal, Pakistan etc.</h6>
-    </div>
+      <p>Technico has established a strong international footprint, operating in key agricultural markets across Egypt, Saudi Arabia, Russia, Turkey, Senegal, Nepal, Pakistan, and more.</p>
+    </div> */}
     <BannerTicker />
 
-    <section className="management container-xl mx-auto text-center" id="team">
-    <h2 className="d-green mb-4">meet our management team</h2>
-    <div className="row pt-5">
+    <section className="management fullwidth  mx-auto text-center row" id="team">
+    <h2 className="d-green mb-4 col-12">meet our<br/> management team</h2>
+    <div className="row pt-5 col-md-7 managmentsec">
         <div className="col-lg-12 text-center d-flex flex-column justify-content-center">
             <h2 className="d-green mb-0">board of directors</h2>    
             <div className="position-relative col-md-4 col-sm-6 col-12 mt-5 mx-auto">
@@ -256,7 +266,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
             </div>
         </div>
     </div>
-    <div className="row pt-5 mt-5 justify-content-center">
+    <div className="row pt-5 justify-content-center col-md-5 executivesec">
         <div className="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
             <h2 className="d-green mb-0">Executive <br />Management Committee</h2>
         </div>

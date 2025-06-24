@@ -104,6 +104,13 @@ header {
 /** Responsive **/
 @media only screen and (max-width: 1540px) {
   header {
+    li.nav-item.navlogo {
+      display: none;
+  }
+  #navbarNavDropdown ul {
+    min-height: 40px;
+    gap: 10px;
+  }
     li.nav-item {
       width: 11%;
       text-align: center;
