@@ -255,7 +255,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
     </div> */}
     <BannerTicker />
 
-    <section className="management fullwidth  mx-auto text-center row" id="team">
+    <section className="management fullwidth  mx-auto text-center row" id="team" ref={managementRef}>
     <h2 className="d-green mb-4 col-12">meet our management team</h2>
     <div className="row pt-5 col-md-7 managmentsec">
         <div className="col-lg-12 text-center d-flex flex-column justify-content-center">
