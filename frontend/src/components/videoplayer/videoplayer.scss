@@ -1,1 +1,4 @@
-.videoplayer {}
+video#my-video[controls="true"] {
+        position: relative;
+        z-index: 999;
+    }

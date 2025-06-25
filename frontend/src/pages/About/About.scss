@@ -96,7 +96,7 @@
     }
   }
   .makeDifferentMain {
-    background: url(../../images/doctor.jpg);
+    background: url(../../images/doctor.webp);
     width: 100%;
     max-width: 1920px;
     margin: 50px auto 0;
@@ -106,7 +106,7 @@
     
   .makesDifferentSection {
     max-width: 60%;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 10px;
     margin: 0 30px 0 auto;
   }
@@ -128,7 +128,7 @@
   .makesDifferentSection h2 {
     color: #006a41;
     font-family: Poppins;
-    font-size: 64px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 600;
     line-height: 110%;
@@ -136,7 +136,9 @@
     letter-spacing: -1.28px;
     text-transform: uppercase;
   }
-
+  .management-details.show-once {
+    display: block !important;
+  }
   .makesDifferentSection p {
     color: #000;
     font-family: Poppins;
@@ -290,7 +292,7 @@
       font-size: 18px;
   }
   > h2 {
-    font-size: 22px;
+    font-size: 30px;
 }
       .management-details {
         

@@ -500,9 +500,10 @@
 
   .homeNavMain {
     padding-top: 84px;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
     max-width: 1520px;
     margin: 0 auto;
+    flex-wrap: wrap;
   }
 
   .homeCenterMenu img {
@@ -510,7 +511,13 @@
     padding-right: 2%;
     padding-bottom: 5%;
   }
-
+  .homebannertagline {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: 'Oswald';
+}
   .homeleftMenu .text-center {
     width: 230px;
     height: 169px;
@@ -737,6 +744,10 @@
       .businessMenu::before {
         top: -2.2rem;
       }
+      .homebannertagline {
+        font-size: 26px;
+        margin-top: 20px;
+    }
     }
     .homeAbout {
       &::after {
@@ -891,8 +902,8 @@
       background-position: center;
       .homeNavMain {
         max-width: 1120px;
-        padding-top: 110px;
-        padding-bottom: 60px;
+        padding-top: 140px;
+        padding-bottom: 50px;
       }
       .homeleftMenu {
         .text-center {

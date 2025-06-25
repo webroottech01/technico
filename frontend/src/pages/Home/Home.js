@@ -9,6 +9,7 @@ import VideoPlayer from '../../components/videoplayer/videoplayer';
 // import HomeBanner from '../../components/homebanner/homebanner';
 
 const Home = () => (
+  
   <>
     <Helmet>
       <title>Technico Agri Sciences Ltd. - Innovative Agricultural Solutions</title>
@@ -62,6 +63,7 @@ const Home = () => (
               <Link to="/testimonials">Testimonials</Link>
             </div>
           </div>
+          <div className='col-12 homebannertagline'>Pioneering Seed Potato Technology</div>
         </div>
       </div>
 

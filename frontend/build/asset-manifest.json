@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://technicogroup.com/static/css/main.3c56035e.css",
-    "main.js": "https://technicogroup.com/static/js/main.bdf84515.js",
+    "main.css": "https://technicogroup.com/static/css/main.7bbcdd14.css",
+    "main.js": "https://technicogroup.com/static/js/main.fcbf1d40.js",
     "static/js/488.be3446bd.chunk.js": "https://technicogroup.com/static/js/488.be3446bd.chunk.js",
     "static/media/top-view-natural.png": "https://technicogroup.com/static/media/top-view-natural.badc96b62ad7bdd742d9.png",
     "static/media/footer.webp": "https://technicogroup.com/static/media/footer.37a0dfc0b0c5b7222c7a.webp",
@@ -9,6 +9,7 @@
     "static/media/potatoes.png": "https://technicogroup.com/static/media/potatoes.40bc095e72bbe7fc770f.png",
     "static/media/bannerhome1.webp": "https://technicogroup.com/static/media/bannerhome1.e3ae3ddceb2bec9b67c4.webp",
     "static/media/newaihomebanner.webp": "https://technicogroup.com/static/media/newaihomebanner.73c8fb4276909cad0b2f.webp",
+    "static/media/doctor.webp": "https://technicogroup.com/static/media/doctor.9e22423f5c7739474c69.webp",
     "static/media/homeLeading.jpg": "https://technicogroup.com/static/media/homeLeading.8663d6fd98823399c8ff.jpg",
     "static/media/about-img.webp": "https://technicogroup.com/static/media/about-img.df7d9004868a41a4669c.webp",
     "static/media/business-logo.png": "https://technicogroup.com/static/media/business-logo.30be6ea68fcf7da4ecee.png",
@@ -18,12 +19,12 @@
     "static/media/slick.ttf": "https://technicogroup.com/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "https://technicogroup.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://technicogroup.com/index.html",
-    "main.3c56035e.css.map": "https://technicogroup.com/static/css/main.3c56035e.css.map",
-    "main.bdf84515.js.map": "https://technicogroup.com/static/js/main.bdf84515.js.map",
+    "main.7bbcdd14.css.map": "https://technicogroup.com/static/css/main.7bbcdd14.css.map",
+    "main.fcbf1d40.js.map": "https://technicogroup.com/static/js/main.fcbf1d40.js.map",
     "488.be3446bd.chunk.js.map": "https://technicogroup.com/static/js/488.be3446bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c56035e.css",
-    "static/js/main.bdf84515.js"
+    "static/css/main.7bbcdd14.css",
+    "static/js/main.fcbf1d40.js"
   ]
 }

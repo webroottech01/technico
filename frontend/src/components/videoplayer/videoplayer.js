@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import './videoplayer.scss';
 
 const VideoPlayer = () => {
   const videoRef = useRef(null);

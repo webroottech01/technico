@@ -94,6 +94,9 @@ const Header = () => {
                 <a href="#">
                 <img src={process.env.PUBLIC_URL + "/images/instagramlogo.png"} alt="logo" />
                 </a>
+                <a href="#">
+                <img src={process.env.PUBLIC_URL + "/images/facebook.png"} alt="logo" />
+                </a>
             </div>
           </div>
         </div>

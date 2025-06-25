@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // import PropTypes from 'prop-types';
 import AboutBanner from '../../components/AboutBanner/AboutBanner';
 // import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
@@ -26,15 +26,40 @@ const countryData = [
 
 const About = () => {
   const sections = [
-    { id: 'whoweare', label: 'Who are we?', icon: '/images/about1.png' }, 
+    { id: 'whoweare', label: 'Who are we?', icon: '/images/about1.png' },
+    { id: 'makeDifferent', label: 'What Makes Us Different?', icon: '/images/makeDifferent.png' }, 
     { id: 'presence', label: 'Global Presence', icon: '/images/about2.png' },
     { id: 'team', label: 'Meet Our Team', icon: '/images/about3.png' },
   ]; 
 
+  const [showDetailsOnce, setShowDetailsOnce] = useState(false);
+  const managementRef = useRef(null);
 
-  return(
-  
-  <>
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShowDetailsOnce(true);
+          setTimeout(() => {
+            setShowDetailsOnce(false);
+          }, 5000);
+          observer.disconnect(); // run once
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (managementRef.current) {
+      observer.observe(managementRef.current);
+    }
+
+    return () => {
+      if (managementRef.current) observer.unobserve(managementRef.current);
+    };
+  }, []);
+
+  return (
+    <>
       <Helmet>
       <title>About Technico Agri Sciences Limited - Our Mission & Vision</title>
       <meta name="description" content="Learn about Technico's mission to revolutionize agriculture through cutting-edge biotechnology, our vision for the future, and our commitment to sustainability." />
@@ -64,7 +89,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
       </div> */}
     </section>
 {/* makes Different */}
-<div className="makeDifferentMain" style={{ userSelect: 'none' }}>
+<div className="makeDifferentMain" style={{ userSelect: 'none' }} id="makeDifferent">
         <div className="makesDifferentSection" style={{ userSelect: 'none' }}>
           <div className="makesDifferentInner" style={{ userSelect: 'none' }}>
 
@@ -231,13 +256,13 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
     <BannerTicker />
 
     <section className="management fullwidth  mx-auto text-center row" id="team">
-    <h2 className="d-green mb-4 col-12">meet our<br/> management team</h2>
+    <h2 className="d-green mb-4 col-12">meet our management team</h2>
     <div className="row pt-5 col-md-7 managmentsec">
         <div className="col-lg-12 text-center d-flex flex-column justify-content-center">
             <h2 className="d-green mb-0">board of directors</h2>    
             <div className="position-relative col-md-4 col-sm-6 col-12 mt-5 mx-auto">
             <img src={process.env.PUBLIC_URL + '/images/sshivkumar.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4>S. Sivakumar</h4>
                 <p>Chairman and Non-Executive Director</p>
             </div>
@@ -246,34 +271,34 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
         
         <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ashok.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4>Ashok Dharmarajan </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
         <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/ganesh-kumar.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4> Ganesh K Sundararaman </h4>
                 <p>Non-Executive Director</p>
             </div>
         </div>
         <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/kavita-chaturvedi.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4>Kavita Chaturvedi </h4>
                 <p> Non-Executive Director</p>
             </div>
         </div>
     </div>
     <div className="row pt-5 justify-content-center col-md-5 executivesec">
-        <div className="col-lg-9 text-start d-flex flex-column justify-content-center ms-5 p-0">
+        <div className="text-start d-flex flex-column justify-content-center p-0">
             <h2 className="d-green mb-0">Executive <br />Management Committee</h2>
         </div>
         <div className="position-relative col-md-12 mt-5 justify-content-center row">
         <div className="position-relative col-md-4 col-sm-6 col-12">
             <img src={process.env.PUBLIC_URL + '/images/NripendraJha.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4>Nripendra Kumar Jha </h4>
                 <p>Chairman and Chief Executive Officer</p>
             </div>
@@ -281,14 +306,14 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
         </div>
         <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/SurendraPalSingh.png'} alt="Management Member" />
-            <div className="management-details">
-                <h4>Surendra Pal Singh</h4>
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
+                <h4>S.P Singh</h4>
                 <p>Member and Vice President Supply Chain</p>
             </div>
         </div>
         <div className="position-relative col-md-4 col-sm-6 col-12 mt-5">
             <img src={process.env.PUBLIC_URL + '/images/sanjeevmadannv.png'} alt="Management Member" />
-            <div className="management-details">
+            <div className={`management-details ${showDetailsOnce ? 'show-once' : ''}`}>
                 <h4>Sanjeev Madan </h4>
                 <p>Member and Chief Financial Officer</p>
             </div>
@@ -301,7 +326,7 @@ We offer end-to-end solutions in the seed potato value chain - driving sustainab
 
   </div>
   </>
-)};
-
+  );
+};
 
 export default About;

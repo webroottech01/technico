@@ -37,7 +37,19 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
                 Our Core Values
               </h2>
               <p>
-                Technico’s core values are aimed at developing a customer centric, innovative, values ethics & integrity, trustworthy organisation with the guiding principle ‘Farmer first & people first’.
+              Technico’s core values are aimed at developing a customer centric, innovative, values ethics & integrity, trustworthy organisation with the guiding principle ‘Farmer first & people first’.
+              </p>
+
+            </div>
+          </div>
+          <div>
+            <img src={process.env.PUBLIC_URL + '/images/banner12.png'} />
+            <div className='visionandfuture container-xs'>
+              <h2>
+                Mission
+              </h2>
+              <p>
+              To drive sustainable and profitable business growth by fostering sustainable economic development in the global potato value chain utilising TECHNITUBER® technology and advancing climate-smart agricultural practices.
               </p>
 
             </div>
@@ -48,12 +60,10 @@ const CommonBanner = ({ pageTitle, titleImage }) => (
               <h2>
                 Vision
               </h2>
-              <h3>
-                Our dream of the future
-              </h3>
+              
               <p>
 
-                To be a leading global Agri value chain player, delivering innovative solutions for climate smart agriculture for farming community, contributing to global food & nutrition security and  enhancing value for all stakeholders.
+              We help grow responsible food
               </p>
 
             </div>
