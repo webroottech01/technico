@@ -35,18 +35,19 @@ const About = () => {
   const [showDetailsOnce, setShowDetailsOnce] = useState(false);
   const managementRef = useRef(null);
 
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setShowDetailsOnce(true);
+
           setTimeout(() => {
             setShowDetailsOnce(false);
-          }, 5000);
-          observer.disconnect(); // run once
+          }, 5000); // 5s = same as your animation
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.5 }
     );
 
     if (managementRef.current) {

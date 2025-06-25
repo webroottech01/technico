@@ -313,6 +313,24 @@ img.world-img {
   display: block;
   opacity: 1;
 }
+@keyframes fadeUpDown {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
 .management-details {
   background-color: #fff;
   width: 86%;
@@ -324,7 +342,7 @@ img.world-img {
   margin: 0 !important;
   display: none;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  animation: fadeUpDown 5s ease forwards;
 }
 .management-details.show-once {
   display: block !important;

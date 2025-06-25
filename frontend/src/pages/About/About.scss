@@ -136,9 +136,7 @@
     letter-spacing: -1.28px;
     text-transform: uppercase;
   }
-  .management-details.show-once {
-    display: block !important;
-  }
+
   .makesDifferentSection p {
     color: #000;
     font-family: Poppins;
@@ -309,9 +307,9 @@
       margin: 30px auto 0;
       background-size: 35% 100%;
       .makesDifferentSection {
-        padding-top: 160px;
+        padding-top: 110px;
         h2 {
-          font-size: 40px;
+          font-size: 35px;
         }
         p{
           font-size: 16px;
