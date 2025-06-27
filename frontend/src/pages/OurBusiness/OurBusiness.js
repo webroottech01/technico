@@ -49,7 +49,7 @@ const OurBusiness = () => {
     </Helmet>
     <Sidesticks sections={sections} />
   
-    <CommonBanner pageTitle="Our Business" titleImage="/images/ourbusinesslogo.png"/>
+    <CommonBanner pageTitle="Our Business" titleImage="/images/ourbusinessnewbanner.png"/>
     
   <div className="OurBusiness" data-testid="OurBusiness">
 
