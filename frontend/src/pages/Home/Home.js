@@ -7,6 +7,7 @@ import { Link } from 'react-router';
 import { Helmet } from "react-helmet-async";
 import VideoPlayer from '../../components/videoplayer/videoplayer';
 // import HomeBanner from '../../components/homebanner/homebanner';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => (
   
@@ -63,7 +64,18 @@ const Home = () => (
               <Link to="/testimonials">Testimonials</Link>
             </div>
           </div>
-          <div className='col-12 homebannertagline'>Pioneering Seed Potato Technology</div>
+          <div className="col-12 homebannertagline">
+      <Typewriter
+        words={['Pioneering Seed Potato Technology']}
+        loop={0}
+        cursor
+        cursorStyle="|"
+        typeSpeed={30}
+        deleteSpeed={80}
+        delaySpeed={1000}
+      />
+    </div>
+          {/* <div className='col-12 homebannertagline'>Pioneering Seed Potato Technology</div> */}
         </div>
       </div>
 
