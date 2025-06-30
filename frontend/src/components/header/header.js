@@ -58,7 +58,7 @@ const Header = () => {
               {[
                 { path: "/", label: "Home" },
                 { path: "/about-us", label: "About Us" },
-                { path: "/our-business", label: "Our Business" },
+                { path: "/our-business", label: "Our Businesses" },
                 { path: "/facilities", label: "Facilities" },
               ].map(({ path, label }) => (
                 <li className="nav-item" key={path}>

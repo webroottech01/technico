@@ -47,12 +47,12 @@ const Home = () => (
             </div>
           </div>
           <div className="homeCenterMenu">
-            <img src={process.env.PUBLIC_URL + '/images/menu-center.png'} alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/menu-center33.png'} alt="" />
           </div>
           <div className="homerightMenu" style={{ userSelect: 'none' }}>
             <div className="text-center righttext varietiesMenu" style={{ userSelect: 'none' }}>
               <img src={process.env.PUBLIC_URL + '/images/ourbusinessnewbanner.png'} alt="" />
-              <Link to="/our-business">Our Business</Link>
+              <Link to="/our-business">Our Businesses</Link>
 
             </div>
             <div className="text-center technituberMenu" style={{ userSelect: 'none' }}>
@@ -65,16 +65,8 @@ const Home = () => (
             </div>
           </div>
           <div className="col-12 homebannertagline">
-      <Typewriter
-        words={['Pioneering Seed Potato Technology']}
-        loop={0}
-        cursor
-        cursorStyle="|"
-        typeSpeed={30}
-        deleteSpeed={80}
-        delaySpeed={1000}
-      />
-    </div>
+          Pioneering Seed Potato Technology
+        </div>
           {/* <div className='col-12 homebannertagline'>Pioneering Seed Potato Technology</div> */}
         </div>
       </div>

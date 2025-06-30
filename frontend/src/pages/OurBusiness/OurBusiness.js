@@ -13,7 +13,7 @@ const OurBusiness = () => {
       { id: 'earlycom', label: 'COMMERCIAL POTATOES', icon: '/images/about2.png' },
     ]; 
   
-    const [active, setActive] = useState('earlygeneration');
+    const [active, setActive] = useState(null);
 
     const othersections = [
       {
@@ -44,7 +44,7 @@ const OurBusiness = () => {
     
     <>
     <Helmet>
-      <title>Our Business – Technico's Agricultural Innovations</title>
+      <title>Our Businesses – Technico's Agricultural Innovations</title>
       <meta name="description" content="Explore Technico's diverse business ventures, including advanced seed technology, crop management solutions, and partnerships that drive agricultural innovation." />
     </Helmet>
     <Sidesticks sections={sections} />
@@ -57,7 +57,7 @@ const OurBusiness = () => {
 <section className="diginto businessMain container">
 <div className='row align-items-center'>
 <div className='col-md-8'>
-<h2 className="d-green">OUR BUSINESS</h2>
+<h2 className="d-green">OUR Businesses</h2>
     <p>Technico is engaged across the entire potato value chain—producing TECHNITUBER® (pre-basic seed) and early generation seed potatoes (G1–G3) for Table, French Fries, and Crisps segments.
     </p>
     <h6>
@@ -90,20 +90,25 @@ We supply:
       {othersections.map((sec) => (
         <div
           key={sec.id}
+          id={sec.id}
           className={`col-md-6 section ${active === sec.id ? 'active' : 'inactive'}`}
           onClick={() => setActive(sec.id)}
         >
           <div className="image-wrapper">
+            
+            <div className="label">{sec.label} <div className="newhover-hint">learn more</div></div>
             <img src={process.env.PUBLIC_URL + sec.image} alt={sec.label} />
-            <div className="label">{sec.label}</div>
-          </div>
-          <div className="desc-wrapper">
+            <div className="desc-wrapper">
             {active === sec.id && (
               <div className="description">
+                <h3>{sec.label}</h3>
                 <p>{sec.description}</p>
               </div>
             )}
           </div>
+            {/* <div className="hover-hint">Click to learn more</div> */}
+          </div>
+          
         </div>
       ))}
     </div>

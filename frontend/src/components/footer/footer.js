@@ -16,7 +16,7 @@ const Footer = () => (
                         <ul className="p-0" >
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about-us">About Us</Link></li>
-                            <li><Link to="/our-business">Our Business</Link></li>
+                            <li><Link to="/our-business">Our Businesses</Link></li>
                             <li><Link to="/facilities">Facilities</Link></li>
                             <li><Link to="/technituber">Technituber®</Link></li>
                             <li><Link to="/varieties">Varieties</Link></li>

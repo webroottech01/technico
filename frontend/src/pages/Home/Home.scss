@@ -495,13 +495,13 @@
     background: url(../../images/newaihomebanner.webp); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
   }
 
   .homeNavMain {
     padding-top: 84px;
     padding-bottom: 100px;
-    max-width: 1520px;
+    max-width: 1550px;
     margin: 0 auto;
     flex-wrap: wrap;
   }
@@ -510,18 +510,44 @@
     width: 100%;
     padding-right: 2%;
     padding-bottom: 5%;
+    opacity: 0.25;
   }
+  // .homebannertagline {
+  //   background: 50% 100% / 50% 50% no-repeat
+  //               radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  //   -webkit-background-clip: text;
+  //   background-clip: text;
+  //   color: transparent;
+  //   font-size: 10vw;
+  //   font-family: "Source Sans Pro", sans-serif;
+  //   animation: reveal 3000ms ease-in-out forwards 200ms,
+  //              glow 2500ms linear infinite 2000ms;
+  
+  //   @keyframes reveal {
+  //     80%{
+  //       letter-spacing: 8px;
+  //     }
+  //     100% {
+  //       background-size: 300% 300%;
+  //     }
+  //   }
+  //   @keyframes glow {
+  //     40% {
+  //       text-shadow: 0 0 8px #fff;
+  //     }
+  //   }
+  // }  
   .homebannertagline {
     text-align: center;
     color: #fff;
     font-size: 35px;
-    font-family: "Martabat";
-    letter-spacing: 2px;
-    font-weight: 600;
+    font-family: "Playwrite US Trad";
+    // letter-spacing: 2px;
+    font-weight: 400;
     
 }
   .homeleftMenu .text-center {
-    width: 230px;
+    width: 245px;
     height: 169px;
     // background: url(../../images/menuBG.png);
     display: flex;
@@ -561,7 +587,7 @@
   }
 
   .homerightMenu .text-center {
-    width: 230px;
+    width: 245px;
     height: 169px;
     // background: url(../../images/menuBG.png);
     display: flex;
@@ -629,7 +655,7 @@
   .aboutMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/aboutMenu.png);
+    background: url(../../images/varietiesMenu2.png);
     width: 353px;
     height: 75px;
     background-size: cover;
@@ -639,7 +665,7 @@
   .varietiesMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/varietiesMenu.png);
+    background: url(../../images/varietiesMenu1.png);
     width: 371px;
     height: 75px;
     background-size: cover;
@@ -652,9 +678,9 @@
   .facilitiesMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/straightLine.png);
+    background: url(../../images/straightLine1.png);
     width: 332px;
-    height: 7px;
+    height: 3px;
     background-size: cover;
     left: 99%;
     top: 48%;
@@ -665,9 +691,9 @@
   .technituberMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/straightLine.png);
+    background: url(../../images/straightLine1.png);
     width: 343px;
-    height: 7px;
+    height: 3px;
     background-size: cover;
     right: 99%;
     top: 48%;
@@ -676,7 +702,7 @@
   .testimonialsMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/testimonialmenu.png);
+    background: url(../../images/aboutMenu22.png);
     width: 331px;
     height: 106px;
     background-size: cover;
@@ -687,7 +713,7 @@
   .businessMenu::before {
     position: absolute;
     content: "";
-    background: url(../../images/businessMenu.png);
+    background: url(../../images/aboutMenu1.png);
     width: 331px;
     height: 106px;
     background-size: cover;
@@ -903,7 +929,7 @@
     .homeMainBanner {
       background-position: center;
       .homeNavMain {
-        max-width: 1120px;
+        max-width: 1130px;
         padding-top: 140px;
         padding-bottom: 50px;
       }
@@ -919,7 +945,7 @@
       }
       .homerightMenu {
         .text-center {
-          width: 151px;
+          width: 165px;
           height: 110px;
           img {
             width: 70px;
@@ -933,7 +959,7 @@
       }
       .facilitiesMenu::before {
         width: 287px;
-        height: 5px;
+        height: 2px;
       }
       .testimonialsMenu::before {
         width: 280px;
@@ -944,8 +970,8 @@
         height: 60px;
       }
       .technituberMenu::before {
-        width: 287px;
-        height: 5px;
+        width: 290px;
+        height: 2px;
       }
       .businessMenu::before {
         width: 275px;
