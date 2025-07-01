@@ -8,6 +8,6 @@ Disallow:
 User-agent: Slurp
 Disallow: 
 User-agent: *
-Disallow: 
+Disallow: /backend
 Disallow: /cgi-bin/
-Sitemap: https://technicogroup.com/
+Sitemap: https://technicogroup.com/sitemap.xml

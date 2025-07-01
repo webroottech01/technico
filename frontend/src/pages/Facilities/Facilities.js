@@ -18,7 +18,7 @@ const Facilities = () => {
       <title>TECHNITUBER® | Technology | Manpura | Raipur Rani Facility</title>
       <meta name="description" content="Discover our cutting-edge research and development facilities, equipped with modern technology to support our agricultural biotechnology initiatives." />
     </Helmet>
-  <Reusebanner pageTitle="Facilities" titleImage="/images/facilitieslogo.png" sliderImages={sliderImages}/>
+  <Reusebanner pageTitle="Facilities" titleImage="/images/facilitiesnewbanner.png" sliderImages={sliderImages}/>
   <div className="Facilities" data-testid="Facilities">
 
 <section className="section1 container-fluid mx-auto position-relative mb-0">

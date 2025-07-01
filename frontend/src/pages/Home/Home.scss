@@ -540,8 +540,8 @@
   .homebannertagline {
     text-align: center;
     color: #fff;
-    font-size: 35px;
-    font-family: "Playwrite US Trad";
+    font-size: 45px;
+    font-family: "Breathing";
     // letter-spacing: 2px;
     font-weight: 400;
     
@@ -748,7 +748,7 @@
         }
       }
       .homeNavMain a {
-        font-size: 10px;
+        font-size: 12px;
       }
       .homerightMenu .text-center {
         width: 150px;
@@ -773,7 +773,7 @@
         top: -2.2rem;
       }
       .homebannertagline {
-        font-size: 26px;
+        font-size: 30px;
         margin-top: 20px;
     }
     }
@@ -927,9 +927,9 @@
 @media only screen and (max-width: 1366px) {
   .Home {
     .homeMainBanner {
-      background-position: center;
+      background-position: top;
       .homeNavMain {
-        max-width: 1130px;
+        max-width: 1150px;
         padding-top: 140px;
         padding-bottom: 50px;
       }
@@ -938,18 +938,18 @@
           width: 151px;
           height: 110px;
           img {
-            width: 70px;
-            height: 70px;
+            width: 65px;
+            height: 65px;
           }
         }
       }
       .homerightMenu {
         .text-center {
-          width: 165px;
+          width: 175px;
           height: 110px;
           img {
-            width: 70px;
-            height: 70px;
+            width: 65px;
+            height: 65px;
           }
         }
       }

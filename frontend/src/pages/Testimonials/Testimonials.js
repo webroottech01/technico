@@ -59,7 +59,7 @@ const Testimonials = () => {
       <meta name="description" content="Explore the working experience of our reputed partners with us. We are highly obliged to work with them. Looking forward to seeing you added to our family." /> 
     </Helmet>
     <div className="Testimonials" data-testid="Testimonials">
-      <Reusebanner pageTitle="Testimonials" titleImage="/images/testimoniallogo.png"  sliderImages={sliderImages}/>
+      <Reusebanner pageTitle="Testimonials" titleImage="/images/testimonialsnewbanner.png"  sliderImages={sliderImages}/>
 
       {/* <BannerTicker /> */}
 

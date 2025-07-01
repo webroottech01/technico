@@ -49,7 +49,7 @@ const OurBusiness = () => {
     </Helmet>
     <Sidesticks sections={sections} />
   
-    <CommonBanner pageTitle="Our Business" titleImage="/images/ourbusinessnewbanner.png"/>
+    <CommonBanner pageTitle="Our Businesses" titleImage="/images/ourbusinessnewbanner.png"/>
     
   <div className="OurBusiness" data-testid="OurBusiness">
 
@@ -87,31 +87,32 @@ We supply:
 
 
 <div className="interactive-business row no-gutters" id="earlycom">
-      {othersections.map((sec) => (
-        <div
-          key={sec.id}
-          id={sec.id}
-          className={`col-md-6 section ${active === sec.id ? 'active' : 'inactive'}`}
-          onClick={() => setActive(sec.id)}
-        >
-          <div className="image-wrapper">
-            
-            <div className="label">{sec.label} <div className="newhover-hint">learn more</div></div>
-            <img src={process.env.PUBLIC_URL + sec.image} alt={sec.label} />
-            <div className="desc-wrapper">
-            {active === sec.id && (
-              <div className="description">
-                <h3>{sec.label}</h3>
-                <p>{sec.description}</p>
-              </div>
-            )}
-          </div>
-            {/* <div className="hover-hint">Click to learn more</div> */}
-          </div>
-          
+  {othersections.map((sec) => (
+    <div
+      key={sec.id}
+      id={sec.id}
+      className={`col-md-6 section ${active === sec.id ? 'active' : 'inactive'}`}
+      onClick={() => setActive(active === sec.id ? null : sec.id)}
+    >
+      <div className="image-wrapper">
+        <div className="label">
+          {sec.label}
+          <div className="newhover-hint">learn more</div>
         </div>
-      ))}
+        <img src={process.env.PUBLIC_URL + sec.image} alt={sec.label} />
+        <div className="desc-wrapper">
+          {active === sec.id && (
+            <div className="description">
+              <h3>{sec.label}</h3>
+              <p>{sec.description}</p>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
+  ))}
+</div>
+
 
 
 

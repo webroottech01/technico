@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "https://technicogroup.com/static/css/main.3dc18152.css",
-    "main.js": "https://technicogroup.com/static/js/main.84b2bafe.js",
+    "main.css": "https://technicogroup.com/static/css/main.677e7186.css",
+    "main.js": "https://technicogroup.com/static/js/main.fbe32e8f.js",
     "static/js/488.be3446bd.chunk.js": "https://technicogroup.com/static/js/488.be3446bd.chunk.js",
     "static/media/footer.webp": "https://technicogroup.com/static/media/footer.37a0dfc0b0c5b7222c7a.webp",
     "static/media/doctor.jpg": "https://technicogroup.com/static/media/doctor.7b2fabc1056dcaa5d00a.jpg",
+    "static/media/Breathing-Reg.woff": "https://technicogroup.com/static/media/Breathing-Reg.f1922e3895e63e89876d.woff",
     "static/media/potatoes.png": "https://technicogroup.com/static/media/potatoes.40bc095e72bbe7fc770f.png",
-    "static/media/newaihomebanner.webp": "https://technicogroup.com/static/media/newaihomebanner.ceb9c79af86bdd3b0634.webp",
+    "static/media/Breathing-Reg.woff2": "https://technicogroup.com/static/media/Breathing-Reg.aac99f91309aa718d1d5.woff2",
     "static/media/bannerhome1.webp": "https://technicogroup.com/static/media/bannerhome1.e3ae3ddceb2bec9b67c4.webp",
     "static/media/PlaywriteUSTrad-Regular.woff": "https://technicogroup.com/static/media/PlaywriteUSTrad-Regular.be82be7becae4dbd6911.woff",
     "static/media/PlaywriteUSTrad-Regular.woff2": "https://technicogroup.com/static/media/PlaywriteUSTrad-Regular.73d9d5c9d8d44f337c89.woff2",
+    "static/media/newaihomebanner.webp": "https://technicogroup.com/static/media/newaihomebanner.4dca00f4bc86f506fed7.webp",
     "static/media/top-view-natural.webp": "https://technicogroup.com/static/media/top-view-natural.32ac5a7f5f32a368d2d8.webp",
     "static/media/Martabat.woff": "https://technicogroup.com/static/media/Martabat.b4644afae63895fc4237.woff",
     "static/media/doctor.webp": "https://technicogroup.com/static/media/doctor.9e22423f5c7739474c69.webp",
@@ -23,12 +25,12 @@
     "static/media/slick.ttf": "https://technicogroup.com/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "https://technicogroup.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://technicogroup.com/index.html",
-    "main.3dc18152.css.map": "https://technicogroup.com/static/css/main.3dc18152.css.map",
-    "main.84b2bafe.js.map": "https://technicogroup.com/static/js/main.84b2bafe.js.map",
+    "main.677e7186.css.map": "https://technicogroup.com/static/css/main.677e7186.css.map",
+    "main.fbe32e8f.js.map": "https://technicogroup.com/static/js/main.fbe32e8f.js.map",
     "488.be3446bd.chunk.js.map": "https://technicogroup.com/static/js/488.be3446bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dc18152.css",
-    "static/js/main.84b2bafe.js"
+    "static/css/main.677e7186.css",
+    "static/js/main.fbe32e8f.js"
   ]
 }

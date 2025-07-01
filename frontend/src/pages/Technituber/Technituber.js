@@ -20,7 +20,7 @@ const Technituber = () => {
       <meta name="description" content="Our Technituber is invented to revolutionise your seed production and procurement systems, registered with the Department of Biotechnology, Govt. of India." />
     </Helmet>
 
-      <Reusebanner pageTitle="TECHNITUBER® Seed" titleImage="/images/TECHNITUBER.png" sliderImages={sliderImages} />
+      <Reusebanner pageTitle="TECHNITUBER® Seed" titleImage="/images/technitubernewbanner.png" sliderImages={sliderImages} />
       <div className="Technituber" data-testid="Technituber">
         <section className="section1 container-fluid mx-auto position-relative">
 
