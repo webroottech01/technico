@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://technicogroup.com/static/css/main.677e7186.css",
+    "main.css": "https://technicogroup.com/static/css/main.0eb108cb.css",
     "main.js": "https://technicogroup.com/static/js/main.fbe32e8f.js",
     "static/js/488.be3446bd.chunk.js": "https://technicogroup.com/static/js/488.be3446bd.chunk.js",
     "static/media/footer.webp": "https://technicogroup.com/static/media/footer.37a0dfc0b0c5b7222c7a.webp",
@@ -11,13 +11,15 @@
     "static/media/bannerhome1.webp": "https://technicogroup.com/static/media/bannerhome1.e3ae3ddceb2bec9b67c4.webp",
     "static/media/PlaywriteUSTrad-Regular.woff": "https://technicogroup.com/static/media/PlaywriteUSTrad-Regular.be82be7becae4dbd6911.woff",
     "static/media/PlaywriteUSTrad-Regular.woff2": "https://technicogroup.com/static/media/PlaywriteUSTrad-Regular.73d9d5c9d8d44f337c89.woff2",
-    "static/media/newaihomebanner.webp": "https://technicogroup.com/static/media/newaihomebanner.4dca00f4bc86f506fed7.webp",
+    "static/media/newaihomebanner.webp": "https://technicogroup.com/static/media/newaihomebanner.2dc466ed704890e2a01f.webp",
     "static/media/top-view-natural.webp": "https://technicogroup.com/static/media/top-view-natural.32ac5a7f5f32a368d2d8.webp",
     "static/media/Martabat.woff": "https://technicogroup.com/static/media/Martabat.b4644afae63895fc4237.woff",
     "static/media/doctor.webp": "https://technicogroup.com/static/media/doctor.9e22423f5c7739474c69.webp",
     "static/media/Martabat.woff2": "https://technicogroup.com/static/media/Martabat.e208f9dba5bcf04940aa.woff2",
     "static/media/homeLeading.jpg": "https://technicogroup.com/static/media/homeLeading.8663d6fd98823399c8ff.jpg",
+    "static/media/Satisfy-Regular.woff": "https://technicogroup.com/static/media/Satisfy-Regular.32e57b522f67d5384966.woff",
     "static/media/about-img.webp": "https://technicogroup.com/static/media/about-img.df7d9004868a41a4669c.webp",
+    "static/media/Satisfy-Regular.woff2": "https://technicogroup.com/static/media/Satisfy-Regular.e3f869279fc31e1a0d1f.woff2",
     "static/media/business-logo.png": "https://technicogroup.com/static/media/business-logo.30be6ea68fcf7da4ecee.png",
     "static/media/greenybg.webp": "https://technicogroup.com/static/media/greenybg.2061bb76083b35ce3c0b.webp",
     "static/media/slick.svg": "https://technicogroup.com/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -25,12 +27,12 @@
     "static/media/slick.ttf": "https://technicogroup.com/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "https://technicogroup.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://technicogroup.com/index.html",
-    "main.677e7186.css.map": "https://technicogroup.com/static/css/main.677e7186.css.map",
+    "main.0eb108cb.css.map": "https://technicogroup.com/static/css/main.0eb108cb.css.map",
     "main.fbe32e8f.js.map": "https://technicogroup.com/static/js/main.fbe32e8f.js.map",
     "488.be3446bd.chunk.js.map": "https://technicogroup.com/static/js/488.be3446bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.677e7186.css",
+    "static/css/main.0eb108cb.css",
     "static/js/main.fbe32e8f.js"
   ]
 }
