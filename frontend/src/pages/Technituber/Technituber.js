@@ -4,6 +4,7 @@ import './Technituber.scss';
 import KeyFeatures from '../../components/KeyFeatures/KeyFeatures';
 import Reusebanner from '../../components/ReuseBanner/Reusebanner';
 import { Helmet } from "react-helmet-async";
+import BannerTicker from '../../components/bannerticker/bannerticker';
 
 const Technituber = () => {
 
@@ -42,8 +43,8 @@ const Technituber = () => {
               <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
                   <img
-                    src={process.env.PUBLIC_URL + '/images/tuberhand.webp'}
-                    className="img-fluid mb-3"
+                    src={process.env.PUBLIC_URL + '/images/technituberryttech.webp'}
+                    className="img-fluid"
                     alt="Image 10"
                   />
                 </div>
@@ -51,34 +52,36 @@ const Technituber = () => {
             </div>
           </div>
         </section>
-
+<BannerTicker />
         <section className="aachar container-fluid position-relative justify-content-center">
-          <img
-            src={process.env.PUBLIC_URL + '/images/TREE-BG.png'}
-            className="position-absolute"
-            style={{ top: '0%' }}
-            alt="Tree Background"
-          />
+          
           <div className="fullwidth mx-auto row justify-content-center align-items-center">
-            <div className="col-md-5 p-0">
-              <img
-                src={process.env.PUBLIC_URL + '/images/aachar.png'}
-                alt="Aachar"
-                style={{ width: '100%' }}
-              />
-            </div>
-            <div className="col-md-7 aachar-container">
+            
+            <div className="col-md-6 aachar-container">
               <h2 className="d-green">Special Features</h2>
               <p>-	The TECHNITUBER® seed produces tubers of different sizes ranging from 12-15, 15-18 and 18-20 mm and weighing approximately 1.2-2.0 grams, good enough to plant @ approximately 90-100 kg per Hectare. </p>
               <p>-	The TECHNITUBER® seeds are delivered pre-sprouted in ‘field ready’ conditions and are easily transported. </p>
               <p>-	The high health status of the TECHNITUBER® seed allows for disease quarantine regulations of different countries to be easily met and the compact size avoids the wasted costs incurred in storage and transport of much larger seed pieces.</p>
               <p>-	Technico has also forged strong relationship with Speciality growers, Breeder and Variety owners across the Globe to produce proprietary varieties with large germplasm bank ({'>'} 350 varieties).</p>
-              <h2> Certification</h2>
+              <div className='d-flex align-items-start certification'>
+                <img src={process.env.PUBLIC_URL + '/images/certifiedimg.webp'}
+            alt="certification" />
+              <div>
+              <h3> Certification</h3>
               <p>-	Technico Seed is Certified by the Central Potato Research Institute (CPRI), India; National Seed Certification Agency in respective countries and the quality of seed is also tested at Agdia Inc. testing lab USA. </p>
+            </div>
+            </div>
+            </div>
+            <div className="col-md-6 p-0">
+              <img
+                src={process.env.PUBLIC_URL + '/images/technituberseedryt.webp'}
+                alt="Aachar"
+                style={{ width: '100%' }}
+              />
             </div>
           </div>
         </section>
-
+<BannerTicker />
         <section className="section3 container-fluid position-relative mx-auto">
           <div className="fullwidth mx-auto row align-items-center justify-content-center">
             <div className="col-md-6">
@@ -97,12 +100,7 @@ const Technituber = () => {
         </section>
 
         <section className="container-fluid position-relative section-middle">
-          <img
-            src={process.env.PUBLIC_URL + '/images/tree-bg-2.png'}
-            className="position-absolute"
-            style={{ right: '0%' }}
-            alt="Tree Background 2"
-          />
+          
           <div className="fullwidth mx-auto row align-items-center">
             <div className="col-md-6">
               <img

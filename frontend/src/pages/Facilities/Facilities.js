@@ -55,7 +55,16 @@ const Facilities = () => {
               <p>Technico is equipped with state-of-the-art facilities including DBT-certified tissue culture laboratories, precision-controlled growth chambers - all built for high biosecurity, scalability, and sustainable operations to deliver high-quality, disease-free TECHNITUBER® . <br />
                 We leverage advanced micropropagation systems to ensure a year-round, scalable supply of early-generation Technituber®, meeting the demands of both domestic and international markets. Each stage of production is backed by full traceability, rigorous quality assurance, and strict regulatory compliance.
               </p>
-              <h2 className="d-green">Manpura Facility</h2>
+              <div className='d-flex'>
+                <img
+                  src={process.env.PUBLIC_URL + '/images/locationgricon.png'}
+                  style={{ width: '100%' }}
+                  alt="Blank"
+                  className='locationicon'
+                />
+                <h2 className="d-green">Manpura Facility</h2>
+              </div>
+              
               <ul>
                 <li>
                   Spread across 10 acres of fully integrated Agri-biotech infrastructure
@@ -70,22 +79,31 @@ const Facilities = () => {
                   We maintain diverse germplasm bank comprising over 350 varieties across different segments.
                 </li>
               </ul>
-              <h2 className="d-green">RaipurRani Facility</h2>
+              <div className='d-flex'>
+                <img
+                  src={process.env.PUBLIC_URL + '/images/locationgricon.png'}
+                  style={{ width: '100%' }}
+                  alt="Blank"
+                  className='locationicon'
+                />
+                <h2 className="d-green">RaipurRani Facility</h2>
+              </div>
+
               <ul>
                 <li>
-                Spread across 15 acres of fully integrated Agri-biotech infrastructure
+                  Spread across 15 acres of fully integrated Agri-biotech infrastructure
 
                 </li>
                 <li>
-                Annual production capacity of over 60 million Technituber®.
+                  Annual production capacity of over 60 million Technituber®.
 
                 </li>
                 <li>
-                Equipped with 20 advanced greenhouses with 18 additional units under development.
+                  Equipped with 20 advanced greenhouses with 18 additional units under development.
 
                 </li>
                 <li>
-                We maintain diverse germplasm bank comprising over 350 varieties across different segments.
+                  We maintain diverse germplasm bank comprising over 350 varieties across different segments.
                 </li>
               </ul>
             </div>

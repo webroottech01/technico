@@ -7,15 +7,14 @@
     width: 100%;
   }
   .section1 {
-
     video {
       margin-bottom: 20px;
     }
     .fullwidth {
       max-width: 90%;
-      margin:60px 0 100px;
+      margin: 60px 0 100px;
 
-      p{
+      p {
         color: #000;
         text-align: center;
       }
@@ -31,36 +30,40 @@
       img {
         width: 100%;
       }
-      p{
+      p {
         max-width: 100%;
         font-size: 20px;
       }
-      ul{
-        li{
+      ul {
+        li {
           font-size: 20px;
-          color:#000;
+          color: #000;
         }
       }
-      h2{
+      h2 {
         font-size: 45px;
         margin-bottom: 10px;
+      }
+      .manapurafac {
+        padding-top: 100px;
+      }
     }
-    .manapurafac{
-    padding-top: 100px;
-}
+    .locationicon {
+      max-width: 20px;
+      object-fit: contain;
+      align-self: self-start;
+      margin-top: 5px;
+      margin-right: 10px;
     }
-
   }
 }
 
 @media (max-width: 1540px) {
   .Facilities {
     .section1 {
-      
-   
-      .fullwidth{
+      .fullwidth {
         margin: 40px 0 50px;
-        p{
+        p {
           font-size: 14px;
         }
         h2.d-green {
@@ -71,17 +74,17 @@
     }
     .section3 {
       .fullwidth {
-        h2{
+        h2 {
           font-size: 28px;
         }
-        p{
+        p {
           font-size: 14px;
         }
-       ul{
-        li{
-          font-size: 14px;
+        ul {
+          li {
+            font-size: 14px;
+          }
         }
-       }
       }
     }
   }
