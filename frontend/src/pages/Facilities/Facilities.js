@@ -23,14 +23,10 @@ const Facilities = () => {
       <div className="Facilities" data-testid="Facilities">
 
         <section className="section1 container-fluid mx-auto position-relative my-0 px-0">
-          <div className="col-lg-12 p-0">
-            <video width="100%" controls autoPlay>
-              <source src={process.env.PUBLIC_URL + '/videos/facilityvideo.mp4'} type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className="fullwidth mx-auto row align-items-center">
-            <h2 className="d-green col-12 text-center">TECHNITUBER® Technology</h2>
+        <div className="fullwidth mx-auto row align-items-center">
+          <div className="col-lg-6">
+          
+            <h2 className="d-green col-12">TECHNITUBER® Technology</h2>
             <div className="col-lg-12 d-flex flex-column ">
 
 
@@ -40,7 +36,13 @@ const Facilities = () => {
               <p>By achieving up to 15 times the productivity of conventional minituber production methods, TECHNITUBER® technology enables the company to deliver competitively priced seeds 3-4 generations earlier, thus providing a substantial economic advantage. This process helps farmers and commercial partners achieve higher efficiency, faster turnaround, and improved crop yields, driving innovation in the seed potato industry.</p></div>
 
           </div>
-
+          <div className="col-lg-6 p-0">
+            <video width="100%" controls autoPlay>
+              <source src={process.env.PUBLIC_URL + '/videos/facilityvideo.mp4'} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          </div>
         </section>
 
         <BannerTicker />

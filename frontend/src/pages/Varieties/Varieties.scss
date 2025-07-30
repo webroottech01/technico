@@ -1,4 +1,12 @@
 .Varieties {
+  .halftext {
+    max-width: 700px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+h2 {
+  font-size: 45px;
+}
   .dish-strip {
     width: 100%;
     position: absolute;
@@ -10,7 +18,9 @@
   .chipssec {
     .dish {
       cursor: pointer;
-
+      h2 {
+        font-size: 35px;
+    }
       img {
         width: 100%;
         box-shadow: #00000047 6px 2px 6px 0px;
