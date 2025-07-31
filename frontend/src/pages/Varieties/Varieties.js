@@ -27,8 +27,8 @@ const Varieties = () => {
            
                 
    
-            <h2 className="d-green mb-0">the things we have</h2> 
-            <p className="d-green mb-0 halftext">We offer Varietal Solutions well suited to diverse agro climate & different soil types to secure the interpted supply chain as well as secure income to farmers</p>
+            <h2 className="d-green mb-0">We offer Varietal Solutions</h2> 
+           
             <p className='halftext'>We offer a diverse range of high-quality potato varieties tailored for French fries, chips, and table use purpose.</p>
 
             <div className="chipssec row fullwidth mx-auto pt-5 mt-5 position-relative">

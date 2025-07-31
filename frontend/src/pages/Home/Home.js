@@ -76,7 +76,10 @@ const Home = () => (
       {/* FIRST SECTION */}
       <div className="homeAbout" style={{ userSelect: 'none' }}>
         {/* <img src={process.env.PUBLIC_URL + '/images/testimonialsnewbanner.png'} /> */}
-      <VideoPlayer />
+        <VideoPlayer
+      thumbnail={process.env.PUBLIC_URL + '/images/videobanner.webp'}
+      videoUrl={process.env.PUBLIC_URL + '/videos/Technico_Corporate_Video.mp4'}
+    />
       {/* <h2 className='homeabouttitle'>We Support the World to produce Responsible Food</h2>
         <div className="row">
         

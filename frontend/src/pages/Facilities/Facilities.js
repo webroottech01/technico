@@ -4,6 +4,7 @@ import './Facilities.scss';
 import Reusebanner from '../../components/ReuseBanner/Reusebanner';
 import { Helmet } from 'react-helmet-async';
 import BannerTicker from '../../components/bannerticker/bannerticker';
+import VideoPlayer from '../../components/videoplayer/videoplayer';
 const Facilities = () => {
 
   const sliderImages = [
@@ -37,10 +38,10 @@ const Facilities = () => {
 
           </div>
           <div className="col-lg-6 p-0">
-            <video width="100%" controls autoPlay>
-              <source src={process.env.PUBLIC_URL + '/videos/facilityvideo.mp4'} type="video/webm" />
-              Your browser does not support the video tag.
-            </video>
+            <VideoPlayer
+      thumbnail={process.env.PUBLIC_URL + '/images/videosfacilityvideo.png'}
+      videoUrl={process.env.PUBLIC_URL + '/videos/facilityvideo.mp4'}
+    />
           </div>
           </div>
         </section>
